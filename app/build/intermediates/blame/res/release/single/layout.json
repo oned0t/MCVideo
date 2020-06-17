@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/dialog_profile.xml",
+        "source": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/src/main/res/layout/dialog_profile.xml"
+    },
+    {
+        "merged": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/item_faqs.xml",
+        "source": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/src/main/res/layout/item_faqs.xml"
+    },
+    {
+        "merged": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/item_meeting_history.xml",
+        "source": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/src/main/res/layout/item_meeting_history.xml"
+    },
+    {
+        "merged": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_meeting_history.xml",
+        "source": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/src/main/res/layout/activity_meeting_history.xml"
+    },
+    {
+        "merged": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_authentication.xml",
+        "source": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/src/main/res/layout/activity_authentication.xml"
+    },
+    {
+        "merged": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_faqs.xml",
+        "source": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/src/main/res/layout/activity_faqs.xml"
+    }
+]
