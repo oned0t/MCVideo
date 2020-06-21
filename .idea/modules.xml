@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/videoapp.iml" filepath="$PROJECT_DIR$/videoapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Meetly.iml" filepath="$PROJECT_DIR$/.idea/modules/Meetly.iml" group="Meetly" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Meetly/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core.iml" group="Meetly/core" />
     </modules>
   </component>
 </project>
