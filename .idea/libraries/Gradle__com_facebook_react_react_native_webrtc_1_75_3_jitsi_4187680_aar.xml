@@ -1,10 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.react:react-native-webrtc:1.75.3-jitsi-4187680@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee17f71f2d4ab529b00f419791f2b7c7/jetified-react-native-webrtc-1.75.3-jitsi-4187680/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee17f71f2d4ab529b00f419791f2b7c7/jetified-react-native-webrtc-1.75.3-jitsi-4187680/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee17f71f2d4ab529b00f419791f2b7c7/jetified-react-native-webrtc-1.75.3-jitsi-4187680/jars/libs/libwebrtc.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee17f71f2d4ab529b00f419791f2b7c7/jetified-react-native-webrtc-1.75.3-jitsi-4187680/jars/libs/libjingle_peerconnection.so.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/400b45d47383c9e40ac3192a30645e3b/jetified-react-native-webrtc-1.75.3-jitsi-4187680/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/400b45d47383c9e40ac3192a30645e3b/jetified-react-native-webrtc-1.75.3-jitsi-4187680/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/400b45d47383c9e40ac3192a30645e3b/jetified-react-native-webrtc-1.75.3-jitsi-4187680/jars/libs/libwebrtc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/400b45d47383c9e40ac3192a30645e3b/jetified-react-native-webrtc-1.75.3-jitsi-4187680/jars/libs/libjingle_peerconnection.so.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:foregroundTint="#000000"
     tools:context=".activity.AuthenticationActivity">
 
     <com.google.android.material.chip.Chip
@@ -11,16 +12,19 @@
         style="@style/Widget.MaterialComponents.Chip.Action"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:chipBackgroundColor="@color/transparentColor"
-        android:textColor="?attr/colorPrimary"
-        app:chipStrokeWidth="1dp"
-        app:chipCornerRadius="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginEnd="16dp"
         android:layout_marginTop="16dp"
-        app:chipStrokeColor="?attr/colorPrimary"
-        android:text="@string/all_skip"/>
+        android:layout_marginEnd="16dp"
+        android:text="@string/all_skip"
+        android:textColor="@color/colorOnSurface"
+        android:textColorHighlight="#FF5722"
+        android:textColorLink="#03A9F4"
+        app:chipBackgroundColor="@color/transparentColor"
+        app:chipCornerRadius="8dp"
+        app:chipStrokeColor="#FF5722"
+        app:chipStrokeWidth="1dp"
+        app:chipSurfaceColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ivLogo"
@@ -33,7 +37,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        app:srcCompat="@drawable/ic_app_logo" />
+        app:srcCompat="@drawable/mclogo" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tvAppName"
@@ -77,26 +81,33 @@
         android:layout_marginTop="44dp"
         android:layout_marginEnd="16dp"
         android:text="@string/authentication_sign_in_google"
+        android:textColor="#000000"
         app:icon="@drawable/googleg_standard_color_18"
+        app:iconTint="#FF5722"
         app:layout_constraintBottom_toTopOf="@+id/btnSignInEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvAppTagline" />
+        app:layout_constraintTop_toBottomOf="@+id/tvAppTagline"
+        app:strokeColor="#FF5722" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSignInEmail"
         style="@style/OutlinedButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:layout_marginBottom="16dp"
         android:text="@string/authentication_sign_in_email"
+        android:textColor="#000000"
         app:icon="@drawable/ic_email"
-        android:layout_marginTop="4dp"
+        app:iconTint="#FF5722"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/btnSignInGoogle"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/btnSignInGoogle"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignInGoogle" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSignInGoogle"
+        app:rippleColor="#000000"
+        app:strokeColor="#FF5722" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
