@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "110383469217",
+    "firebase_url": "https://mcvideo-a4912.firebaseio.com",
+    "project_id": "mcvideo-a4912",
+    "storage_bucket": "mcvideo-a4912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110383469217:android:fda29983459685939256e0",
+        "android_client_info": {
+          "package_name": "aculix.meetly.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110383469217-mlnnrm75c2uhsiajnjvsr35vbmoainel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7EyPsEgjyYhGPSHPwgbbb3X4Wh1CNm7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110383469217-mlnnrm75c2uhsiajnjvsr35vbmoainel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/home/x/MEGA/MEGAsync/TazProg/videoapp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/b72445c144177eb0dae21d35712491bb/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/home/x/.gradle/caches/transforms-2/files-2.1/ed6d8b42a2f3026efcedd9a9183f2d2f/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/84a236cc783c34996d3cd326b35aa226/material-1.1.0/res/values-v23/values-v23.xml",
+                    "source": "/home/x/.gradle/caches/transforms-2/files-2.1/c6702a16b9f2a3ef105e4ec587041c85/material-1.1.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/88e9969afe0c6db504da66bc087c3a95/appcompat-1.1.0/res/values-v23/values-v23.xml",
+                    "source": "/home/x/.gradle/caches/transforms-2/files-2.1/39790b1344cac2983aeb9a935285aa7a/appcompat-1.1.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

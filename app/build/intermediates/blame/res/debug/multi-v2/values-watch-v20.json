@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/home/x/MEGA/MEGAsync/TazProg/videoapp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/3a97d888834f2b368597379ba37476c9/jetified-play-services-auth-17.0.0/res/values-watch-v20/values.xml",
+                    "source": "/home/x/.gradle/caches/transforms-2/files-2.1/071353102e104c76fc296866059b48ca/jetified-play-services-auth-17.0.0/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/88e9969afe0c6db504da66bc087c3a95/appcompat-1.1.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/home/x/.gradle/caches/transforms-2/files-2.1/39790b1344cac2983aeb9a935285aa7a/appcompat-1.1.0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

@@ -5,7 +5,7 @@
     <string name="app_tagline">Instant video conferences with your family, friends, and colleagues</string>
     <string name="app_feedback_contact_email">support@deliverate.co.uk</string>
     <string name="app_privacy_policy_url">https://www.mommacherrisoulfood.com/privacy//</string>
-    <string name="app_terms_of_service_url">https://www.mommacherrisoulfood.com/terms-and-conditions/K</string>
+    <string name="app_terms_of_service_url">https://www.mommacherrisoulfood.com/terms-and-conditions/</string>
 
     <!-- AdMob -->
     <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
@@ -51,7 +51,7 @@
     <string name="profile_dot_separator">\u2022</string>
     <string name="profile_feedback_email_subject">Feedback - Meetly</string>
     <string name="profile_share_app_title">Share app via</string>
-    <string name="profile_share_app_text">Download Meetly, do instant video conferences with your family, friends, and colleagues. \n\nhttps://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="profile_share_app_text">Download Mommas Cherri Video, do instant video conferences with your family, friends, and colleagues. \n\nhttps://play.google.com/store/apps/details?id=%1$s</string>
     <string name="profile_open_source_licenses">Open Source Licenses</string>
 
     <string name="all_skip">Skip</string>

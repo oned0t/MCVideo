@@ -1791,6 +1791,7 @@ drawable images_btn_google_signin_dark_normal
 drawable images_dropboxlogo_square
 drawable images_iconusers
 drawable images_jitsilogo_square
+drawable mclogo
 drawable md_btn_selected
 drawable md_btn_selected_dark
 drawable md_btn_selector
@@ -2794,6 +2795,7 @@ string faqs_meeting_code_title
 string faqs_password_protection_desc
 string faqs_password_protection_title
 string fastadapter_lib_version
+string firebase_database_url
 string firebase_web_host
 string fui_accessibility_logo
 string fui_auto_verified
@@ -2889,6 +2891,11 @@ string fui_welcome_back_email_link_prompt_body
 string fui_welcome_back_idp_header
 string fui_welcome_back_idp_prompt
 string fui_welcome_back_password_prompt_body
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string header_description
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
@@ -2986,6 +2993,7 @@ string profile_share_app_title
 string profile_sign_out
 string profile_user_not_authenticated
 string progressbar_description
+string project_id
 string radiogroup_description
 string rn_tab_description
 string s1

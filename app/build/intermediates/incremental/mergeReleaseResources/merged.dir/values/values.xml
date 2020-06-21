@@ -1124,7 +1124,7 @@
     <string name="all_skip">Skip</string>
     <string name="all_terms_of_service">Terms of Service</string>
     <string name="all_unauthenticated_user_name">Fellow %1$s user</string>
-    <string name="app_feedback_contact_email">contact@aculix.com</string>
+    <string name="app_feedback_contact_email">support@deliverate.co.uk</string>
     <string name="app_intro_back_button" ns1:ignore="MissingTranslation">BACK</string>
     <string name="app_intro_chat_desc">Send text messages to your team during the meeting</string>
     <string name="app_intro_chat_title">Message Your Team</string>
@@ -1136,11 +1136,11 @@
     <string name="app_intro_meeting_title">Start a Meeting</string>
     <string name="app_intro_next_button" ns1:ignore="MissingTranslation">NEXT</string>
     <string name="app_intro_skip_button">SKIP</string>
-    <string name="app_name">Meetly</string>
-    <string name="app_privacy_policy_url">https://aculix.com/privacy-policy/</string>
-    <string name="app_server_url">https://meet.jit.si</string>
+    <string name="app_name">MC Video</string>
+    <string name="app_privacy_policy_url">https://www.mommacherrisoulfood.com/privacy//</string>
+    <string name="app_server_url">https://live.mommacherri.org</string>
     <string name="app_tagline">Instant video conferences with your family, friends, and colleagues</string>
-    <string name="app_terms_of_service_url">https://aculix.com/terms-of-service/</string>
+    <string name="app_terms_of_service_url">https://www.mommacherrisoulfood.com/terms-and-conditions/</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="authentication_login_canceled">Sign in canceled</string>
     <string name="authentication_sign_in_email">Sign in with Email</string>
@@ -1200,7 +1200,7 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
-    <string name="default_web_client_id" translatable="false">CHANGE-ME</string>
+    <string name="default_web_client_id" translatable="false">110383469217-mlnnrm75c2uhsiajnjvsr35vbmoainel.apps.googleusercontent.com</string>
     <string name="define_fastadapter">year;owner</string>
     <string name="dropbox_app_key"/>
     <string name="error_icon_content_description">Error</string>
@@ -1221,6 +1221,7 @@
     <string name="faqs_password_protection_desc">You can always password protect the meeting once it has started. However, keep in mind that the password will be reset once the meeting is ended. So make sure to set the password again if a meeting is rejoined after it was ended.</string>
     <string name="faqs_password_protection_title">Password Protection</string>
     <string name="fastadapter_lib_version" translatable="false">5.0.2</string>
+    <string name="firebase_database_url" translatable="false">https://mcvideo-a4912.firebaseio.com</string>
     <string name="firebase_web_host" translatable="false">CHANGE-ME</string>
     <string name="fui_accessibility_logo" translation_description="Content description for app logo">App logo</string>
     <string name="fui_auto_verified" translation_description="Popup informing the user that their phone number was automatically verified">Phone number automatically verified</string>
@@ -1326,6 +1327,11 @@
         You\'ve already used <ns2:g example="jane.doe@example.com" id="email_addr" translation_description="">%1$s</ns2:g>
         to sign in. Enter your password for that account.
     </string>
+    <string name="gcm_defaultSenderId" translatable="false">110383469217</string>
+    <string name="google_api_key" translatable="false">AIzaSyD7EyPsEgjyYhGPSHPwgbbb3X4Wh1CNm7k</string>
+    <string name="google_app_id" translatable="false">1:110383469217:android:fda29983459685939256e0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD7EyPsEgjyYhGPSHPwgbbb3X4Wh1CNm7k</string>
+    <string name="google_storage_bucket" translatable="false">mcvideo-a4912.appspot.com</string>
     <string name="header_description" translatable="false">Heading</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
@@ -1422,11 +1428,12 @@
     <string name="profile_rate_app">Rate app on Google Play</string>
     <string name="profile_send_feedback">Send us a feedback</string>
     <string name="profile_share_app">Share app</string>
-    <string name="profile_share_app_text">Download Meetly, do instant video conferences with your family, friends, and colleagues. \n\nhttps://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="profile_share_app_text">Download Mommas Cherri Video, do instant video conferences with your family, friends, and colleagues. \n\nhttps://play.google.com/store/apps/details?id=%1$s</string>
     <string name="profile_share_app_title">Share app via</string>
     <string name="profile_sign_out">Sign Out</string>
     <string name="profile_user_not_authenticated">User not signed in</string>
     <string name="progressbar_description" translatable="false">Progress Bar</string>
+    <string name="project_id" translatable="false">mcvideo-a4912</string>
     <string name="radiogroup_description" translatable="false">Radio Group</string>
     <string name="rn_tab_description" translatable="false">Tab</string>
     <string name="s1">Save image</string>
@@ -1439,6 +1446,7 @@
     <string name="scrollbar_description" translatable="false">Scroll Bar</string>
     <string name="search_description" translatable="false">Search Field</string>
     <string name="search_menu_title">Search</string>
+    <string name="sign_up">SIGN UP</string>
     <string name="spinbutton_description" translatable="false">Spin Button</string>
     <string name="state_busy_description" translatable="false">busy</string>
     <string name="state_collapsed_description" translatable="false">collapsed</string>

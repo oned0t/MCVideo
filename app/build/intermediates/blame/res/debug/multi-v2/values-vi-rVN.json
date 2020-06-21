@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi-rVN/values-vi-rVN.xml",
+            "outputFile": "/home/x/MEGA/MEGAsync/TazProg/videoapp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi-rVN/values-vi-rVN.xml",
             "map": [
                 {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/da5c134991057127f1f1e87949c90169/jetified-AppIntro-6.0.0/res/values-vi-rVN/values-vi-rVN.xml",
+                    "source": "/home/x/.gradle/caches/transforms-2/files-2.1/14c66a2dfc627152ee70de897896ce30/jetified-AppIntro-6.0.0/res/values-vi-rVN/values-vi-rVN.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

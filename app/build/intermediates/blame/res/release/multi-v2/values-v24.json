@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/home/x/MEGA/MEGAsync/TazProg/videoapp/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/88e9969afe0c6db504da66bc087c3a95/appcompat-1.1.0/res/values-v24/values-v24.xml",
+                    "source": "/home/x/.gradle/caches/transforms-2/files-2.1/39790b1344cac2983aeb9a935285aa7a/appcompat-1.1.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/ca3b4eda47305564cc406d459095f4ee/media-1.0.0/res/values-v24/values-v24.xml",
+                    "source": "/home/x/.gradle/caches/transforms-2/files-2.1/99f5756b082bd851ff30ff2c853036f9/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/Meetly/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "outputFile": "/home/x/MEGA/MEGAsync/TazProg/videoapp/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/980ba016098730b514b3ec45937530b8/jetified-core-3.3.0/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "source": "/home/x/.gradle/caches/transforms-2/files-2.1/625bda06987b6fa92459e123c771c6bc/jetified-core-3.3.0/res/values-sw720dp-v13/values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
