@@ -118,7 +118,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tgMeeting"
         app:layout_constraintVertical_chainStyle="packed"
-        app:srcCompat="@drawable/ic_meeting_main"
+        app:srcCompat="@drawable/mclogo"
         tools:srcCompat="@drawable/mclogo" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -198,7 +198,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tgMeeting"
         app:layout_constraintVertical_chainStyle="packed"
-        app:srcCompat="@drawable/ic_meeting_main" />
+        app:srcCompat="@drawable/mclogo" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilCodeCreateMeeting"
