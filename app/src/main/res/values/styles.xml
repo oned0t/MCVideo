@@ -2,11 +2,11 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorSurface">@color/colorSurface</item>
-        <item name="colorOnSurface">@color/colorOnSurface</item>
-        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimary">#FF6D00</item>
+        <item name="colorPrimaryDark">#FF6D00</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">@color/colorSurface</item>
+        <item name="colorOnPrimary">#000000</item>
 
         <!-- Window Decor -->
         <item name="android:windowLightStatusBar" tools:targetApi="m">@bool/use_light_status_bar</item>
@@ -20,7 +20,7 @@
     </style>
 
     <style name="AppTheme.Splash">
-        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
     </style>
 
     <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">

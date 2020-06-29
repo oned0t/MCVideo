@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
             "map": [
                 {
                     "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/625bda06987b6fa92459e123c771c6bc/jetified-core-3.3.0/res/values-sw720dp-v13/values-sw720dp-v13.xml",

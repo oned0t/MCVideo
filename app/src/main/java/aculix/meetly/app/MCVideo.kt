@@ -13,7 +13,7 @@ import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
 
-class Meetly : Application() {
+class MCVideo : Application() {
 
     companion object {
         var isAdEnabled = false
@@ -45,7 +45,7 @@ class Meetly : Application() {
     private fun initializeKoin() {
         startKoin {
             androidLogger()
-            androidContext(this@Meetly)
+            androidContext(this@MCVideo)
             modules(
                 listOf(
                     appModule,

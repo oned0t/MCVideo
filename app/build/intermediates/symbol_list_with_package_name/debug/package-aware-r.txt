@@ -3259,6 +3259,7 @@ style ClickableImageView
 style ClickableTextViewProfileDialog
 style ClockTimePickerDialog
 style ClockTimePickerStyle
+style DarkTheme
 style DialogAnimationFade
 style DialogAnimationSlide
 style EmptyTheme

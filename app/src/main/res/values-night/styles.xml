@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-        <item name="android:background">?attr/colorSurface</item>
+    <style name="DarkTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF6D00</item>
+        <item name="colorPrimaryDark">#FF6D00</item>
+        <item name="colorSurface">#DD2C00</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorOnPrimary">#FFAB00</item>
     </style>
 
 </resources>

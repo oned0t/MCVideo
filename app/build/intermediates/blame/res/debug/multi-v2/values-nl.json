@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
+            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
             "map": [
                 {
                     "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/d62962451852c8ac9f3cb53c3adc4211/browser-1.2.0/res/values-nl/values-nl.xml",

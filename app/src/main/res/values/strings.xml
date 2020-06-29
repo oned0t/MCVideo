@@ -49,9 +49,9 @@
     <string name="profile_rate_app">Rate app on Google Play</string>
     <string name="profile_share_app">Share app</string>
     <string name="profile_dot_separator">\u2022</string>
-    <string name="profile_feedback_email_subject">Feedback - Meetly</string>
+    <string name="profile_feedback_email_subject">Feedback - MCVideo</string>
     <string name="profile_share_app_title">Share app via</string>
-    <string name="profile_share_app_text">Download Mommas Cherri Video, do instant video conferences with your family, friends, and colleagues. \n\nhttps://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="profile_share_app_text">Download Mommas Cherri Video, do instant video calls and learn how to cook with MommaCherri. \n\nhttps://play.google.com/store/apps/details?id=%1$s</string>
     <string name="profile_open_source_licenses">Open Source Licenses</string>
 
     <string name="all_skip">Skip</string>

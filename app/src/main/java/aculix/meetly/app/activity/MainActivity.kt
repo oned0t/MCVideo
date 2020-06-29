@@ -1,7 +1,7 @@
 package aculix.meetly.app.activity
 
 import aculix.core.extensions.*
-import aculix.meetly.app.Meetly
+import aculix.meetly.app.MCVideo
 import aculix.meetly.app.R
 import aculix.meetly.app.databinding.ActivityMainBinding
 import aculix.meetly.app.model.Meeting
@@ -12,7 +12,6 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.widget.doOnTextChanged
@@ -28,12 +27,12 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
 import com.google.android.gms.oss.licenses.OssLicensesMenuActivity
 import com.google.android.material.snackbar.Snackbar
+import com.google.android.material.textfield.TextInputLayout
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import kotlinx.android.synthetic.main.activity_main.view.*
 import kotlinx.android.synthetic.main.dialog_profile.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
-import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {
 
@@ -61,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         setProfileIcon()
 
         // Load ads based on configuration
-        if (Meetly.isAdEnabled) {
+        if (MCVideo.isAdEnabled) {
             initializeCreateMeetingInterstitialAd()
             loadCreateMeetingInterstitialAd()
             initializeJoinMeetingInterstitialAd()
@@ -169,7 +168,7 @@ class MainActivity : AppCompatActivity() {
         binding.tilCodeJoinMeeting.setEndIconOnClickListener {
             val clipboardText = getTextFromClipboard()
             if (clipboardText != null) {
-                binding.etCodeJoinMeeting.setText(clipboardText)
+                binding.tilCodeJoinMeeting.setText(clipboardText)
                 toast(getString(R.string.main_meeting_code_copied))
             } else {
                 toast(getString(R.string.main_empty_clipboard))
@@ -201,7 +200,7 @@ class MainActivity : AppCompatActivity() {
     private fun onJoinMeetingClick() {
         binding.btnJoinMeeting.setOnClickListener {
             if (isMeetingCodeValid(getJoinMeetingCode())) {
-                if (Meetly.isAdEnabled) {
+                if (MCVideo.isAdEnabled) {
                     if (joinMeetingInterstitialAd.isLoaded) joinMeetingInterstitialAd.show() else joinMeeting(
                         getJoinMeetingCode()
                     )
@@ -239,7 +238,7 @@ class MainActivity : AppCompatActivity() {
     private fun onCreateMeetingClick() {
         binding.btnCreateMeeting.setOnClickListener {
             if (isMeetingCodeValid(getCreateMeetingCode())) {
-                if (Meetly.isAdEnabled) {
+                if (MCVideo.isAdEnabled) {
                     if (createMeetingInterstitialAd.isLoaded) createMeetingInterstitialAd.show() else createMeeting(
                         getCreateMeetingCode()
                     )
@@ -393,6 +392,10 @@ class MainActivity : AppCompatActivity() {
     fun disable(view: View) {
         view.isEnabled(false);
     }
+}
+
+private fun TextInputLayout.setText(clipboardText: CharSequence) {
+
 }
 
 private fun View.isEnabled(b: Boolean) {

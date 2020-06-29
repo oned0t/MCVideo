@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml
+8-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml
+9-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 11-->[com.firebaseui:firebase-ui-auth:6.2.1] /home/onedot/.gradle/caches/transforms-2/files-2.1/480f7c3640ce23b3e726300bcd41fcbd/jetified-firebase-ui-auth-6.2.1/AndroidManifest.xml:12:5-79
@@ -77,86 +77,86 @@
 36-->[com.google.firebase:firebase-iid:20.1.5] /home/onedot/.gradle/caches/transforms-2/files-2.1/0232825e5f65fddd40e7445bea44bb9f/jetified-firebase-iid-20.1.5/AndroidManifest.xml:26:22-79
 37
 38    <application
-38-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:6:5-48:19
-39        android:name="aculix.meetly.app.Meetly"
-39-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:7:9-31
+38-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:6:5-48:19
+39        android:name="aculix.meetly.app.MCVideo"
+39-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:7:9-32
 40        android:allowBackup="true"
-40-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:8:9-35
+40-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:8:9-35
 41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 41-->[androidx.core:core:1.3.0] /home/onedot/.gradle/caches/transforms-2/files-2.1/985e3583754153c41084ec701b597b72/core-1.3.0/AndroidManifest.xml:24:18-86
 42        android:debuggable="true"
 43        android:icon="@mipmap/ic_launcher"
-43-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:9:9-43
+43-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:9:9-43
 44        android:label="@string/app_name"
-44-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:10:9-41
+44-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:10:9-41
 45        android:roundIcon="@mipmap/ic_launcher_round"
-45-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:11:9-54
+45-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:11:9-54
 46        android:supportsRtl="true"
-46-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:12:9-35
+46-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:12:9-35
 47        android:testOnly="true"
 48        android:theme="@style/AppTheme" >
-48-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:13:9-40
+48-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:13:9-40
 49        <activity
-49-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:16:9-25:20
+49-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:16:9-25:20
 50            android:name="aculix.meetly.app.activity.SplashActivity"
-50-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:17:13-52
+50-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:17:13-52
 51            android:screenOrientation="portrait"
-51-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:18:13-49
+51-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:18:13-49
 52            android:theme="@style/AppTheme.Splash" >
-52-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:19:13-51
+52-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:19:13-51
 53            <intent-filter>
-53-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:20:13-24:29
+53-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:20:13-24:29
 54                <action android:name="android.intent.action.MAIN" />
-54-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:21:17-69
-54-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:21:25-66
+54-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:21:17-69
+54-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:21:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-56-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:23:17-77
-56-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:23:27-74
+56-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:23:17-77
+56-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:23:27-74
 57            </intent-filter>
 58        </activity>
 59        <activity
-59-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:26:9-28:52
+59-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:26:9-28:52
 60            android:name="aculix.meetly.app.activity.AppIntroActivity"
-60-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:27:13-54
+60-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:27:13-54
 61            android:screenOrientation="portrait" />
-61-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:28:13-49
+61-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:28:13-49
 62        <activity
-62-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:29:9-31:52
+62-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:29:9-31:52
 63            android:name="aculix.meetly.app.activity.AuthenticationActivity"
-63-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:30:13-60
+63-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:30:13-60
 64            android:screenOrientation="portrait" />
-64-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:31:13-49
+64-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:31:13-49
 65        <activity
-65-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:32:9-34:52
+65-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:32:9-34:52
 66            android:name="aculix.meetly.app.activity.MainActivity"
-66-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:33:13-50
+66-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:33:13-50
 67            android:screenOrientation="portrait" />
-67-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:34:13-49
+67-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:34:13-49
 68        <activity
-68-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:35:9-38:52
+68-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:35:9-38:52
 69            android:name="aculix.meetly.app.activity.MeetingHistoryActivity"
-69-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:36:13-60
+69-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:36:13-60
 70            android:parentActivityName="aculix.meetly.app.activity.MainActivity"
-70-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:37:13-64
+70-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:37:13-64
 71            android:screenOrientation="portrait" />
-71-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:38:13-49
+71-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:38:13-49
 72        <activity
-72-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:39:9-42:52
+72-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:39:9-42:52
 73            android:name="aculix.meetly.app.activity.FaqsActivity"
-73-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:40:13-50
+73-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:40:13-50
 74            android:parentActivityName="aculix.meetly.app.activity.MainActivity"
-74-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:41:13-64
+74-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:41:13-64
 75            android:screenOrientation="portrait" />
-75-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:42:13-49
+75-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:42:13-49
 76
 77        <!-- Admob -->
 78        <meta-data
-78-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:45:9-47:52
+78-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:45:9-47:52
 79            android:name="com.google.android.gms.ads.APPLICATION_ID"
-79-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:46:13-69
+79-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:46:13-69
 80            android:value="@string/admob_app_id" />
-80-->/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/src/main/AndroidManifest.xml:47:13-49
+80-->/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:47:13-49
 81        <meta-data
 81-->[com.firebaseui:firebase-ui-auth:6.2.1] /home/onedot/.gradle/caches/transforms-2/files-2.1/480f7c3640ce23b3e726300bcd41fcbd/jetified-firebase-ui-auth-6.2.1/AndroidManifest.xml:16:9-18:69
 82            android:name="com.google.android.gms.version"

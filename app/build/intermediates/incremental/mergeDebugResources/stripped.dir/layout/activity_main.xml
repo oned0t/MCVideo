@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
+    android:foregroundTint="#FFFFFF"
     tools:context=".activity.MainActivity">
 
     <androidx.constraintlayout.widget.Group
@@ -37,10 +38,10 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/ivMeetingHistory"
+                style="@style/ClickableImageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                style="@style/ClickableImageView"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -58,11 +59,11 @@
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/ivProfile"
+                style="@style/ClickableImageView"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginEnd="16dp"
                 android:src="@drawable/ic_profile"
-                style="@style/ClickableImageView"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -118,7 +119,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tgMeeting"
         app:layout_constraintVertical_chainStyle="packed"
-        app:srcCompat="@drawable/ic_meeting_main"
+        app:srcCompat="@drawable/mclogo"
         tools:srcCompat="@drawable/mclogo" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -142,6 +143,7 @@
             android:id="@+id/etCodeJoinMeeting"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:cursorVisible="false"
             android:inputType="textNoSuggestions" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -198,7 +200,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tgMeeting"
         app:layout_constraintVertical_chainStyle="packed"
-        app:srcCompat="@drawable/ic_meeting_main" />
+        app:srcCompat="@drawable/mclogo" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilCodeCreateMeeting"

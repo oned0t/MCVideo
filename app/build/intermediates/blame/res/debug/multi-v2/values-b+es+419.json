@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+es+419/values-b+es+419.xml",
+            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+es+419/values-b+es+419.xml",
             "map": [
                 {
                     "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/480f7c3640ce23b3e726300bcd41fcbd/jetified-firebase-ui-auth-6.2.1/res/values-b+es+419/values-b+es+419.xml",

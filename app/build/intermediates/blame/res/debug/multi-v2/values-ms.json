@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/videoapp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
+            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
             "map": [
                 {
                     "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/5345b866520de7fbbae9658c16817f71/jetified-play-services-basement-17.0.0/res/values-ms/values.xml",

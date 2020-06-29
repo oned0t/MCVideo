@@ -3,7 +3,7 @@ package aculix.meetly.app.activity
 import aculix.core.extensions.copyTextToClipboard
 import aculix.core.extensions.makeGone
 import aculix.core.extensions.makeVisible
-import aculix.meetly.app.Meetly
+import aculix.meetly.app.MCVideo
 import aculix.meetly.app.R
 import aculix.meetly.app.adapteritem.MeetingHistoryItem
 import aculix.meetly.app.databinding.ActivityMeetingHistoryBinding
@@ -55,7 +55,7 @@ class MeetingHistoryActivity : AppCompatActivity() {
         setupRecyclerView(savedInstanceState)
         setupObservables()
 
-        if (Meetly.isAdEnabled) setupBannerAd() else binding.adViewContainer.makeGone()
+        if (MCVideo.isAdEnabled) setupBannerAd() else binding.adViewContainer.makeGone()
     }
 
     override fun onSaveInstanceState(_outState: Bundle) {
@@ -65,17 +65,17 @@ class MeetingHistoryActivity : AppCompatActivity() {
     }
 
     override fun onPause() {
-        if (Meetly.isAdEnabled) adView.pause()
+        if (MCVideo.isAdEnabled) adView.pause()
         super.onPause()
     }
 
     override fun onResume() {
-        if (Meetly.isAdEnabled) adView.resume()
+        if (MCVideo.isAdEnabled) adView.resume()
         super.onResume()
     }
 
     override fun onDestroy() {
-        if (Meetly.isAdEnabled) adView.destroy()
+        if (MCVideo.isAdEnabled) adView.destroy()
         super.onDestroy()
     }
 
