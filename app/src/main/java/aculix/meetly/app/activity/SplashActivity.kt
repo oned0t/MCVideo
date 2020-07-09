@@ -1,7 +1,6 @@
 package aculix.meetly.app.activity
 
 import aculix.meetly.app.R
-import aculix.meetly.app.activity.AppIntroActivity
 import aculix.meetly.app.sharedpref.AppPref
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

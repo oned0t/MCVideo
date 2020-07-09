@@ -1,11 +1,12 @@
 package aculix.meetly.app.activity
 
-import aculix.meetly.app.R
+
 import aculix.meetly.app.sharedpref.AppPref
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import aculix.meetly.app.R
 import com.github.appintro.AppIntro2
 import com.github.appintro.AppIntroFragment
 import com.github.appintro.AppIntroPageTransformerType

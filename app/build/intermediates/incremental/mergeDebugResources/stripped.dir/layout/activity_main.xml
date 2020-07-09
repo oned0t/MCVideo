@@ -134,6 +134,7 @@
         app:counterEnabled="true"
         app:endIconDrawable="@drawable/ic_clipboard"
         app:endIconMode="custom"
+        app:boxStrokeColor="#FF6D00"
         app:layout_constraintBottom_toTopOf="@+id/btnJoinMeeting"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -144,6 +145,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:cursorVisible="false"
+            android:hint="Enter meeting code"
             android:inputType="textNoSuggestions" />
     </com.google.android.material.textfield.TextInputLayout>
 

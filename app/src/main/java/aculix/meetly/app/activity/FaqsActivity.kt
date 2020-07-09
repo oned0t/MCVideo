@@ -2,13 +2,13 @@ package aculix.meetly.app.activity
 
 import aculix.meetly.app.R
 import aculix.meetly.app.adapteritem.FaqsItem
-import aculix.meetly.app.databinding.ActivityFaqsBinding
 import aculix.meetly.app.model.Faq
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import aculix.meetly.app.databinding.ActivityFaqsBinding
 import com.mikepenz.fastadapter.adapters.FastItemAdapter
 import com.mikepenz.fastadapter.diff.FastAdapterDiffUtil
 

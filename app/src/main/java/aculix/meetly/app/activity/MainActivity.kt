@@ -181,6 +181,7 @@ class MainActivity : AppCompatActivity() {
      */
     private fun onShareMeetingCodeClick() {
         binding.tilCodeCreateMeeting.setEndIconOnClickListener {
+
             if (isMeetingCodeValid(getCreateMeetingCode())) {
                 binding.tilCodeCreateMeeting.error = null
                 startShareTextIntent(

@@ -251,9 +251,9 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] /home/onedot/.gradle/caches/t
 	tools:ignore
 		ADDED from /home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:14:9-49
 	android:roundIcon
-		ADDED from /home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:11:9-45
 	android:icon
-		ADDED from /home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:9:9-40
 	android:allowBackup
 		ADDED from /home/onedot/MEGA/MEGAsync/KodiProg/MC/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme

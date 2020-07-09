@@ -4,13 +4,13 @@ import aculix.core.extensions.makeGone
 import aculix.core.extensions.makeVisible
 import aculix.core.extensions.toast
 import aculix.meetly.app.R
-import aculix.meetly.app.databinding.ActivityAuthenticationBinding
 import aculix.meetly.app.sharedpref.AppPref
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import aculix.meetly.app.databinding.ActivityAuthenticationBinding
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.ErrorCodes
 import com.firebase.ui.auth.IdpResponse
