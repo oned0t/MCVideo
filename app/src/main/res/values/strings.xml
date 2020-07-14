@@ -13,12 +13,12 @@
     <string name="interstitial_ad_id_create_meeting">ca-app-pub-3940256099942544/1033173712</string>
     <string name="interstitial_ad_id_join_meeting">ca-app-pub-3940256099942544/1033173712</string>
 
-    <string name="app_intro_meeting_title">Start a Meeting</string>
-    <string name="app_intro_meeting_desc">Start or join a video meeting on the go</string>
-    <string name="app_intro_chat_title">Message Your Team</string>
-    <string name="app_intro_chat_desc">Send text messages to your team during the meeting</string>
-    <string name="app_intro_meeting_history_title">Meeting History</string>
-    <string name="app_intro_meeting_history_desc">See the list of your previous meetings and rejoin them anytime.</string>
+    <string name="app_intro_meeting_title">Meet with Momma</string>
+    <string name="app_intro_meeting_desc">Create or join a video chat with MommaCherri</string>
+    <string name="app_intro_chat_title">Cook with Momma</string>
+    <string name="app_intro_chat_desc">Learn cooking tips &amp; tricks with MommaCherri</string>
+    <string name="app_intro_meeting_history_title">Relish your Meal</string>
+    <string name="app_intro_meeting_history_desc">Enjoy your tasty, home-cooked food with MommaCherri.</string>
 
     <string name="authentication_sign_in_email">Sign in with Email</string>
     <string name="authentication_sign_in_google">Sign in with Google</string>

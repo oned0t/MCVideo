@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "aculix.core",
+  "applicationId": "com.core",
   "variantType": "LIBRARY",
   "elements": [
     {
@@ -18,7 +18,7 @@
       },
       "path": "AndroidManifest.xml",
       "properties": {
-        "packageId": "aculix.core",
+        "packageId": "com.core",
         "split": ""
       }
     }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "aculix.meetly.app",
+  "applicationId": "com.ictech.mcvideo",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "resources-debug.ap_",
       "properties": {
-        "packageId": "aculix.meetly.app",
+        "packageId": "com.ictech.mcvideo",
         "split": "",
         "minSdkVersion": "21"
       }

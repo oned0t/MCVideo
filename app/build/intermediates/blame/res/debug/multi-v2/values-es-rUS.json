@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml",
+            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
                     "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/39790b1344cac2983aeb9a935285aa7a/appcompat-1.1.0/res/values-es-rUS/values-es-rUS.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "465,585,694,802,887,989,1105,1190,1271,1362,1454,1549,1643,1743,1836,1935,2031,2122,2213,2294,2401,2500,2599,2707,2815,2922,3081,16255",
                         "endColumns": "119,108,107,84,101,115,84,80,90,91,94,93,99,92,98,95,90,90,80,106,98,98,107,107,106,158,99,81",
                         "endOffsets": "580,689,797,882,984,1100,1185,1266,1357,1449,1544,1638,1738,1831,1930,2026,2117,2208,2289,2396,2495,2594,2702,2810,2917,3076,3176,16332"
+                    }
+                },
+                {
+                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/00f38653bdb679a11087ad5864bc37dd/jetified-play-services-ads-19.2.0/res/values-es-rUS/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "203,274,408,473,539,626,746",
+                        "endColumns": "70,133,64,65,86,119,74",
+                        "endOffsets": "273,407,472,538,625,745,820"
+                    },
+                    "to": {
+                        "startLines": "145,146,147,148,149,150,151",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "15609,15684,15822,15891,15961,16052,16176",
+                        "endColumns": "74,137,68,69,90,123,78",
+                        "endOffsets": "15679,15817,15886,15956,16047,16171,16250"
                     }
                 },
                 {
@@ -88,23 +105,6 @@
                         "startOffsets": "5999,6108,6210,6325",
                         "endColumns": "108,101,114,104",
                         "endOffsets": "6103,6205,6320,6425"
-                    }
-                },
-                {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/d19f3cd4fd09f8d378f1bd542cb8a251/jetified-play-services-ads-19.1.0/res/values-es-rUS/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "203,274,408,473,539,626,746",
-                        "endColumns": "70,133,64,65,86,119,74",
-                        "endOffsets": "273,407,472,538,625,745,820"
-                    },
-                    "to": {
-                        "startLines": "145,146,147,148,149,150,151",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "15609,15684,15822,15891,15961,16052,16176",
-                        "endColumns": "74,137,68,69,90,123,78",
-                        "endOffsets": "15679,15817,15886,15956,16047,16171,16250"
                     }
                 },
                 {

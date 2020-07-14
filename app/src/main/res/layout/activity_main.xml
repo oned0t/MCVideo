@@ -86,13 +86,9 @@
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#000000"
-            android:backgroundTint="#000000"
             android:text="@string/main_join_meeting"
-            android:textColor="#FF5722"
             android:textColorHighlight="#FF5722"
             android:textColorLink="#FF5722"
-            app:iconTint="#FF5722"
             app:rippleColor="#FF5722"
             app:strokeColor="#FF5722" />
 
@@ -101,11 +97,10 @@
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#000000"
             android:text="@string/main_create_meeting"
-            android:textColor="#FF5722"
-            app:iconTint="#FF5722"
-            app:rippleColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorLink="#FF5722"
+            app:rippleColor="#FF5722"
             app:strokeColor="#FF5722" />
     </com.google.android.material.button.MaterialButtonToggleGroup>
 
@@ -145,7 +140,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:cursorVisible="false"
-            android:hint="Enter meeting code"
             android:inputType="textNoSuggestions" />
     </com.google.android.material.textfield.TextInputLayout>
 

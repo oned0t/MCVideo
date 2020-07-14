@@ -1,4 +1,4 @@
-aculix.meetly.app
+com.ictech.mcvideo
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1791,6 +1791,7 @@ drawable images_btn_google_signin_dark_normal
 drawable images_dropboxlogo_square
 drawable images_iconusers
 drawable images_jitsilogo_square
+drawable mc_eat
 drawable mclogo
 drawable md_btn_selected
 drawable md_btn_selected_dark

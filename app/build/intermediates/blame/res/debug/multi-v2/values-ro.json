@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
+            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
             "map": [
+                {
+                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/00f38653bdb679a11087ad5864bc37dd/jetified-play-services-ads-19.2.0/res/values-ro/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,272,397,464,530,619,733",
+                        "endColumns": "72,124,66,65,88,113,71",
+                        "endOffsets": "271,396,463,529,618,732,804"
+                    },
+                    "to": {
+                        "startLines": "146,147,148,149,150,151,152",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "15527,15604,15733,15804,15874,15967,16085",
+                        "endColumns": "76,128,70,69,92,117,75",
+                        "endOffsets": "15599,15728,15799,15869,15962,16080,16156"
+                    }
+                },
                 {
                     "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/480f7c3640ce23b3e726300bcd41fcbd/jetified-firebase-ui-auth-6.2.1/res/values-ro/values-ro.xml",
                     "from": {
@@ -105,23 +122,6 @@
                         "startOffsets": "6099,6206,6308,6423",
                         "endColumns": "106,101,114,103",
                         "endOffsets": "6201,6303,6418,6522"
-                    }
-                },
-                {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/d19f3cd4fd09f8d378f1bd542cb8a251/jetified-play-services-ads-19.1.0/res/values-ro/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "199,272,397,464,530,619,733",
-                        "endColumns": "72,124,66,65,88,113,71",
-                        "endOffsets": "271,396,463,529,618,732,804"
-                    },
-                    "to": {
-                        "startLines": "146,147,148,149,150,151,152",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "15527,15604,15733,15804,15874,15967,16085",
-                        "endColumns": "76,128,70,69,92,117,75",
-                        "endOffsets": "15599,15728,15799,15869,15962,16080,16156"
                     }
                 }
             ]

@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/MC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
+            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
             "map": [
-                {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/d19f3cd4fd09f8d378f1bd542cb8a251/jetified-play-services-ads-19.1.0/res/values-es/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "199,270,397,462,528,612,724",
-                        "endColumns": "70,126,64,65,83,111,74",
-                        "endOffsets": "269,396,461,527,611,723,798"
-                    },
-                    "to": {
-                        "startLines": "147,148,149,150,151,152,153",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "16054,16129,16260,16329,16399,16487,16603",
-                        "endColumns": "74,130,68,69,87,115,78",
-                        "endOffsets": "16124,16255,16324,16394,16482,16598,16677"
-                    }
-                },
                 {
                     "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/5345b866520de7fbbae9658c16817f71/jetified-play-services-basement-17.0.0/res/values-es/values.xml",
                     "from": {
@@ -52,6 +35,23 @@
                         "startOffsets": "6121,6228,6329,6444",
                         "endColumns": "106,100,114,103",
                         "endOffsets": "6223,6324,6439,6543"
+                    }
+                },
+                {
+                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/00f38653bdb679a11087ad5864bc37dd/jetified-play-services-ads-19.2.0/res/values-es/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,270,397,462,528,612,724",
+                        "endColumns": "70,126,64,65,83,111,74",
+                        "endOffsets": "269,396,461,527,611,723,798"
+                    },
+                    "to": {
+                        "startLines": "147,148,149,150,151,152,153",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "16054,16129,16260,16329,16399,16487,16603",
+                        "endColumns": "74,130,68,69,87,115,78",
+                        "endOffsets": "16124,16255,16324,16394,16482,16598,16677"
                     }
                 },
                 {
