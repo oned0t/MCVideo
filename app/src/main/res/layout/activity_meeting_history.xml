@@ -28,7 +28,7 @@
         android:id="@+id/ivEmpty"
         android:layout_width="0dp"
         android:layout_height="250dp"
-        app:srcCompat="@drawable/ic_empty_meeting_history"
+        app:srcCompat="@drawable/daface"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/tvEmpty"
         app:layout_constraintVertical_chainStyle="packed"

@@ -130,6 +130,7 @@
         app:endIconDrawable="@drawable/ic_clipboard"
         app:endIconMode="custom"
         app:boxStrokeColor="#FF6D00"
+        app:endIconTint="#FF5722"
         app:layout_constraintBottom_toTopOf="@+id/btnJoinMeeting"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -152,17 +153,15 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="16dp"
-        android:background="#000000"
+        android:backgroundTint="@color/colorPrimaryDark"
         android:text="@string/main_btn_join_meeting"
-        android:textColor="#FF5722"
         android:textColorLink="#FFFFFF"
-        app:backgroundTint="#000000"
         app:iconTint="#FF5722"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilCodeJoinMeeting"
-        app:rippleColor="#FF5722"
+        app:rippleColor="#000000"
         app:strokeColor="#FF5722" />
 
 
@@ -177,15 +176,14 @@
         android:layout_marginBottom="16dp"
         android:onClick="disable"
         android:text="@string/sign_up"
-        android:textColor="#FF5722"
-        app:backgroundTint="#000000"
+        android:backgroundTint="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilCodeJoinMeeting"
         app:layout_constraintVertical_bias="0.82"
-        app:rippleColor="#FF5722" />
+        app:rippleColor="#000000" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ivCreateMeeting"
@@ -234,13 +232,12 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorPrimaryDark"
         android:text="@string/main_btn_create_meeting"
-        android:textColor="#FF5722"
-        app:backgroundTint="#000000"
         app:iconTint="#FF5722"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilCodeCreateMeeting"
-        app:rippleColor="#FF5722" />
+        app:rippleColor="#000000" />
 </androidx.constraintlayout.widget.ConstraintLayout>

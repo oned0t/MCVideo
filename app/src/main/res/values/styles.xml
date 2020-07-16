@@ -2,8 +2,8 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">#FF6D00</item>
-        <item name="colorPrimaryDark">#FF6D00</item>
+        <item name="colorPrimary">#FF5722</item>
+        <item name="colorPrimaryDark">#FFFFFF</item>
         <item name="colorSurface">@color/colorSurface</item>
         <item name="colorOnSurface">@color/colorOnSurface</item>
         <item name="colorOnPrimary">#000000</item>
@@ -29,9 +29,11 @@
 
     <!-- Button -->
     <style name="OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="strokeColor">?attr/colorPrimary</item>
+
         <item name="android:paddingTop">12dp</item>
         <item name="android:paddingBottom">12dp</item>
+<!--        <item name="android:textColor">#00E6FF</item>-->
+
     </style>
 
     <style name="FilledButton" parent="Widget.MaterialComponents.Button">

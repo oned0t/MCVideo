@@ -3,9 +3,9 @@
     <style name="DarkTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">#FF6D00</item>
         <item name="colorPrimaryDark">#FF6D00</item>
-        <item name="colorSurface">#000000</item>
-        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorSurface">#FF5722</item>
         <item name="colorOnPrimary">#FFAB00</item>
+        <item name="colorOnSurface">#03A9F4</item>
     </style>
 
 </resources>

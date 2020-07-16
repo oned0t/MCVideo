@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_chat.png.flat",
-        "source": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/build/generated/res/pngs/debug/drawable-hdpi/ic_chat.png"
-    },
-    {
         "merged": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/build/intermediates/res/merged/debug/drawable_ic_meeting_main.xml.flat",
         "source": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/src/main/res/drawable/ic_meeting_main.xml"
+    },
+    {
+        "merged": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_chat.png.flat",
+        "source": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/build/generated/res/pngs/debug/drawable-hdpi/ic_chat.png"
     },
     {
         "merged": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_chat.png.flat",
@@ -122,6 +122,10 @@
     {
         "merged": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_meeting_main.png.flat",
         "source": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/src/main/res/drawable-xhdpi/ic_meeting_main.png"
+    },
+    {
+        "merged": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/build/intermediates/res/merged/debug/drawable_daface.png.flat",
+        "source": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/src/main/res/drawable/daface.png"
     },
     {
         "merged": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_meeting_main.png.flat",
