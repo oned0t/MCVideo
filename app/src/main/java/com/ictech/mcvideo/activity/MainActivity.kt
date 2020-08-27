@@ -300,20 +300,24 @@ class MainActivity : AppCompatActivity() {
                             placeholder(R.drawable.ic_profile)
                         }
                     }
-                    tvUserName.text = currentUser!!.displayName
+
+                    /*tvUserName.text = currentUser!!.displayName
                     tvEmail.text = currentUser!!.email
-                    btnUserAuthenticationStatus.text = getString(R.string.all_btn_sign_out)
-                } else {
-                    tvUserName.makeGone()
-                    tvEmail.makeGone()
+                    btnUserAuthenticationStatus.text = getString(R.string.all_btn_sign_out)*/
+
+                } /*else {
+//                    tvUserName.makeGone()
+//                    tvEmail.makeGone()
                     tvUserNotAuthenticated.makeVisible()
-                    btnUserAuthenticationStatus.text = getString(R.string.all_btn_sign_in)
-                }
+//                    customView(R.layout.dialog_profile)
+//                    btnUserAuthenticationStatus.text = getString(R.string.all_btn_sign_in)
+                }*/
 
                 switchDarkMode.isChecked = !AppPref.isLightThemeEnabled
 
+
                 // UserAuthenticationStatus button onClick
-                btnUserAuthenticationStatus.setOnClickListener {
+                /*btnUserAuthenticationStatus.setOnClickListener {
                     dismiss()
 
                     if (currentUser != null) {
@@ -327,7 +331,7 @@ class MainActivity : AppCompatActivity() {
                         AuthenticationActivity.startActivity(this@MainActivity)
                         finish()
                     }
-                }
+                }*/
 
                 // Dark Mode Switch
                 switchDarkMode.setOnCheckedChangeListener { _, isChecked ->

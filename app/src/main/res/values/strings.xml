@@ -16,9 +16,9 @@
     <string name="app_intro_meeting_title">Meet with Momma</string>
     <string name="app_intro_meeting_desc">Create or join a video chat with MommaCherri</string>
     <string name="app_intro_chat_title">Cook with Momma</string>
-    <string name="app_intro_chat_desc">Learn cooking tips &amp; tricks with MommaCherri</string>
-    <string name="app_intro_meeting_history_title">Relish your Meal</string>
-    <string name="app_intro_meeting_history_desc">Enjoy your tasty, home-cooked food with MommaCherri.</string>
+    <string name="app_intro_chat_desc">Learn a new cooking style with tricks from MommaCherri</string>
+    <string name="app_intro_meeting_history_title">Live with Momma</string>
+    <string name="app_intro_meeting_history_desc">Relish your meal and enhance your lifestyle with tips from MommaCherri</string>
 
     <string name="authentication_sign_in_email">Sign in with Email</string>
     <string name="authentication_sign_in_google">Sign in with Google</string>

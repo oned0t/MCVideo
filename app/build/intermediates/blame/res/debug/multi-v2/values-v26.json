@@ -1,10 +1,21 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "C:\\Users\\onedot\\1MEGA\\MEGA\\KodiProg\\MCApps\\videoapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/480f7c3640ce23b3e726300bcd41fcbd/jetified-firebase-ui-auth-6.2.1/res/values-v26/values-v26.xml",
+                    "source": "C:\\Users\\onedot\\.gradle\\caches\\transforms-2\\files-2.1\\ab2df7eeae9a268e2897c231bb77a500\\appcompat-1.1.0\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,896",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,984"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\onedot\\.gradle\\caches\\transforms-2\\files-2.1\\1c6be104a72b2caf186b870c916464f7\\jetified-firebase-ui-auth-6.2.1\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6,10,14",
                         "startColumns": "4,4,4,4",
@@ -20,17 +31,6 @@
                         "endLines": "20,24,28,32",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "1182,1367,1560,1740"
-                    }
-                },
-                {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/39790b1344cac2983aeb9a935285aa7a/appcompat-1.1.0/res/values-v26/values-v26.xml",
-                    "from": {
-                        "startLines": "2,3,4,8,12,16",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,130,217,431,657,896",
-                        "endLines": "2,3,7,11,15,16",
-                        "endColumns": "74,86,12,12,12,92",
-                        "endOffsets": "125,212,426,652,891,984"
                     }
                 }
             ]

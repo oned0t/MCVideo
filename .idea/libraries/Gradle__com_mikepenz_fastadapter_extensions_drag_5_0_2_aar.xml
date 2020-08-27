@@ -1,8 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.mikepenz:fastadapter-extensions-drag:5.0.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/895817e63fcbe0c5a72d2f206e688692/jetified-fastadapter-extensions-drag-5.0.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/895817e63fcbe0c5a72d2f206e688692/jetified-fastadapter-extensions-drag-5.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d84501f5f7ec644c0336501724863044/jetified-fastadapter-extensions-drag-5.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d84501f5f7ec644c0336501724863044/jetified-fastadapter-extensions-drag-5.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d84501f5f7ec644c0336501724863044/jetified-fastadapter-extensions-drag-5.0.2/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/fastadapter-extensions-drag/5.0.2/b3de6e857454cf865898c01d21624b7b0cc30025/fastadapter-extensions-drag-5.0.2-javadoc.jar!/" />

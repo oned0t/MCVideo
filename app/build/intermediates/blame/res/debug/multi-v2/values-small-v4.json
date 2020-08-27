@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onedot/MEGA/MEGAsync/KodiProg/MCApps/MC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
+            "outputFile": "C:\\Users\\onedot\\1MEGA\\MEGA\\KodiProg\\MCApps\\videoapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "/home/onedot/.gradle/caches/transforms-2/files-2.1/c6702a16b9f2a3ef105e4ec587041c85/material-1.1.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "C:\\Users\\onedot\\.gradle\\caches\\transforms-2\\files-2.1\\a2e685cebefde286ed0719f2a662151b\\material-1.1.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

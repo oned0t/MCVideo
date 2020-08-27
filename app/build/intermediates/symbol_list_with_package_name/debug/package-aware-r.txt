@@ -1947,7 +1947,6 @@ id btnSignInEmail
 id btnSignInGoogle
 id btnToggleCreateMeeting
 id btnToggleJoinMeeting
-id btnUserAuthenticationStatus
 id btn_holder
 id buttonPanel
 id button_continue
@@ -2352,7 +2351,6 @@ id tvAppName
 id tvAppTagline
 id tvDescription
 id tvDotSeparator
-id tvEmail
 id tvEmpty
 id tvFaqs
 id tvMeetingCode
@@ -2364,8 +2362,6 @@ id tvSendFeedback
 id tvShareApp
 id tvTermsOfService
 id tvTitle
-id tvUserName
-id tvUserNotAuthenticated
 id unchecked
 id uniform
 id unlabeled
