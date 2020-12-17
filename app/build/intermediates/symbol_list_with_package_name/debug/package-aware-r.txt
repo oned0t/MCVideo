@@ -1927,7 +1927,6 @@ id autoCompleteToStart
 id back
 id background
 id barrier
-id barrierUserDetails
 id baseline
 id beginning
 id blocking
@@ -1939,7 +1938,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btn1SignUp
 id btnCreateMeeting
 id btnJoinMeeting
 id btnRejoinMeeting
@@ -2105,7 +2103,6 @@ id ivJoinMeeting
 id ivLogo
 id ivMeetingHistory
 id ivProfile
-id ivUserProfileDialog
 id jitsiFragment
 id jumpToEnd
 id jumpToStart

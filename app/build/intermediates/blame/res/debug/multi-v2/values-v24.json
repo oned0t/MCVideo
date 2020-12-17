@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\onedot\\1MEGA\\MEGA\\KodiProg\\MCApps\\videoapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\onedot\\.gradle\\caches\\transforms-2\\files-2.1\\ab2df7eeae9a268e2897c231bb77a500\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\ab2df7eeae9a268e2897c231bb77a500\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\onedot\\.gradle\\caches\\transforms-2\\files-2.1\\15daf5a9391c573b3d1106f454b870f8\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\15daf5a9391c573b3d1106f454b870f8\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

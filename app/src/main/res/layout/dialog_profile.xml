@@ -19,13 +19,13 @@
         android:orientation="vertical"
         app:layout_constraintGuide_end="16dp" />
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <!--<de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/ivUserProfileDialog"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:src="@drawable/ic_profile"
         app:layout_constraintStart_toStartOf="@id/glStart"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />-->
 
     <!--<com.google.android.material.button.MaterialButton
         android:id="@+id/btnUserAuthenticationStatus"
@@ -72,22 +72,22 @@
         app:layout_constraintStart_toEndOf="@+id/ivUserProfileDialog"
         app:layout_constraintTop_toTopOf="@+id/ivUserProfileDialog" />-->
 
-    <androidx.constraintlayout.widget.Barrier
+    <!--<androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrierUserDetails"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:barrierDirection="bottom"
-        app:constraint_referenced_ids="ivUserProfileDialog" />
+        app:constraint_referenced_ids="ivUserProfileDialog" />-->
 
     <View
         android:id="@+id/dividerUserDetails"
         android:layout_width="0dp"
         android:layout_height="1dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="0dp"
         android:background="@color/dividerColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barrierUserDetails" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.switchmaterial.SwitchMaterial
         android:id="@+id/switchDarkMode"

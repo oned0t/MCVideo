@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\onedot\\1MEGA\\MEGA\\KodiProg\\MCApps\\videoapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "outputFile": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\onedot\\.gradle\\caches\\transforms-2\\files-2.1\\ab2df7eeae9a268e2897c231bb77a500\\appcompat-1.1.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\ab2df7eeae9a268e2897c231bb77a500\\appcompat-1.1.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\onedot\\.gradle\\caches\\transforms-2\\files-2.1\\812356f504fae60f3b09074a1c811aa3\\jetified-bottomsheets-3.3.0\\res\\values-large-v4\\values-large-v4.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "45",
-                        "endOffsets": "96"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "532",
-                        "endColumns": "45",
-                        "endOffsets": "573"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\onedot\\.gradle\\caches\\transforms-2\\files-2.1\\a2e685cebefde286ed0719f2a662151b\\material-1.1.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\a2e685cebefde286ed0719f2a662151b\\material-1.1.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "798,920",
                         "endColumns": "121,133",
                         "endOffsets": "915,1049"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\812356f504fae60f3b09074a1c811aa3\\jetified-bottomsheets-3.3.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "532",
+                        "endColumns": "45",
+                        "endOffsets": "573"
                     }
                 }
             ]

@@ -164,27 +164,6 @@
         app:rippleColor="#000000"
         app:strokeColor="#FF5722" />
 
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn1SignUp"
-        style="@style/FilledButton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="16dp"
-        android:onClick="disable"
-        android:text="@string/sign_up"
-        android:backgroundTint="@color/colorPrimaryDark"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tilCodeJoinMeeting"
-        app:layout_constraintVertical_bias="0.82"
-        app:rippleColor="#000000" />
-
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ivCreateMeeting"
         android:layout_width="0dp"

@@ -294,23 +294,23 @@ class MainActivity : AppCompatActivity() {
             }
 
             profileDialog.apply {
-                if (currentUser != null) {
+                /*if (currentUser != null) {
                     currentUser!!.photoUrl?.let {
                         ivUserProfileDialog.load(it) {
                             placeholder(R.drawable.ic_profile)
                         }
                     }
 
-                    /*tvUserName.text = currentUser!!.displayName
+                    *//*tvUserName.text = currentUser!!.displayName
                     tvEmail.text = currentUser!!.email
-                    btnUserAuthenticationStatus.text = getString(R.string.all_btn_sign_out)*/
+                    btnUserAuthenticationStatus.text = getString(R.string.all_btn_sign_out)*//*
 
-                } /*else {
-//                    tvUserName.makeGone()
-//                    tvEmail.makeGone()
+                } else {
+                    tvUserName.makeGone()
+                    tvEmail.makeGone()
                     tvUserNotAuthenticated.makeVisible()
-//                    customView(R.layout.dialog_profile)
-//                    btnUserAuthenticationStatus.text = getString(R.string.all_btn_sign_in)
+                    customView(R.layout.dialog_profile)
+                    btnUserAuthenticationStatus.text = getString(R.string.all_btn_sign_in)
                 }*/
 
                 switchDarkMode.isChecked = !AppPref.isLightThemeEnabled

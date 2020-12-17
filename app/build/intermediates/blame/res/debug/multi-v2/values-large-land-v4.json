@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\onedot\\1MEGA\\MEGA\\KodiProg\\MCApps\\videoapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-land-v4\\values-large-land-v4.xml",
+            "outputFile": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-land-v4\\values-large-land-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\onedot\\.gradle\\caches\\transforms-2\\files-2.1\\812356f504fae60f3b09074a1c811aa3\\jetified-bottomsheets-3.3.0\\res\\values-large-land-v4\\values-large-land-v4.xml",
+                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\812356f504fae60f3b09074a1c811aa3\\jetified-bottomsheets-3.3.0\\res\\values-large-land-v4\\values-large-land-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
