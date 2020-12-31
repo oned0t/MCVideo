@@ -16,6 +16,10 @@
         "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\item_faqs.xml"
     },
     {
+        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nickname_dialog.xml",
+        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\nickname_dialog.xml"
+    },
+    {
         "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_meeting_history.xml",
         "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\item_meeting_history.xml"
     },

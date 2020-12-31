@@ -1793,7 +1793,8 @@ drawable images_dropboxlogo_square
 drawable images_iconusers
 drawable images_jitsilogo_square
 drawable mc_eat
-drawable mclogo
+drawable mc_logo
+drawable mc_pic
 drawable md_btn_selected
 drawable md_btn_selected_dark
 drawable md_btn_selector
@@ -1943,6 +1944,7 @@ id btnJoinMeeting
 id btnRejoinMeeting
 id btnSignInEmail
 id btnSignInGoogle
+id btnSubmit
 id btnToggleCreateMeeting
 id btnToggleJoinMeeting
 id btn_holder
@@ -2037,6 +2039,7 @@ id enterAlways
 id enterAlwaysCollapsed
 id etCodeCreateMeeting
 id etCodeJoinMeeting
+id etUnauthenticatedName
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2352,6 +2355,7 @@ id tvEmpty
 id tvFaqs
 id tvMeetingCode
 id tvMeetingTime
+id tvNickname
 id tvOpenSourceLicenses
 id tvPrivacyPolicy
 id tvRateApp
@@ -2550,6 +2554,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout nickname_dialog
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -2587,6 +2592,7 @@ layout text_view_without_line_height
 menu menu_cab_meeting_history
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_mc_logo
 plurals fui_error_weak_password
 plurals mtrl_badge_content_description
 raw keep_third_party_licenses
@@ -2748,6 +2754,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
+string choose_a_nickname
 string clear_text_end_icon_content_description
 string combobox_description
 string common_google_play_services_enable_button
@@ -3016,6 +3023,7 @@ string text_no_email_app_found
 string text_share_all_images
 string timer_description
 string toolbar_description
+string unauthenticated_name
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

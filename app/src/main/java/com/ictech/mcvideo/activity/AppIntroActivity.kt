@@ -47,7 +47,7 @@ class AppIntroActivity : AppIntro2() {
         addSlide(AppIntroFragment.newInstance(
             getString(R.string.app_intro_meeting_title),
             getString(R.string.app_intro_meeting_desc),
-            imageDrawable = R.drawable.mclogo,
+            imageDrawable = R.drawable.mc_logo,
             backgroundDrawable = R.drawable.bg_app_intro
         ))
 
@@ -61,7 +61,7 @@ class AppIntroActivity : AppIntro2() {
         addSlide(AppIntroFragment.newInstance(
             getString(R.string.app_intro_meeting_history_title),
             getString(R.string.app_intro_meeting_history_desc),
-            imageDrawable = R.drawable.mclogo,
+            imageDrawable = R.drawable.mc_pic,
             backgroundDrawable = R.drawable.bg_app_intro
         ))
     }

@@ -1,5 +1,6 @@
 package com.ictech.mcvideo.activity
 
+import android.app.Dialog
 import com.core.extensions.*
 import com.ictech.mcvideo.MCVideo
 import com.ictech.mcvideo.R
@@ -12,6 +13,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.widget.doOnTextChanged
@@ -32,6 +34,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import kotlinx.android.synthetic.main.activity_main.view.*
 import kotlinx.android.synthetic.main.dialog_profile.*
+import kotlinx.android.synthetic.main.nickname_dialog.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity() {
@@ -225,6 +228,22 @@ class MainActivity : AppCompatActivity() {
                 System.currentTimeMillis()
             )
         ) // Add meeting to db
+        setUserDisplayName()
+    }
+
+    private fun setUserDisplayName(){
+        val customDialog = Dialog(this)
+        val etNickname = R.id.etUnauthenticatedName
+        customDialog.setContentView(R.layout.nickname_dialog)
+
+        customDialog.btnSubmit.setOnClickListener(View.OnClickListener {
+            if(etUnauthenticatedName != null) {
+                getString(R.string.all_unauthenticated_user_name) to etNickname
+            }else
+                Snackbar.make(binding.constrainLayout,
+                    "Enter a valid nickname",
+                Snackbar.LENGTH_SHORT).show()
+        })
     }
 
     /**

@@ -243,9 +243,9 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\O\.gradle\caches\tra
 	tools:ignore
 		ADDED from C:\Users\O\1MEGA\MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:14:9-49
 	android:roundIcon
-		ADDED from C:\Users\O\1MEGA\MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:11:9-45
+		ADDED from C:\Users\O\1MEGA\MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:11:9-46
 	android:icon
-		ADDED from C:\Users\O\1MEGA\MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:9:9-40
+		ADDED from C:\Users\O\1MEGA\MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:9:9-42
 	android:allowBackup
 		ADDED from C:\Users\O\1MEGA\MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
