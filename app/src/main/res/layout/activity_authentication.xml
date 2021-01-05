@@ -37,7 +37,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        app:srcCompat="@drawable/mc_logo" />
+        app:srcCompat="@drawable/mclogo" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tvAppName"

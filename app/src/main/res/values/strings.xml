@@ -1,4 +1,3 @@
-
 <resources>
     <!-- App -->
     <string name="app_name">MC Video</string>
@@ -52,7 +51,7 @@
     <string name="profile_dot_separator">\u2022</string>
     <string name="profile_feedback_email_subject">Feedback - MCVideo</string>
     <string name="profile_share_app_title">Share app via</string>
-    <string name="profile_share_app_text">Download Momma Cherri\'s Video, do instant video calls and learn how to cook with MommaCherri. \n\nhttps://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="profile_share_app_text">Download Mommas Cherri Video, do instant video calls and learn how to cook with MommaCherri. \n\nhttps://play.google.com/store/apps/details?id=%1$s</string>
     <string name="profile_open_source_licenses">Open Source Licenses</string>
 
     <string name="all_skip">Skip</string>
@@ -77,6 +76,4 @@
     <string name="faqs_end_meeting_desc">A meeting gets created when the first participant joins and is automatically ended when the last one leaves. If someone joins the meeting with the same meeting code again, a brand new meeting is created with the same name and there is no connection to any previous meeting that might have been held with the same name.</string>
     <string name="faqs_password_protection_desc">You can always password protect the meeting once it has started. However, keep in mind that the password will be reset once the meeting is ended. So make sure to set the password again if a meeting is rejoined after it was ended.</string>
     <string name="sign_up">SIGN UP</string>
-    <string name="unauthenticated_name">Enter a nickname:</string>
-    <string name="choose_a_nickname">Choose a nickname</string>
 </resources>

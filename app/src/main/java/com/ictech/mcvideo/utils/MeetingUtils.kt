@@ -1,15 +1,11 @@
 package com.ictech.mcvideo.utils
 
-import android.app.Dialog
 import com.core.extensions.toast
 import com.ictech.mcvideo.R
 import android.content.Context
-import android.os.Bundle
-import android.view.View
 import androidx.annotation.StringRes
 import androidx.core.os.bundleOf
 import com.google.firebase.auth.FirebaseAuth
-import kotlinx.android.synthetic.main.nickname_dialog.*
 import org.jitsi.meet.sdk.JitsiMeet
 import org.jitsi.meet.sdk.JitsiMeetActivity
 import org.jitsi.meet.sdk.JitsiMeetConferenceOptions
@@ -45,20 +41,15 @@ object MeetingUtils {
                 "avatarURL" to currentUser.photoUrl
             )
         } else {
-
-
             bundleOf(
-//                "displayName" to context.getString(
-//                    R.string.all_unauthenticated_user_name,
-//                    context.getString(R.string.app_name)
-//                )
+                "displayName" to context.getString(
+                    R.string.all_unauthenticated_user_name,
+                    context.getString(R.string.app_name)
+                )
             )
         }
 
         options.setUserInfo(JitsiMeetUserInfo(userInfoBundle))
         JitsiMeetActivity.launch(context, options.build())
     }
-
-
-
 }
