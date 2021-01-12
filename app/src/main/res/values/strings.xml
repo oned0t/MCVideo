@@ -1,7 +1,7 @@
 <resources>
     <!-- App -->
     <string name="app_name">MC Video</string>
-    <string name="app_server_url">videocontrol.itsoverkodi.com</string>
+    <string name="app_server_url">https://videocontrol.itsoverkodi.com</string>
     <string name="app_tagline">Instant video conferences with your family, friends, and colleagues</string>
     <string name="app_feedback_contact_email">support@deliverate.co.uk</string>
     <string name="app_privacy_policy_url">https://www.mommacherrisoulfood.com/privacy//</string>
@@ -64,7 +64,8 @@
     <string name="all_creating_meeting">Please wait, creating meeting</string>
     <string name="all_joining_meeting">Please wait, joining meeting</string>
     <string name="all_rejoining_meeting">Please wait, rejoining meeting</string>
-    <string name="all_unauthenticated_user_name">Fellow %1$s user</string>
+    <string name="all_unauthenticated_user_name">%1$s</string>
+    <string name="dummy"> </string>
     <string name="all_faqs">FAQs</string>
 
     <string name="faqs_meeting_code_title">Meeting Code</string>
@@ -76,4 +77,7 @@
     <string name="faqs_end_meeting_desc">A meeting gets created when the first participant joins and is automatically ended when the last one leaves. If someone joins the meeting with the same meeting code again, a brand new meeting is created with the same name and there is no connection to any previous meeting that might have been held with the same name.</string>
     <string name="faqs_password_protection_desc">You can always password protect the meeting once it has started. However, keep in mind that the password will be reset once the meeting is ended. So make sure to set the password again if a meeting is rejoined after it was ended.</string>
     <string name="sign_up">SIGN UP</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter_name">Enter name</string>
+    <string name="choose_a_name">Choose a name</string>
 </resources>

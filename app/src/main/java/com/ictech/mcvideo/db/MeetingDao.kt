@@ -21,4 +21,6 @@ interface MeetingDao {
 
     @Query("DELETE FROM meetings where  code in (:meetingCodeList)")
     suspend fun deleteMultipleMeetings(meetingCodeList: List<String>)
+
+
 }

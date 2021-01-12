@@ -1,5 +1,7 @@
 package com.ictech.mcvideo.utils
 
+//import android.annotation.SuppressLint
+
 import com.core.extensions.toast
 import com.ictech.mcvideo.R
 import android.content.Context
@@ -14,6 +16,7 @@ import java.net.URL
 
 object MeetingUtils {
 
+//    @SuppressLint("StringFormatMatches")
     fun startMeeting(context: Context, meetingCode: String, @StringRes initialToastMessage: Int) {
         context.toast(context.getString(initialToastMessage))
 
@@ -32,7 +35,6 @@ object MeetingUtils {
         val options = JitsiMeetConferenceOptions.Builder()
             .setRoom(meetingCode)
             .setUserInfo(null)
-
         val currentUser = FirebaseAuth.getInstance().currentUser
         val userInfoBundle = if (currentUser != null) {
             bundleOf(
@@ -40,16 +42,25 @@ object MeetingUtils {
                 "email" to currentUser.email,
                 "avatarURL" to currentUser.photoUrl
             )
+
         } else {
+
             bundleOf(
                 "displayName" to context.getString(
                     R.string.all_unauthenticated_user_name,
                     context.getString(R.string.app_name)
-                )
-            )
+                ))
+
+            /*bundleOf(
+                "displayName" to "$text",
+                "email" to null,
+                "avatarURL" to null
+            )*/
         }
 
         options.setUserInfo(JitsiMeetUserInfo(userInfoBundle))
+//        options.setUserInfo(setUserNickname(userInfoBundle))
         JitsiMeetActivity.launch(context, options.build())
     }
+
 }

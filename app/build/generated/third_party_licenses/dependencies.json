@@ -7,8 +7,8 @@
     },
     {
         "group": "androidx.databinding",
-        "version": "4.0.1",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.databinding\\viewbinding\\4.0.1\\ed63c940496cf5e963ccfa69199adbf013e61fb7\\viewbinding-4.0.1.aar",
+        "version": "4.1.1",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.databinding\\viewbinding\\4.1.1\\b4dfbcce2fa22cfea5f9da283175a72cf6503ae8\\viewbinding-4.1.1.aar",
         "name": "viewbinding"
     },
     {
@@ -360,6 +360,12 @@
         "name": "infer-annotation"
     },
     {
+        "group": "com.intuit.sdp",
+        "version": "1.0.6",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.intuit.sdp\\sdp-android\\1.0.6\\1f282cac2c70d979e4964ec35334cb6fae812edb\\sdp-android-1.0.6.aar",
+        "name": "sdp-android"
+    },
+    {
         "group": "androidx.collection",
         "version": "1.1.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.collection\\collection\\1.1.0\\1f27220b47669781457de0d600849a5de0e89909\\collection-1.1.0.jar",
@@ -568,6 +574,12 @@
         "version": "2.2.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-viewmodel\\2.2.0\\695c5e9ee89ee73d69d0981303f138d7680acc01\\lifecycle-viewmodel-2.2.0.aar",
         "name": "lifecycle-viewmodel"
+    },
+    {
+        "group": "com.intuit.ssp",
+        "version": "1.0.6",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.intuit.ssp\\ssp-android\\1.0.6\\7272f51f29b86e6d95d1596292c2f08a0a21bffa\\ssp-android-1.0.6.aar",
+        "name": "ssp-android"
     },
     {
         "group": "com.facebook.react",

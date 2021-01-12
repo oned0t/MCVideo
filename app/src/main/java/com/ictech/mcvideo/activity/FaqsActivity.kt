@@ -15,6 +15,9 @@ import com.mikepenz.fastadapter.diff.FastAdapterDiffUtil
 class FaqsActivity : AppCompatActivity() {
 
     companion object {
+
+//        const val SEARCH_QUERY = "https://help.mommas.uk"
+
         fun startActivity(context: Context) {
             val intent = Intent(context, FaqsActivity::class.java)
             context.startActivity(intent)

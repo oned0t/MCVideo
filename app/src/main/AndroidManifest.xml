@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.ictech.mcvideo">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:name=".MCVideo"
         android:allowBackup="true"

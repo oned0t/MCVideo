@@ -1,5 +1,6 @@
-package com.ictech.mcvideo.activity
+        package com.ictech.mcvideo.activity
 
+import android.app.Dialog
 import com.core.extensions.*
 import com.ictech.mcvideo.MCVideo
 import com.ictech.mcvideo.R
@@ -10,8 +11,10 @@ import com.ictech.mcvideo.utils.MeetingUtils
 import com.ictech.mcvideo.viewmodel.MainViewModel
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.widget.doOnTextChanged
@@ -32,6 +35,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import kotlinx.android.synthetic.main.activity_main.view.*
 import kotlinx.android.synthetic.main.dialog_profile.*
+import kotlinx.android.synthetic.main.name_dialog.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity() {
@@ -71,10 +75,28 @@ class MainActivity : AppCompatActivity() {
         onCreateMeetingCodeChange()
         onCopyMeetingCodeFromClipboardClick()
         onShareMeetingCodeClick()
+
         onJoinMeetingClick()
         onCreateMeetingClick()
         onMeetingHistoryClick()
         onProfileClick()
+    }
+
+    private fun setUserNickname(){
+        val dialog = Dialog(this)
+        dialog.setContentView(R.layout.name_dialog)
+        dialog.btnSubmit.setOnClickListener (View.OnClickListener{
+            if (etNickname != null){
+                Toast.makeText(applicationContext, "Name submitted", Toast.LENGTH_SHORT).show()
+                dialog.dismiss()
+            }else{
+                Toast.makeText(applicationContext,
+                    "Please enter a name",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
+        })
+        dialog.show()
     }
 
     private fun setProfileIcon() {
@@ -121,7 +143,7 @@ class MainActivity : AppCompatActivity() {
         joinMeetingInterstitialAd.loadAd(AdRequest.Builder().build())
     }
 
-    /**
+    /*
      * Called when the meeting toggle button check state is changed
      */
     private fun onMeetingToggleChange() {
@@ -201,12 +223,18 @@ class MainActivity : AppCompatActivity() {
     private fun onJoinMeetingClick() {
         binding.btnJoinMeeting.setOnClickListener {
             if (isMeetingCodeValid(getJoinMeetingCode())) {
+
                 if (MCVideo.isAdEnabled) {
-                    if (joinMeetingInterstitialAd.isLoaded) joinMeetingInterstitialAd.show() else joinMeeting(
-                        getJoinMeetingCode()
-                    )
+                    if (joinMeetingInterstitialAd.isLoaded){
+//                        joinMeetingInterstitialAd.show()
+                        setUserNickname()
+                    }else{
+                        setUserNickname()
+//                      joinMeeting(getJoinMeetingCode())
+                    }
                 } else {
-                    joinMeeting(getJoinMeetingCode())
+                    setUserNickname()
+//                    joinMeeting(getJoinMeetingCode())
                 }
             }
         }
@@ -347,10 +375,14 @@ class MainActivity : AppCompatActivity() {
 
                 // Send feedback onClick
                 tvSendFeedback.setOnClickListener {
-                    startEmailIntent(
+
+                    val queryUrl: Uri = Uri.parse("https://www.help.mommas.uk")
+                    val intent = Intent(Intent.ACTION_VIEW, queryUrl)
+                    context.startActivity(intent)
+                    /*startEmailIntent(
                         getString(R.string.app_feedback_contact_email),
                         getString(R.string.profile_feedback_email_subject)
-                    )
+                    )*/
                 }
 
                 // Rate app onClick

@@ -6,6 +6,7 @@ import com.core.extensions.toast
 import com.ictech.mcvideo.R
 import com.ictech.mcvideo.sharedpref.AppPref
 import android.app.Activity
+import android.app.Dialog
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -14,6 +15,7 @@ import com.ictech.mcvideo.databinding.ActivityAuthenticationBinding
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.ErrorCodes
 import com.firebase.ui.auth.IdpResponse
+import kotlinx.android.synthetic.main.name_dialog.*
 
 class AuthenticationActivity : AppCompatActivity() {
 

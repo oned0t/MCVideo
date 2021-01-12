@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
     android:foregroundTint="#FFFFFF"
-    tools:context=".activity.MainActivity">
+    tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/groupJoinMeeting"
