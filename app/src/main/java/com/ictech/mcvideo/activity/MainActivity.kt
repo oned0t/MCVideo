@@ -1,4 +1,4 @@
-        package com.ictech.mcvideo.activity
+package com.ictech.mcvideo.activity
 
 import android.app.Dialog
 import com.core.extensions.*
@@ -225,16 +225,11 @@ class MainActivity : AppCompatActivity() {
             if (isMeetingCodeValid(getJoinMeetingCode())) {
 
                 if (MCVideo.isAdEnabled) {
-                    if (joinMeetingInterstitialAd.isLoaded){
-//                        joinMeetingInterstitialAd.show()
-                        setUserNickname()
-                    }else{
-                        setUserNickname()
-//                      joinMeeting(getJoinMeetingCode())
-                    }
+                    if (joinMeetingInterstitialAd.isLoaded) else joinMeetingInterstitialAd.show()
+//                        setUserNickname()
                 } else {
                     setUserNickname()
-//                    joinMeeting(getJoinMeetingCode())
+                    joinMeeting(getJoinMeetingCode())
                 }
             }
         }
@@ -376,13 +371,11 @@ class MainActivity : AppCompatActivity() {
                 // Send feedback onClick
                 tvSendFeedback.setOnClickListener {
 
-                    val queryUrl: Uri = Uri.parse("https://www.help.mommas.uk")
-                    val intent = Intent(Intent.ACTION_VIEW, queryUrl)
-                    context.startActivity(intent)
-                    /*startEmailIntent(
+
+                    startEmailIntent(
                         getString(R.string.app_feedback_contact_email),
                         getString(R.string.profile_feedback_email_subject)
-                    )*/
+                    )
                 }
 
                 // Rate app onClick
@@ -398,9 +391,10 @@ class MainActivity : AppCompatActivity() {
                     )
                 }
 
-                // FAQs onClick
-                tvFaqs.setOnClickListener {
-                    FaqsActivity.startActivity(this@MainActivity)
+                tvFaqs.setOnClickListener{
+                    val openURL = Intent(android.content.Intent.ACTION_VIEW)
+                    openURL.data = Uri.parse("https://www.help.mommas.uk/")
+                    startActivity(openURL)
                 }
 
                 // Open Source Licenses onClick
