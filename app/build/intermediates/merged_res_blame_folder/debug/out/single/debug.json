@@ -20,24 +20,24 @@
         "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\card_view_border_background.xml"
     },
     {
-        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_chat.xml.flat",
         "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_chat.xml"
     },
     {
-        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_meeting_main.png.flat",
-        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable-xxhdpi\\ic_meeting_main.png"
+        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_meeting_app_intro.xml.flat",
+        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_meeting_app_intro.xml"
     },
     {
         "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
         "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_meeting_app_intro.xml.flat",
-        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_meeting_app_intro.xml"
+        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_meeting_main.png.flat",
+        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable-xxhdpi\\ic_meeting_main.png"
     },
     {
         "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_daface.png.flat",
