@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_meeting_history.xml",
+        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\item_meeting_history.xml"
+    },
+    {
+        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_meeting_history.xml",
+        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\activity_meeting_history.xml"
+    },
+    {
+        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_profile.xml",
+        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\dialog_profile.xml"
+    },
+    {
+        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\name_dialog.xml",
+        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\name_dialog.xml"
+    },
+    {
+        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_authentication.xml",
+        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\activity_authentication.xml"
+    },
+    {
+        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_faqs.xml",
+        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\item_faqs.xml"
+    },
+    {
+        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_faqs.xml",
+        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\activity_faqs.xml"
+    }
+]

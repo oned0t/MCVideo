@@ -1,0 +1,27 @@
+com/ictech/mcvideo/BuildConfig.java
+ com.ictech.mcvideo.BuildConfig
+com/ictech/mcvideo/databinding/ActivityMeetingHistoryBinding.java
+ com.ictech.mcvideo.databinding.ActivityMeetingHistoryBinding
+com/ictech/mcvideo/db/MeetingDao_Impl.java
+ com.ictech.mcvideo.db.MeetingDao_Impl
+ com.ictech.mcvideo.db.MeetingDao_Impl$1
+ com.ictech.mcvideo.db.MeetingDao_Impl$2
+ com.ictech.mcvideo.db.MeetingDao_Impl$3
+ com.ictech.mcvideo.db.MeetingDao_Impl$4
+com/ictech/mcvideo/databinding/NameDialogBinding.java
+ com.ictech.mcvideo.databinding.NameDialogBinding
+com/ictech/mcvideo/databinding/ActivityFaqsBinding.java
+ com.ictech.mcvideo.databinding.ActivityFaqsBinding
+com/ictech/mcvideo/databinding/ActivityAuthenticationBinding.java
+ com.ictech.mcvideo.databinding.ActivityAuthenticationBinding
+com/ictech/mcvideo/databinding/DialogProfileBinding.java
+ com.ictech.mcvideo.databinding.DialogProfileBinding
+com/ictech/mcvideo/databinding/ActivityMainBinding.java
+ com.ictech.mcvideo.databinding.ActivityMainBinding
+com/ictech/mcvideo/db/MeetlyDB_Impl.java
+ com.ictech.mcvideo.db.MeetlyDB_Impl
+ com.ictech.mcvideo.db.MeetlyDB_Impl$1
+com/ictech/mcvideo/databinding/ItemFaqsBinding.java
+ com.ictech.mcvideo.databinding.ItemFaqsBinding
+com/ictech/mcvideo/databinding/ItemMeetingHistoryBinding.java
+ com.ictech.mcvideo.databinding.ItemMeetingHistoryBinding
