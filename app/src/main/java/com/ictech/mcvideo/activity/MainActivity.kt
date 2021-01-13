@@ -1,4 +1,4 @@
-        package com.ictech.mcvideo.activity
+package com.ictech.mcvideo.activity
 
 import android.app.Dialog
 import com.core.extensions.*
@@ -84,11 +84,13 @@ class MainActivity : AppCompatActivity() {
 
     private fun setUserNickname(){
         val dialog = Dialog(this)
+
         dialog.setContentView(R.layout.name_dialog)
         dialog.btnSubmit.setOnClickListener (View.OnClickListener{
             if (etNickname != null){
                 Toast.makeText(applicationContext, "Name submitted", Toast.LENGTH_SHORT).show()
                 dialog.dismiss()
+//                joinMeeting(getJoinMeetingCode())
             }else{
                 Toast.makeText(applicationContext,
                     "Please enter a name",
@@ -98,6 +100,7 @@ class MainActivity : AppCompatActivity() {
         })
         dialog.show()
     }
+
 
     private fun setProfileIcon() {
         currentUser?.let {
@@ -133,7 +136,8 @@ class MainActivity : AppCompatActivity() {
         // Reload ad once shown
         joinMeetingInterstitialAd.adListener = object : AdListener() {
             override fun onAdClosed() {
-                joinMeeting(getJoinMeetingCode())
+                setUserNickname()
+//                joinMeeting(getJoinMeetingCode())
                 loadJoinMeetingInterstitialAd()
             }
         }
@@ -222,16 +226,16 @@ class MainActivity : AppCompatActivity() {
      */
     private fun onJoinMeetingClick() {
         binding.btnJoinMeeting.setOnClickListener {
+            setUserNickname()
             if (isMeetingCodeValid(getJoinMeetingCode())) {
 
                 if (MCVideo.isAdEnabled) {
-                    if (joinMeetingInterstitialAd.isLoaded){
-//                        joinMeetingInterstitialAd.show()
+                    if (joinMeetingInterstitialAd.isLoaded) {
+                        joinMeetingInterstitialAd.show()
+                    }else
                         setUserNickname()
-                    }else{
-                        setUserNickname()
-//                      joinMeeting(getJoinMeetingCode())
-                    }
+                        
+//                        joinMeeting(getJoinMeetingCode())
                 } else {
                     setUserNickname()
 //                    joinMeeting(getJoinMeetingCode())
@@ -376,13 +380,11 @@ class MainActivity : AppCompatActivity() {
                 // Send feedback onClick
                 tvSendFeedback.setOnClickListener {
 
-                    val queryUrl: Uri = Uri.parse("https://www.help.mommas.uk")
-                    val intent = Intent(Intent.ACTION_VIEW, queryUrl)
-                    context.startActivity(intent)
-                    /*startEmailIntent(
+
+                    startEmailIntent(
                         getString(R.string.app_feedback_contact_email),
                         getString(R.string.profile_feedback_email_subject)
-                    )*/
+                    )
                 }
 
                 // Rate app onClick
@@ -398,9 +400,10 @@ class MainActivity : AppCompatActivity() {
                     )
                 }
 
-                // FAQs onClick
-                tvFaqs.setOnClickListener {
-                    FaqsActivity.startActivity(this@MainActivity)
+                tvFaqs.setOnClickListener{
+                    val openURL = Intent(android.content.Intent.ACTION_VIEW)
+                    openURL.data = Uri.parse("https://help.mommas.uk/")
+                    startActivity(openURL)
                 }
 
                 // Open Source Licenses onClick

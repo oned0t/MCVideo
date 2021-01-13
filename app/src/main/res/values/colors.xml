@@ -13,4 +13,6 @@
 
     <color name="splashBgColor">#1976D2</color>
     <color name="dividerColor">#E0E0E0</color>
+
+    <color name="cornerDialog">#828282</color>
 </resources>
