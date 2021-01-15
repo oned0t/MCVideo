@@ -1,9 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.mikepenz:fastadapter-extensions-swipe:5.0.2@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/551783ea0a3598de47e99d4e569c0eba/jetified-fastadapter-extensions-swipe-5.0.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/26b8f2bd7ab7d974ab3e15a6fb5b324c/jetified-fastadapter-extensions-swipe-5.0.2/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/26b8f2bd7ab7d974ab3e15a6fb5b324c/jetified-fastadapter-extensions-swipe-5.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/26b8f2bd7ab7d974ab3e15a6fb5b324c/jetified-fastadapter-extensions-swipe-5.0.2/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/26b8f2bd7ab7d974ab3e15a6fb5b324c/jetified-fastadapter-extensions-swipe-5.0.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>

@@ -1,7 +1,7 @@
 <resources>
     <!-- App -->
     <string name="app_name">MC Video</string>
-    <string name="app_server_url">https://live.mommacherri.org</string>
+    <string name="app_server_url">https://videocontrol.itsoverkodi.com</string>
     <string name="app_tagline">Instant video conferences with your family, friends, and colleagues</string>
     <string name="app_feedback_contact_email">support@deliverate.co.uk</string>
     <string name="app_privacy_policy_url">https://www.mommacherrisoulfood.com/privacy//</string>
@@ -13,12 +13,12 @@
     <string name="interstitial_ad_id_create_meeting">ca-app-pub-3940256099942544/1033173712</string>
     <string name="interstitial_ad_id_join_meeting">ca-app-pub-3940256099942544/1033173712</string>
 
-    <string name="app_intro_meeting_title">Start a Meeting</string>
-    <string name="app_intro_meeting_desc">Start or join a video meeting on the go</string>
-    <string name="app_intro_chat_title">Message Your Team</string>
-    <string name="app_intro_chat_desc">Send text messages to your team during the meeting</string>
-    <string name="app_intro_meeting_history_title">Meeting History</string>
-    <string name="app_intro_meeting_history_desc">See the list of your previous meetings and rejoin them anytime.</string>
+    <string name="app_intro_meeting_title">Meet with Momma</string>
+    <string name="app_intro_meeting_desc">Create or join a video chat with MommaCherri</string>
+    <string name="app_intro_chat_title">Cook with Momma</string>
+    <string name="app_intro_chat_desc">Learn a new cooking style with tricks from MommaCherri</string>
+    <string name="app_intro_meeting_history_title">Live with Momma</string>
+    <string name="app_intro_meeting_history_desc">Relish your meal and enhance your lifestyle with tips from MommaCherri</string>
 
     <string name="authentication_sign_in_email">Sign in with Email</string>
     <string name="authentication_sign_in_google">Sign in with Google</string>
@@ -39,7 +39,7 @@
     <string name="meeting_history_last_joined_time">Last joined %1$s</string>
     <string name="meeting_history_toolbar_title">Meeting History</string>
     <string name="meeting_history_delete_meetings">Delete Meetings</string>
-    <string name="meeting_history_empty">You haven\'t joined any meetings yet. Create or Join any meeting from the home screen.</string>
+    <string name="meeting_history_empty">You haven\'t joined any video meetings yet. Join a meeting from the home screen.</string>
     <string name="meeting_history_meeting_code_copied">Meeting Code copied to Clipboard</string>
 
     <string name="profile_sign_out">Sign Out</string>
@@ -49,9 +49,9 @@
     <string name="profile_rate_app">Rate app on Google Play</string>
     <string name="profile_share_app">Share app</string>
     <string name="profile_dot_separator">\u2022</string>
-    <string name="profile_feedback_email_subject">Feedback - Meetly</string>
+    <string name="profile_feedback_email_subject">Feedback - MCVideo</string>
     <string name="profile_share_app_title">Share app via</string>
-    <string name="profile_share_app_text">Download Mommas Cherri Video, do instant video conferences with your family, friends, and colleagues. \n\nhttps://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="profile_share_app_text">Download Mommas Cherri Video, do instant video calls and learn how to cook with MommaCherri. \n\nhttps://play.google.com/store/apps/details?id=%1$s</string>
     <string name="profile_open_source_licenses">Open Source Licenses</string>
 
     <string name="all_skip">Skip</string>
@@ -64,7 +64,8 @@
     <string name="all_creating_meeting">Please wait, creating meeting</string>
     <string name="all_joining_meeting">Please wait, joining meeting</string>
     <string name="all_rejoining_meeting">Please wait, rejoining meeting</string>
-    <string name="all_unauthenticated_user_name">Fellow %1$s user</string>
+    <string name="all_unauthenticated_user_name">%1$s</string>
+    <string name="dummy"> </string>
     <string name="all_faqs">FAQs</string>
 
     <string name="faqs_meeting_code_title">Meeting Code</string>
@@ -76,4 +77,7 @@
     <string name="faqs_end_meeting_desc">A meeting gets created when the first participant joins and is automatically ended when the last one leaves. If someone joins the meeting with the same meeting code again, a brand new meeting is created with the same name and there is no connection to any previous meeting that might have been held with the same name.</string>
     <string name="faqs_password_protection_desc">You can always password protect the meeting once it has started. However, keep in mind that the password will be reset once the meeting is ended. So make sure to set the password again if a meeting is rejoined after it was ended.</string>
     <string name="sign_up">SIGN UP</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter_name">Enter name</string>
+    <string name="choose_a_name">Choose name</string>
 </resources>
