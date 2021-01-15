@@ -21,7 +21,7 @@
 #-renamesourcefileattribute SourceFile
 
 ##--------------------------  Model classes  --------------------------
--keep class com.ictech.mcvideo.model.** { *; }
+-keep class aculix.meetly.app.model.** { *; }
 
 
 #--------------------------  Coroutines --------------------------#

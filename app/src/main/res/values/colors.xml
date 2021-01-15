@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FF5722</color>
-    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#1976D2</color>
 
     <color name="colorSurface">#FFFFFF</color>
     <color name="colorOnSurface">#000000</color>
-    <color name="colorOnPrimary">#000000</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
 
 
     <color name="transparentColor">#0fff</color>
@@ -13,6 +13,4 @@
 
     <color name="splashBgColor">#1976D2</color>
     <color name="dividerColor">#E0E0E0</color>
-
-    <color name="cornerDialog">#828282</color>
 </resources>

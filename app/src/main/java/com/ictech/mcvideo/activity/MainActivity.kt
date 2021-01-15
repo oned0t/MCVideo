@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity() {
             if (etNickname != null){
                 Toast.makeText(applicationContext, "Name submitted", Toast.LENGTH_SHORT).show()
                 dialog.dismiss()
-//                joinMeeting(getJoinMeetingCode())
+                joinMeeting(getJoinMeetingCode())
             }else{
                 Toast.makeText(applicationContext,
                     "Please enter a name",
@@ -226,19 +226,19 @@ class MainActivity : AppCompatActivity() {
      */
     private fun onJoinMeetingClick() {
         binding.btnJoinMeeting.setOnClickListener {
-            setUserNickname()
+//            setUserNickname()
             if (isMeetingCodeValid(getJoinMeetingCode())) {
 
                 if (MCVideo.isAdEnabled) {
                     if (joinMeetingInterstitialAd.isLoaded) {
                         joinMeetingInterstitialAd.show()
                     }else
-                        setUserNickname()
+//                        setUserNickname()
                         
-//                        joinMeeting(getJoinMeetingCode())
+                        joinMeeting(getJoinMeetingCode())
                 } else {
-                    setUserNickname()
-//                    joinMeeting(getJoinMeetingCode())
+//                    setUserNickname()
+                    joinMeeting(getJoinMeetingCode())
                 }
             }
         }

@@ -2,11 +2,11 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">#FF5722</item>
-        <item name="colorPrimaryDark">#FFFFFF</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorSurface">@color/colorSurface</item>
         <item name="colorOnSurface">@color/colorOnSurface</item>
-        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
 
         <!-- Window Decor -->
         <item name="android:windowLightStatusBar" tools:targetApi="m">@bool/use_light_status_bar</item>
@@ -20,7 +20,7 @@
     </style>
 
     <style name="AppTheme.Splash">
-        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="android:windowBackground">@drawable/bg_splash</item>
     </style>
 
     <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
@@ -29,11 +29,9 @@
 
     <!-- Button -->
     <style name="OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
-
+        <item name="strokeColor">?attr/colorPrimary</item>
         <item name="android:paddingTop">12dp</item>
         <item name="android:paddingBottom">12dp</item>
-<!--        <item name="android:textColor">#00E6FF</item>-->
-
     </style>
 
     <style name="FilledButton" parent="Widget.MaterialComponents.Button">
