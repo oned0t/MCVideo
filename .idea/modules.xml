@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MCVideo.iml" filepath="$PROJECT_DIR$/.idea/MCVideo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MCVideo.iml" filepath="$PROJECT_DIR$/.idea/modules/MCVideo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MCVideo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MCVideo.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/MCVideo.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/MCVideo.core.iml" />
     </modules>

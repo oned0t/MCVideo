@@ -1,5 +1,7 @@
 package com.ictech.mcvideo.activity
 
+import android.animation.ArgbEvaluator
+import android.animation.ValueAnimator
 import android.app.Dialog
 import com.core.extensions.*
 import com.ictech.mcvideo.MCVideo
@@ -11,6 +13,7 @@ import com.ictech.mcvideo.utils.MeetingUtils
 import com.ictech.mcvideo.viewmodel.MainViewModel
 import android.content.Context
 import android.content.Intent
+import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
 import android.view.View
@@ -18,6 +21,7 @@ import android.view.Window
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.graphics.ColorUtils
 import androidx.core.widget.doOnTextChanged
 import coil.api.load
 import com.afollestad.materialdialogs.LayoutMode
@@ -74,7 +78,7 @@ class MainActivity : AppCompatActivity() {
 
         onMeetingToggleChange()
         onCreateMeetingCodeChange()
-        onCopyMeetingCodeFromClipboardClick()
+//        onCopyMeetingCodeFromClipboardClick()
         onShareMeetingCodeClick()
 
         onJoinMeetingClick()
@@ -83,23 +87,30 @@ class MainActivity : AppCompatActivity() {
         onProfileClick()
     }
 
-    private fun setUserNickname(){
+    /*private fun setUserNickname(){
         val dialog = Dialog(this, R.style.AppTheme)
 
         dialog.setContentView(R.layout.name_dialog)
         dialog.btnSubmit.setOnClickListener (View.OnClickListener{
-            if (etNickname.text != null){
-                Toast.makeText(applicationContext, "Name submitted", Toast.LENGTH_SHORT).show()
-                dialog.dismiss()
-//                joinMeeting(getJoinMeetingCode())
-            }else{
+            if (etNickname.text.toString().isEmpty()){
                 Toast.makeText(applicationContext,
                     "Please enter a name",
                     Toast.LENGTH_SHORT
                 ).show()
+
+            }else{
+                Toast.makeText(applicationContext, "Name submitted", Toast.LENGTH_SHORT).show()
+                dialog.dismiss()
+//                joinMeeting(getJoinMeetingCode())
             }
         })
         dialog.show()
+    }*/
+
+    private fun openDialogActivity(){
+        val intent = Intent(this, DialogActivity::class.java)
+        intent.putExtra("name","")
+        startActivity(intent)
     }
 
 
@@ -137,7 +148,8 @@ class MainActivity : AppCompatActivity() {
         // Reload ad once shown
         joinMeetingInterstitialAd.adListener = object : AdListener() {
             override fun onAdClosed() {
-                setUserNickname()
+                openDialogActivity()
+//                setUserNickname()
 //                joinMeeting(getJoinMeetingCode())
                 loadJoinMeetingInterstitialAd()
             }
@@ -191,8 +203,8 @@ class MainActivity : AppCompatActivity() {
     /**
      * Called when the clipboard icon is clicked in the EditText of the JOIN MEETING toggle
      */
-    private fun onCopyMeetingCodeFromClipboardClick() {
-        binding.tilCodeJoinMeeting.setEndIconOnClickListener {
+    /*private fun onCopyMeetingCodeFromClipboardClick() {
+        binding.ivClipboard.setOnClickListener {
             val clipboardText = getTextFromClipboard()
             if (clipboardText != null) {
                 binding.tilCodeJoinMeeting.setText(clipboardText)
@@ -201,7 +213,7 @@ class MainActivity : AppCompatActivity() {
                 toast(getString(R.string.main_empty_clipboard))
             }
         }
-    }
+    }*/
 
     /**
      * Called when the share icon is clicked in the EditText of the CREATE MEETING toggle
@@ -227,19 +239,18 @@ class MainActivity : AppCompatActivity() {
      */
     private fun onJoinMeetingClick() {
         binding.btnJoinMeeting.setOnClickListener {
-            setUserNickname()
             if (isMeetingCodeValid(getJoinMeetingCode())) {
 
                 if (MCVideo.isAdEnabled) {
                     if (joinMeetingInterstitialAd.isLoaded) {
                         joinMeetingInterstitialAd.show()
                     }else
-                        setUserNickname()
+
                         
-//                        joinMeeting(getJoinMeetingCode())
+                        joinMeeting(getJoinMeetingCode())
                 } else {
-                    setUserNickname()
-//                    joinMeeting(getJoinMeetingCode())
+//                    setUserNickname()
+                    joinMeeting(getJoinMeetingCode())
                 }
             }
         }

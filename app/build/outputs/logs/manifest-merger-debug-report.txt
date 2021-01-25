@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\O\.gradle\caches\transforms-2\files-2.1\6b77faa397baf925b76dda9516cb789a\jetified-viewbinding-4.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [:core] C:\Users\O\OneDrive\Documents\MCVideo\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:core] D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.AppIntro:AppIntro:6.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\feba657da83f0ae62a630c37e9ef9a51\jetified-AppIntro-6.0.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.afollestad.material-dialogs:bottomsheets:3.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\e5077e7d913a9138ad2ecbbbbecbe82b\jetified-bottomsheets-3.3.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.afollestad.material-dialogs:core:3.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\d4243fa28be032790ff25dc93b5755a2\jetified-core-3.3.0\AndroidManifest.xml:2:1-13:12
@@ -32,7 +32,7 @@ MERGED from [com.facebook.react:react-native-keep-awake:4.0.0-jitsi-4187680] C:\
 MERGED from [com.facebook.react:react-native-linear-gradient:2.5.6-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\c2445add9e7cf4648541431ede1ab7b7\jetified-react-native-linear-gradient-2.5.6-jitsi-4187680\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native-sound:0.11.0-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\e2847f7f10500983a4143aff5bfb4a2e\jetified-react-native-sound-0.11.0-jitsi-4187680\AndroidManifest.xml:2:1-12:12
 MERGED from [com.facebook.react:react-native-svg:9.7.1-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\935737b7060aeed69e972a1c42f00e20\jetified-react-native-svg-9.7.1-jitsi-4187680\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.react:react-native-webrtc:1.75.3-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\f8b08b9507c05d4b5cf1a28607f69146\jetified-react-native-webrtc-1.75.3-jitsi-4187680\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native-webrtc:1.75.3-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\1b58db5a4db3c6dcaff61c5ef63fe130\jetified-react-native-webrtc-1.75.3-jitsi-4187680\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native-webview:7.4.1-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4187680\AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.react:react-native:0.61.5-jitsi.1] C:\Users\O\.gradle\caches\transforms-2\files-2.1\d48966306a446c37554f433592350a42\jetified-react-native-0.61.5-jitsi.1\AndroidManifest.xml:2:1-13:12
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] C:\Users\O\.gradle\caches\transforms-2\files-2.1\9f01e01537012e3c02b625d8decd3f14\jetified-library-1.6.1\AndroidManifest.xml:6:1-15:12
@@ -122,7 +122,7 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\6ad5cb729ae72ff4fc348e7e8c029aaf\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\c1d4df46982636f3b67daf9b76183374\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\1c7e206d177866073f231608d29d6b75\jetified-imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.squareup.duktape:duktape-android:1.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\d50dc3a7f978e221ca60d60d1301d4de\jetified-duktape-android-1.3.0\AndroidManifest.xml:2:1-14:12
+MERGED from [com.squareup.duktape:duktape-android:1.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\f47c315e586d696d9d6d1ef2cf3dfbbf\jetified-duktape-android-1.3.0\AndroidManifest.xml:2:1-14:12
 MERGED from [com.facebook:hermes:0.2.1] C:\Users\O\.gradle\caches\transforms-2\files-2.1\571d57102d3d551aed2f20de3fe3831e\jetified-hermes-0.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\7427388141e54209ed61c2187b4d62e2\jetified-play-services-ads-base-19.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\d48f9496fa76846d4c114207a8805d49\jetified-fresco-2.0.0\AndroidManifest.xml:2:1-9:12
@@ -133,27 +133,27 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\O\.gradle
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\3895408c64584fc284610ef22546f2ee\jetified-imagepipeline-base-2.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\dc8716d416964b2810860e4c3b3c6f15\jetified-soloader-0.6.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\3c8926c9c3d4662fbd7344d407833338\jetified-fbcore-2.0.0\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
 	package
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:4:5-33
-		INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:4:5-33
+		INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
-		INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
+		INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
-		INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:2:1-56:12
+		INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\O\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:13:5-67
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\O\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:13:5-67
 MERGED from [org.jitsi.react:jitsi-meet-sdk:2.8.2] C:\Users\O\.gradle\caches\transforms-2\files-2.1\63a7496f84eed3b8b4219155908c525d\jetified-jitsi-meet-sdk-2.8.2\AndroidManifest.xml:12:5-67
@@ -173,9 +173,9 @@ MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\O\.grad
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.4] C:\Users\O\.gradle\caches\transforms-2\files-2.1\be11db5d2adc2b18efcdce344f2aa38b\jetified-play-services-measurement-sdk-api-17.4.4\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.4] C:\Users\O\.gradle\caches\transforms-2\files-2.1\be11db5d2adc2b18efcdce344f2aa38b\jetified-play-services-measurement-sdk-api-17.4.4\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:7:5-54:19
+ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:7:5-54:19
 MERGED from [com.github.AppIntro:AppIntro:6.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\feba657da83f0ae62a630c37e9ef9a51\jetified-AppIntro-6.0.0\AndroidManifest.xml:11:5-20
 MERGED from [com.github.AppIntro:AppIntro:6.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\feba657da83f0ae62a630c37e9ef9a51\jetified-AppIntro-6.0.0\AndroidManifest.xml:11:5-20
 MERGED from [com.afollestad.material-dialogs:core:3.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\d4243fa28be032790ff25dc93b5755a2\jetified-core-3.3.0\AndroidManifest.xml:11:5-47
@@ -252,8 +252,8 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\O\.gradle\cach
 MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\799fa494612a189764e932c7699739c2\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\945d255f1a3ed79b37f33a4316f13c73\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\945d255f1a3ed79b37f33a4316f13c73\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [com.squareup.duktape:duktape-android:1.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\d50dc3a7f978e221ca60d60d1301d4de\jetified-duktape-android-1.3.0\AndroidManifest.xml:12:5-20
-MERGED from [com.squareup.duktape:duktape-android:1.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\d50dc3a7f978e221ca60d60d1301d4de\jetified-duktape-android-1.3.0\AndroidManifest.xml:12:5-20
+MERGED from [com.squareup.duktape:duktape-android:1.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\f47c315e586d696d9d6d1ef2cf3dfbbf\jetified-duktape-android-1.3.0\AndroidManifest.xml:12:5-20
+MERGED from [com.squareup.duktape:duktape-android:1.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\f47c315e586d696d9d6d1ef2cf3dfbbf\jetified-duktape-android-1.3.0\AndroidManifest.xml:12:5-20
 MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\7427388141e54209ed61c2187b4d62e2\jetified-play-services-ads-base-19.2.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\7427388141e54209ed61c2187b4d62e2\jetified-play-services-ads-base-19.2.0\AndroidManifest.xml:7:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\dc8716d416964b2810860e4c3b3c6f15\jetified-soloader-0.6.0\AndroidManifest.xml:11:5-20
@@ -261,87 +261,87 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\O\.gradle\caches\tra
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] C:\Users\O\.gradle\caches\transforms-2\files-2.1\e14e2255be7bdf577ae6899d209f04ad\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:11:9-41
 	tools:ignore
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:15:9-49
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:15:9-49
 	android:roundIcon
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:12:9-45
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:12:9-46
 	android:icon
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:10:9-40
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:10:9-41
 	android:allowBackup
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:14:9-40
 	android:name
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:8:9-32
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:8:9-32
 activity#com.ictech.mcvideo.activity.SplashActivity
-ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:17:9-26:20
+ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:17:9-26:20
 	android:screenOrientation
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:19:13-49
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:19:13-49
 	android:theme
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:20:13-51
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:20:13-51
 	android:name
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:18:13-52
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:18:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.ictech.mcvideo.activity.AppIntroActivity
-ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:27:9-29:52
+ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:27:9-29:52
 	android:screenOrientation
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:29:13-49
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:29:13-49
 	android:name
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:28:13-54
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:28:13-54
 activity#com.ictech.mcvideo.activity.AuthenticationActivity
-ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:30:9-32:52
+ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:30:9-32:52
 	android:screenOrientation
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:32:13-49
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:32:13-49
 	android:name
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:31:13-60
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:31:13-60
 activity#com.ictech.mcvideo.activity.MainActivity
-ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:33:9-40:20
+ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:33:9-40:20
 	android:screenOrientation
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:35:13-49
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:35:13-49
 	android:name
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:34:13-50
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:34:13-50
 activity#com.ictech.mcvideo.activity.MeetingHistoryActivity
-ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:41:9-44:52
+ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:41:9-44:52
 	android:screenOrientation
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:44:13-49
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:44:13-49
 	android:parentActivityName
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:43:13-64
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:43:13-64
 	android:name
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:42:13-60
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:42:13-60
 activity#com.ictech.mcvideo.activity.FaqsActivity
-ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:45:9-48:52
+ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:45:9-48:52
 	android:screenOrientation
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:48:13-49
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:48:13-49
 	android:parentActivityName
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:47:13-64
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:47:13-64
 	android:name
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:46:13-50
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:46:13-50
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:51:9-53:52
+ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:51:9-53:52
 	android:value
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:53:13-49
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:53:13-49
 	android:name
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml:52:13-69
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml:52:13-69
 uses-sdk
-INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
+INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
+INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\O\.gradle\caches\transforms-2\files-2.1\6b77faa397baf925b76dda9516cb789a\jetified-viewbinding-4.1.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\O\.gradle\caches\transforms-2\files-2.1\6b77faa397baf925b76dda9516cb789a\jetified-viewbinding-4.1.1\AndroidManifest.xml:20:5-44
-MERGED from [:core] C:\Users\O\OneDrive\Documents\MCVideo\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:core] C:\Users\O\OneDrive\Documents\MCVideo\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:core] D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:core] D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.AppIntro:AppIntro:6.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\feba657da83f0ae62a630c37e9ef9a51\jetified-AppIntro-6.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.AppIntro:AppIntro:6.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\feba657da83f0ae62a630c37e9ef9a51\jetified-AppIntro-6.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.afollestad.material-dialogs:bottomsheets:3.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\e5077e7d913a9138ad2ecbbbbecbe82b\jetified-bottomsheets-3.3.0\AndroidManifest.xml:7:5-9:41
@@ -394,8 +394,8 @@ MERGED from [com.facebook.react:react-native-sound:0.11.0-jitsi-4187680] C:\User
 MERGED from [com.facebook.react:react-native-sound:0.11.0-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\e2847f7f10500983a4143aff5bfb4a2e\jetified-react-native-sound-0.11.0-jitsi-4187680\AndroidManifest.xml:8:5-10:41
 MERGED from [com.facebook.react:react-native-svg:9.7.1-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\935737b7060aeed69e972a1c42f00e20\jetified-react-native-svg-9.7.1-jitsi-4187680\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native-svg:9.7.1-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\935737b7060aeed69e972a1c42f00e20\jetified-react-native-svg-9.7.1-jitsi-4187680\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.react:react-native-webrtc:1.75.3-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\f8b08b9507c05d4b5cf1a28607f69146\jetified-react-native-webrtc-1.75.3-jitsi-4187680\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native-webrtc:1.75.3-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\f8b08b9507c05d4b5cf1a28607f69146\jetified-react-native-webrtc-1.75.3-jitsi-4187680\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native-webrtc:1.75.3-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\1b58db5a4db3c6dcaff61c5ef63fe130\jetified-react-native-webrtc-1.75.3-jitsi-4187680\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native-webrtc:1.75.3-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\1b58db5a4db3c6dcaff61c5ef63fe130\jetified-react-native-webrtc-1.75.3-jitsi-4187680\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native-webview:7.4.1-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4187680\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native-webview:7.4.1-jitsi-4187680] C:\Users\O\.gradle\caches\transforms-2\files-2.1\1b412bd2511c531d734afca841e47df4\jetified-react-native-webview-7.4.1-jitsi-4187680\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.5-jitsi.1] C:\Users\O\.gradle\caches\transforms-2\files-2.1\d48966306a446c37554f433592350a42\jetified-react-native-0.61.5-jitsi.1\AndroidManifest.xml:7:5-9:41
@@ -574,8 +574,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\O\.gradle\caches\transforms-2\
 MERGED from [androidx.print:print:1.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\c1d4df46982636f3b67daf9b76183374\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\1c7e206d177866073f231608d29d6b75\jetified-imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\1c7e206d177866073f231608d29d6b75\jetified-imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.squareup.duktape:duktape-android:1.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\d50dc3a7f978e221ca60d60d1301d4de\jetified-duktape-android-1.3.0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.squareup.duktape:duktape-android:1.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\d50dc3a7f978e221ca60d60d1301d4de\jetified-duktape-android-1.3.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.squareup.duktape:duktape-android:1.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\f47c315e586d696d9d6d1ef2cf3dfbbf\jetified-duktape-android-1.3.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.squareup.duktape:duktape-android:1.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\f47c315e586d696d9d6d1ef2cf3dfbbf\jetified-duktape-android-1.3.0\AndroidManifest.xml:8:5-10:41
 MERGED from [com.facebook:hermes:0.2.1] C:\Users\O\.gradle\caches\transforms-2\files-2.1\571d57102d3d551aed2f20de3fe3831e\jetified-hermes-0.2.1\AndroidManifest.xml:5:5-44
 MERGED from [com.facebook:hermes:0.2.1] C:\Users\O\.gradle\caches\transforms-2\files-2.1\571d57102d3d551aed2f20de3fe3831e\jetified-hermes-0.2.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\7427388141e54209ed61c2187b4d62e2\jetified-play-services-ads-base-19.2.0\AndroidManifest.xml:5:5-44
@@ -596,18 +596,18 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\O\.gradle\caches\tra
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\dc8716d416964b2810860e4c3b3c6f15\jetified-soloader-0.6.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\3c8926c9c3d4662fbd7344d407833338\jetified-fbcore-2.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\3c8926c9c3d4662fbd7344d407833338\jetified-fbcore-2.0.0\AndroidManifest.xml:5:5-7:41
-INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
+INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
+INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:19.2.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\ea540160707a3b325d80437549a98625\jetified-play-services-ads-19.2.0\AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
-		INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\O\OneDrive\Documents\MCVideo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\O\.gradle\caches\transforms-2\files-2.1\dc2abe0bafb92c37f2fd31c8234732d5\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:12:5-79
 MERGED from [org.jitsi.react:jitsi-meet-sdk:2.8.2] C:\Users\O\.gradle\caches\transforms-2\files-2.1\63a7496f84eed3b8b4219155908c525d\jetified-jitsi-meet-sdk-2.8.2\AndroidManifest.xml:9:5-79

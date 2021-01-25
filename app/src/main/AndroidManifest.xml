@@ -7,9 +7,9 @@
     <application
         android:name=".MCVideo"
         android:allowBackup="true"
-        android:icon="@drawable/mclogo"
+        android:icon="@drawable/mc_logo"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/mclogo"
+        android:roundIcon="@drawable/mc_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="LockedOrientationActivity">

@@ -6,6 +6,7 @@ import com.core.extensions.toast
 import com.ictech.mcvideo.R
 import android.content.Context
 import androidx.annotation.StringRes
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.os.bundleOf
 import com.google.firebase.auth.FirebaseAuth
 import org.jitsi.meet.sdk.JitsiMeet
@@ -14,7 +15,7 @@ import org.jitsi.meet.sdk.JitsiMeetConferenceOptions
 import org.jitsi.meet.sdk.JitsiMeetUserInfo
 import java.net.URL
 
-object MeetingUtils {
+object MeetingUtils : AppCompatActivity() {
 
 //    @SuppressLint("StringFormatMatches")
     fun startMeeting(context: Context, meetingCode: String, @StringRes initialToastMessage: Int) {
@@ -44,6 +45,7 @@ object MeetingUtils {
             )
 
         } else {
+
 
             bundleOf(
                 "displayName" to context.getString(

@@ -28,6 +28,9 @@ public final class NameDialogBinding implements ViewBinding {
   public final CardView cvName;
 
   @NonNull
+  public final ConstraintLayout dialogBackground;
+
+  @NonNull
   public final EditText etNickname;
 
   @NonNull
@@ -46,12 +49,14 @@ public final class NameDialogBinding implements ViewBinding {
   public final CardView popUpWindowView;
 
   private NameDialogBinding(@NonNull ConstraintLayout rootView, @NonNull TextView btnSubmit,
-      @NonNull CardView cvName, @NonNull EditText etNickname, @NonNull LinearLayout llName,
-      @NonNull LinearLayout llSubmit, @NonNull CardView popUpWindowBorder,
-      @NonNull ConstraintLayout popUpWindowContainer, @NonNull CardView popUpWindowView) {
+      @NonNull CardView cvName, @NonNull ConstraintLayout dialogBackground,
+      @NonNull EditText etNickname, @NonNull LinearLayout llName, @NonNull LinearLayout llSubmit,
+      @NonNull CardView popUpWindowBorder, @NonNull ConstraintLayout popUpWindowContainer,
+      @NonNull CardView popUpWindowView) {
     this.rootView = rootView;
     this.btnSubmit = btnSubmit;
     this.cvName = cvName;
+    this.dialogBackground = dialogBackground;
     this.etNickname = etNickname;
     this.llName = llName;
     this.llSubmit = llSubmit;
@@ -99,6 +104,8 @@ public final class NameDialogBinding implements ViewBinding {
         break missingId;
       }
 
+      ConstraintLayout dialogBackground = (ConstraintLayout) rootView;
+
       id = R.id.etNickname;
       EditText etNickname = rootView.findViewById(id);
       if (etNickname == null) {
@@ -135,8 +142,8 @@ public final class NameDialogBinding implements ViewBinding {
         break missingId;
       }
 
-      return new NameDialogBinding((ConstraintLayout) rootView, btnSubmit, cvName, etNickname,
-          llName, llSubmit, popUpWindowBorder, popUpWindowContainer, popUpWindowView);
+      return new NameDialogBinding((ConstraintLayout) rootView, btnSubmit, cvName, dialogBackground,
+          etNickname, llName, llSubmit, popUpWindowBorder, popUpWindowContainer, popUpWindowView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

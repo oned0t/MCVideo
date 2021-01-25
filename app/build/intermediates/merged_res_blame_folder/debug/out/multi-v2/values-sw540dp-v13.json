@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\O\\OneDrive\\Documents\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw540dp-v13\\values-sw540dp-v13.xml",
+            "outputFile": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw540dp-v13\\values-sw540dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\88d96e937a6bd898d377712e307f13e2\\jetified-ssp-android-1.0.6\\res\\values-sw540dp-v13\\values-sw540dp-v13.xml",
