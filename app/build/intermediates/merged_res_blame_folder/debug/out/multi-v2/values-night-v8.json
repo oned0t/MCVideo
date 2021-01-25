@@ -1,23 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\O\\OneDrive\\Documents\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "source": "C:\\Users\\O\\OneDrive\\Documents\\MCVideo\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
-                        "startLines": "7,6,2,3,5,11,9",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "316,232,57,105,159,472,392",
-                        "endColumns": "48,48,46,50,46,46,50",
-                        "endOffsets": "360,276,99,151,201,514,438"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "400"
                     },
                     "to": {
-                        "startLines": "3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "106,155,204,251,302,349,396",
-                        "endColumns": "48,48,46,50,46,46,50",
-                        "endOffsets": "150,199,246,297,344,391,442"
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "447",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "792"
                     }
                 },
                 {
@@ -38,39 +40,13 @@
                     }
                 },
                 {
-                    "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\values-night\\config.xml",
+                    "source": "C:\\Users\\O\\OneDrive\\Documents\\MCVideo\\app\\src\\main\\res\\values-night\\config.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "50",
-                        "endOffsets": "103"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
                         "endColumns": "50",
                         "endOffsets": "101"
-                    }
-                },
-                {
-                    "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\values-night\\styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "408"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "447",
-                        "endLines": "16",
-                        "endColumns": "12",
-                        "endOffsets": "792"
                     }
                 },
                 {
@@ -88,6 +64,23 @@
                         "startOffsets": "1429,1517,1641,1743,1845,1961,2063,2177,2305,2421,2543,2679,2799,2933,3053,3165,3380,3518,3642,3772,3894,4032,4148",
                         "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137,123,129,121,137,115,119",
                         "endOffsets": "1512,1636,1738,1840,1956,2058,2172,2300,2416,2538,2674,2794,2928,3048,3160,3286,3513,3637,3767,3889,4027,4143,4263"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\O\\OneDrive\\Documents\\MCVideo\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "7,6,2,3,5,11,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "309,226,55,102,154,461,383",
+                        "endColumns": "48,48,46,50,46,46,50",
+                        "endOffsets": "353,270,97,148,196,503,429"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "106,155,204,251,302,349,396",
+                        "endColumns": "48,48,46,50,46,46,50",
+                        "endOffsets": "150,199,246,297,344,391,442"
                     }
                 }
             ]

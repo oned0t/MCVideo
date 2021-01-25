@@ -14,6 +14,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.View
+import android.view.Window
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -83,14 +84,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setUserNickname(){
-        val dialog = Dialog(this)
+        val dialog = Dialog(this, R.style.AppTheme)
 
         dialog.setContentView(R.layout.name_dialog)
         dialog.btnSubmit.setOnClickListener (View.OnClickListener{
-            if (etNickname != null){
+            if (etNickname.text != null){
                 Toast.makeText(applicationContext, "Name submitted", Toast.LENGTH_SHORT).show()
                 dialog.dismiss()
-                joinMeeting(getJoinMeetingCode())
+//                joinMeeting(getJoinMeetingCode())
             }else{
                 Toast.makeText(applicationContext,
                     "Please enter a name",
@@ -226,19 +227,19 @@ class MainActivity : AppCompatActivity() {
      */
     private fun onJoinMeetingClick() {
         binding.btnJoinMeeting.setOnClickListener {
-//            setUserNickname()
+            setUserNickname()
             if (isMeetingCodeValid(getJoinMeetingCode())) {
 
                 if (MCVideo.isAdEnabled) {
                     if (joinMeetingInterstitialAd.isLoaded) {
                         joinMeetingInterstitialAd.show()
                     }else
-//                        setUserNickname()
+                        setUserNickname()
                         
-                        joinMeeting(getJoinMeetingCode())
+//                        joinMeeting(getJoinMeetingCode())
                 } else {
-//                    setUserNickname()
-                    joinMeeting(getJoinMeetingCode())
+                    setUserNickname()
+//                    joinMeeting(getJoinMeetingCode())
                 }
             }
         }
