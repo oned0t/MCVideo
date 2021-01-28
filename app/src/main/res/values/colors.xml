@@ -15,4 +15,6 @@
     <color name="dividerColor">#E0E0E0</color>
 
     <color name="cornerDialog">#828282</color>
+
+    <color name="editTextBackground">#ffffff</color>
 </resources>

@@ -10,5 +10,5 @@
     <color name="transparentColor">#000000</color>  <!-- ChipSkip Colour -->
 
     <color name="dividerColor">#000000</color>
-
+<!--    <color name="editTextBackground">#000000</color>-->
 </resources>

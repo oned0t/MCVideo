@@ -1068,6 +1068,7 @@ color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
 color dividerColor
+color editTextBackground
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -2486,6 +2487,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable et_meeting_code_border
+drawable et_meeting_code_border_ripple
 drawable fui_ic_anonymous_white_24dp
 drawable fui_ic_apple_white_24dp
 drawable fui_ic_check_circle_black_128dp
@@ -2558,7 +2561,7 @@ drawable images_dropboxlogo_square
 drawable images_iconusers
 drawable images_jitsilogo_square
 drawable mc_eat
-drawable mclogo
+drawable mc_logo
 drawable md_btn_selected
 drawable md_btn_selected_dark
 drawable md_btn_selector
@@ -2772,6 +2775,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id dialog_background
 id dialog_button
 id dimensions
 id direct

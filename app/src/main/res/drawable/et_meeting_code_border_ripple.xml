@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@android:color/holo_green_dark">
+    <item android:id="@+id/mask">
+        <shape android:shape="rectangle"/>
+    </item>
+
+    <item android:drawable="@drawable/et_meeting_code_border" />
+    <item>
+        <shape>
+            <stroke android:color="@color/colorPrimaryDark"
+                android:width="@dimen/_2sdp" />
+            <corners android:radius="@dimen/_4sdp" />
+        </shape>
+    </item>
+</ripple>
