@@ -7,6 +7,7 @@
         <item name="colorSurface">@color/colorSurface</item>
         <item name="colorOnSurface">@color/colorOnSurface</item>
         <item name="colorOnPrimary">#000000</item>
+        <item name="rippleColor">@color/rippleColor</item>
 <!--        <item name="editTextBackground">@color/editTextBackground</item>-->
 
         <!-- Window Decor -->

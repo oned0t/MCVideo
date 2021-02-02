@@ -140,6 +140,10 @@
         "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_join_background_ripple.xml.flat",
+        "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\btn_join_background_ripple.xml"
+    },
+    {
         "merged": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },

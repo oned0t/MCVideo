@@ -238,7 +238,7 @@ class MainActivity : AppCompatActivity() {
      * Called when the JOIN button is clicked of the JOIN MEETING toggle
      */
     private fun onJoinMeetingClick() {
-        binding.btnJoinMeeting.setOnClickListener {
+        binding.tvJoinMeeting.setOnClickListener {
             if (isMeetingCodeValid(getJoinMeetingCode())) {
 
                 if (MCVideo.isAdEnabled) {
@@ -281,7 +281,7 @@ class MainActivity : AppCompatActivity() {
      * Called when the CREATE button is clicked of the CREATE MEETING toggle
      */
     private fun onCreateMeetingClick() {
-        binding.btnCreateMeeting.setOnClickListener {
+        binding.llBtnCreateMeeting.setOnClickListener {
             if (isMeetingCodeValid(getCreateMeetingCode())) {
                 if (MCVideo.isAdEnabled) {
                     if (createMeetingInterstitialAd.isLoaded) createMeetingInterstitialAd.show() else createMeeting(

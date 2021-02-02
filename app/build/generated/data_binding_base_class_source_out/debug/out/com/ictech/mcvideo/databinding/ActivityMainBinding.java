@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatEditText;
@@ -15,7 +16,6 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Group;
 import androidx.viewbinding.ViewBinding;
 import com.google.android.material.appbar.MaterialToolbar;
-import com.google.android.material.button.MaterialButton;
 import com.google.android.material.button.MaterialButtonToggleGroup;
 import com.google.android.material.textfield.TextInputLayout;
 import com.ictech.mcvideo.R;
@@ -27,12 +27,6 @@ import java.lang.String;
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
-
-  @NonNull
-  public final MaterialButton btnCreateMeeting;
-
-  @NonNull
-  public final Button btnJoinMeeting;
 
   @NonNull
   public final Button btnToggleCreateMeeting;
@@ -68,6 +62,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final CircleImageView ivProfile;
 
   @NonNull
+  public final LinearLayout llBtnCreateMeeting;
+
+  @NonNull
   public final LinearLayout llBtnJoinMeeting;
 
   @NonNull
@@ -85,20 +82,24 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final MaterialToolbar toolbar;
 
+  @NonNull
+  public final TextView tvCreateMeeting;
+
+  @NonNull
+  public final TextView tvJoinMeeting;
+
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull MaterialButton btnCreateMeeting, @NonNull Button btnJoinMeeting,
       @NonNull Button btnToggleCreateMeeting, @NonNull Button btnToggleJoinMeeting,
       @NonNull ConstraintLayout constrainLayout, @NonNull AppCompatEditText etCodeCreateMeeting,
       @NonNull AppCompatEditText etCodeJoinMeeting, @NonNull Group groupCreateMeeting,
       @NonNull Group groupJoinMeeting, @NonNull AppCompatImageView ivCreateMeeting,
       @NonNull AppCompatImageView ivJoinMeeting, @NonNull AppCompatImageView ivMeetingHistory,
-      @NonNull CircleImageView ivProfile, @NonNull LinearLayout llBtnJoinMeeting,
-      @NonNull FrameLayout llCodeJoinMeeting, @NonNull MaterialButtonToggleGroup tgMeeting,
-      @NonNull TextInputLayout tilCodeCreateMeeting, @NonNull TextInputLayout tilCodeJoinMeeting,
-      @NonNull MaterialToolbar toolbar) {
+      @NonNull CircleImageView ivProfile, @NonNull LinearLayout llBtnCreateMeeting,
+      @NonNull LinearLayout llBtnJoinMeeting, @NonNull FrameLayout llCodeJoinMeeting,
+      @NonNull MaterialButtonToggleGroup tgMeeting, @NonNull TextInputLayout tilCodeCreateMeeting,
+      @NonNull TextInputLayout tilCodeJoinMeeting, @NonNull MaterialToolbar toolbar,
+      @NonNull TextView tvCreateMeeting, @NonNull TextView tvJoinMeeting) {
     this.rootView = rootView;
-    this.btnCreateMeeting = btnCreateMeeting;
-    this.btnJoinMeeting = btnJoinMeeting;
     this.btnToggleCreateMeeting = btnToggleCreateMeeting;
     this.btnToggleJoinMeeting = btnToggleJoinMeeting;
     this.constrainLayout = constrainLayout;
@@ -110,12 +111,15 @@ public final class ActivityMainBinding implements ViewBinding {
     this.ivJoinMeeting = ivJoinMeeting;
     this.ivMeetingHistory = ivMeetingHistory;
     this.ivProfile = ivProfile;
+    this.llBtnCreateMeeting = llBtnCreateMeeting;
     this.llBtnJoinMeeting = llBtnJoinMeeting;
     this.llCodeJoinMeeting = llCodeJoinMeeting;
     this.tgMeeting = tgMeeting;
     this.tilCodeCreateMeeting = tilCodeCreateMeeting;
     this.tilCodeJoinMeeting = tilCodeJoinMeeting;
     this.toolbar = toolbar;
+    this.tvCreateMeeting = tvCreateMeeting;
+    this.tvJoinMeeting = tvJoinMeeting;
   }
 
   @Override
@@ -145,18 +149,6 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnCreateMeeting;
-      MaterialButton btnCreateMeeting = rootView.findViewById(id);
-      if (btnCreateMeeting == null) {
-        break missingId;
-      }
-
-      id = R.id.btnJoinMeeting;
-      Button btnJoinMeeting = rootView.findViewById(id);
-      if (btnJoinMeeting == null) {
-        break missingId;
-      }
-
       id = R.id.btnToggleCreateMeeting;
       Button btnToggleCreateMeeting = rootView.findViewById(id);
       if (btnToggleCreateMeeting == null) {
@@ -219,6 +211,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.llBtnCreateMeeting;
+      LinearLayout llBtnCreateMeeting = rootView.findViewById(id);
+      if (llBtnCreateMeeting == null) {
+        break missingId;
+      }
+
       id = R.id.llBtnJoinMeeting;
       LinearLayout llBtnJoinMeeting = rootView.findViewById(id);
       if (llBtnJoinMeeting == null) {
@@ -255,11 +253,23 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnCreateMeeting, btnJoinMeeting,
-          btnToggleCreateMeeting, btnToggleJoinMeeting, constrainLayout, etCodeCreateMeeting,
-          etCodeJoinMeeting, groupCreateMeeting, groupJoinMeeting, ivCreateMeeting, ivJoinMeeting,
-          ivMeetingHistory, ivProfile, llBtnJoinMeeting, llCodeJoinMeeting, tgMeeting,
-          tilCodeCreateMeeting, tilCodeJoinMeeting, toolbar);
+      id = R.id.tvCreateMeeting;
+      TextView tvCreateMeeting = rootView.findViewById(id);
+      if (tvCreateMeeting == null) {
+        break missingId;
+      }
+
+      id = R.id.tvJoinMeeting;
+      TextView tvJoinMeeting = rootView.findViewById(id);
+      if (tvJoinMeeting == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnToggleCreateMeeting,
+          btnToggleJoinMeeting, constrainLayout, etCodeCreateMeeting, etCodeJoinMeeting,
+          groupCreateMeeting, groupJoinMeeting, ivCreateMeeting, ivJoinMeeting, ivMeetingHistory,
+          ivProfile, llBtnCreateMeeting, llBtnJoinMeeting, llCodeJoinMeeting, tgMeeting,
+          tilCodeCreateMeeting, tilCodeJoinMeeting, toolbar, tvCreateMeeting, tvJoinMeeting);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

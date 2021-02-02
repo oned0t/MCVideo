@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
-        app:constraint_referenced_ids="ivCreateMeeting, tilCodeCreateMeeting, btnCreateMeeting" />
+        app:constraint_referenced_ids="ivCreateMeeting, tilCodeCreateMeeting, llBtnCreateMeeting" />
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar"
@@ -122,14 +122,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="@dimen/_54sdp"
+        android:layout_marginTop="@dimen/_66sdp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ivJoinMeeting"
         app:layout_constraintBottom_toTopOf="@id/llBtnJoinMeeting">
-
-
-
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilCodeJoinMeeting"
@@ -145,50 +142,34 @@
             android:hint="@string/main_enter_meeting_code"
             android:textColor="#363A43"
             android:textColorHint="#7A8089"/>
-    </com.google.android.material.textfield.TextInputLayout>
-
-
+        </com.google.android.material.textfield.TextInputLayout>
     </FrameLayout>
 
     <LinearLayout
         android:id="@+id/llBtnJoinMeeting"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/_30sdp"
         android:orientation="vertical"
         android:layout_marginStart="@dimen/_24sdp"
-        android:layout_marginTop="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_34sdp"
         android:layout_marginEnd="@dimen/_24sdp"
         android:layout_marginBottom="@dimen/_16sdp"
-        android:background="@drawable/btn_join_background"
-
+        app:layout_constraintTop_toBottomOf="@id/llCodeJoinMeeting"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/llCodeJoinMeeting"
         app:layout_constraintBottom_toBottomOf="parent">
-
-    <Button
-        android:id="@+id/btnJoinMeeting"
-        android:layout_gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/main_btn_join_meeting"
-        android:textColorLink="#FFFFFF"
-        app:iconTint="#FF5722"
-        app:rippleColor="#000000"
-        app:strokeColor="#3F51B5
-        />
+        <TextView
+            android:id="@+id/tvJoinMeeting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/btn_join_background_ripple"
+            android:text="@string/main_btn_join_meeting"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/ubuntu_bold"
+            />
     </LinearLayout>
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/ivCreateMeeting"
-        android:layout_width="0dp"
-        android:layout_height="200dp"
-        app:layout_constraintBottom_toTopOf="@+id/tilCodeCreateMeeting"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tgMeeting"
-        app:layout_constraintVertical_chainStyle="packed"
-        app:srcCompat="@drawable/mc_logo" />
 
     <!--<com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilCodeCreateMeeting"
@@ -217,17 +198,29 @@
             android:inputType="textNoSuggestions" />
     </com.google.android.material.textfield.TextInputLayout>-->
 
+    <androidx.appcompat.widget.AppCompatImageView
+    android:id="@+id/ivCreateMeeting"
+    android:layout_width="0dp"
+    android:layout_height="200dp"
+    app:layout_constraintBottom_toTopOf="@+id/tilCodeCreateMeeting"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/tgMeeting"
+    app:layout_constraintVertical_chainStyle="packed"
+    app:srcCompat="@drawable/mc_logo" />
+
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilCodeCreateMeeting"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/_66sdp"
         android:layout_marginStart="@dimen/_24sdp"
         android:layout_marginEnd="@dimen/_24sdp"
         app:endIconDrawable="@drawable/ic_share"
         app:endIconMode="custom"
         app:endIconTint="#FF5722"
-        app:layout_constraintBottom_toTopOf="@+id/btnCreateMeeting"
+        app:layout_constraintBottom_toTopOf="@+id/llBtnCreateMeeting"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivCreateMeeting"
@@ -241,7 +234,7 @@
             android:textColorHint="#7A8089"/>
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.button.MaterialButton
+    <!--<com.google.android.material.button.MaterialButton
         android:id="@+id/btnCreateMeeting"
         style="@style/FilledButton"
         android:layout_width="0dp"
@@ -257,5 +250,29 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilCodeCreateMeeting"
-        app:rippleColor="#000000" />
+        app:rippleColor="#000000" />-->
+    <LinearLayout
+        android:id="@+id/llBtnCreateMeeting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_34sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        app:layout_constraintTop_toBottomOf="@id/tilCodeCreateMeeting"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <TextView
+            android:id="@+id/tvCreateMeeting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/btn_join_background_ripple"
+            android:text="@string/main_btn_create_meeting"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/ubuntu_bold"
+            />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

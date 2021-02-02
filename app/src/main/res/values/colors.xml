@@ -17,4 +17,5 @@
     <color name="cornerDialog">#19828282</color>
 
     <color name="editTextBackground">#ffffff</color>
+    <color name="rippleColor">#FFAAAAAA</color>
 </resources>
