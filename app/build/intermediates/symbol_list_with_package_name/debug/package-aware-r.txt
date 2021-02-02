@@ -1177,7 +1177,6 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
-color rippleColor
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -2455,8 +2454,6 @@ drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
 drawable btn_checkbox_unchecked_to_checked_mtrl_animation
-drawable btn_join_background
-drawable btn_join_background_ripple
 drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
@@ -2464,7 +2461,6 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable btn_rectangle_border
 drawable btn_rectangle_border_ripple
 drawable card_view_border_background
-drawable clipboard
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2492,6 +2488,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable et_meeting_code_border
+drawable et_meeting_code_border_ripple
 drawable fui_ic_anonymous_white_24dp
 drawable fui_ic_apple_white_24dp
 drawable fui_ic_check_circle_black_128dp
@@ -2711,6 +2708,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnCreateMeeting
+id btnJoinMeeting
 id btnRejoinMeeting
 id btnSignInEmail
 id btnSignInGoogle
@@ -2900,9 +2899,6 @@ id linear
 id listMode
 id list_item
 id literal
-id llBtnCreateMeeting
-id llBtnJoinMeeting
-id llCodeJoinMeeting
 id llName
 id llSubmit
 id logo
@@ -3134,12 +3130,10 @@ id trouble_signing_in
 id trouble_signing_in_possible_fixes
 id tvAppName
 id tvAppTagline
-id tvCreateMeeting
 id tvDescription
 id tvDotSeparator
 id tvEmpty
 id tvFaqs
-id tvJoinMeeting
 id tvMeetingCode
 id tvMeetingTime
 id tvOpenSourceLicenses
@@ -4285,7 +4279,6 @@ style TextAppearance_MaterialComponents_Subtitle2
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
-style TextInputLayoutTheme
 style Theme
 style Theme_AppCompat
 style Theme_AppCompat_CompactMenu

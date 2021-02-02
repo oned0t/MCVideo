@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
 
         onMeetingToggleChange()
         onCreateMeetingCodeChange()
-//        onCopyMeetingCodeFromClipboardClick()
+        onCopyMeetingCodeFromClipboardClick()
         onShareMeetingCodeClick()
 
         onJoinMeetingClick()
@@ -203,7 +203,7 @@ class MainActivity : AppCompatActivity() {
     /**
      * Called when the clipboard icon is clicked in the EditText of the JOIN MEETING toggle
      */
-    /*private fun onCopyMeetingCodeFromClipboardClick() {
+    private fun onCopyMeetingCodeFromClipboardClick() {
         binding.ivClipboard.setOnClickListener {
             val clipboardText = getTextFromClipboard()
             if (clipboardText != null) {
@@ -213,7 +213,7 @@ class MainActivity : AppCompatActivity() {
                 toast(getString(R.string.main_empty_clipboard))
             }
         }
-    }*/
+    }
 
     /**
      * Called when the share icon is clicked in the EditText of the CREATE MEETING toggle
@@ -238,7 +238,7 @@ class MainActivity : AppCompatActivity() {
      * Called when the JOIN button is clicked of the JOIN MEETING toggle
      */
     private fun onJoinMeetingClick() {
-        binding.tvJoinMeeting.setOnClickListener {
+        binding.btnJoinMeeting.setOnClickListener {
             if (isMeetingCodeValid(getJoinMeetingCode())) {
 
                 if (MCVideo.isAdEnabled) {
@@ -281,7 +281,7 @@ class MainActivity : AppCompatActivity() {
      * Called when the CREATE button is clicked of the CREATE MEETING toggle
      */
     private fun onCreateMeetingClick() {
-        binding.llBtnCreateMeeting.setOnClickListener {
+        binding.btnCreateMeeting.setOnClickListener {
             if (isMeetingCodeValid(getCreateMeetingCode())) {
                 if (MCVideo.isAdEnabled) {
                     if (createMeetingInterstitialAd.isLoaded) createMeetingInterstitialAd.show() else createMeeting(

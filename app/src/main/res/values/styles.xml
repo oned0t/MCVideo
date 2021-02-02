@@ -7,7 +7,6 @@
         <item name="colorSurface">@color/colorSurface</item>
         <item name="colorOnSurface">@color/colorOnSurface</item>
         <item name="colorOnPrimary">#000000</item>
-        <item name="rippleColor">@color/rippleColor</item>
 <!--        <item name="editTextBackground">@color/editTextBackground</item>-->
 
         <!-- Window Decor -->
@@ -41,9 +40,6 @@
     <style name="FilledButton" parent="Widget.MaterialComponents.Button">
         <item name="android:paddingTop">12dp</item>
         <item name="android:paddingBottom">12dp</item>
-        <item name="android:backgroundTint">@color/colorPrimaryDark</item>
-        <item name="android:background">@drawable/btn_join_background</item>
-
     </style>
 
     <!-- ImageView -->

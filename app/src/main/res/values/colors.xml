@@ -14,8 +14,7 @@
     <color name="splashBgColor">#1976D2</color>
     <color name="dividerColor">#E0E0E0</color>
 
-    <color name="cornerDialog">#19828282</color>
+    <color name="cornerDialog">#828282</color>
 
     <color name="editTextBackground">#ffffff</color>
-    <color name="rippleColor">#FFAAAAAA</color>
 </resources>
