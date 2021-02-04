@@ -80,4 +80,5 @@
     <string name="submit">SUBMIT</string>
     <string name="enter_name">Enter name</string>
     <string name="choose_a_name">Choose name</string>
+    <string name="choose_a_charc">Choose character</string>
 </resources>
