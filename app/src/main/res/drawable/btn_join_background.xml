@@ -10,7 +10,7 @@
     </item>
     <item>
         <shape>
-    <stroke android:color="@color/cornerDialog"
+    <stroke android:color="@color/rippleColor"
         android:width="@dimen/_2sdp" />
 
             <padding
@@ -20,5 +20,4 @@
             <corners android:radius="@dimen/_3sdp" />
         </shape>
     </item>
-
 </layer-list>
