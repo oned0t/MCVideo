@@ -9,14 +9,15 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.graphics.ColorUtils
 import com.ictech.mcvideo.databinding.NameDialogBinding
 
+
 class DialogActivity : AppCompatActivity() {
     private var etNickname = ""
-    private lateinit var binding: DialogActivityBinding
+    private lateinit var binding: NameDialogBinding  // ViewBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         overridePendingTransition(0,0)
-        binding = DialogActivityBinding.inflate(layoutInflater)
+        binding = NameDialogBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val bundle = intent.extras
