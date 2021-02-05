@@ -5,18 +5,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.AppCompatEditText;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Group;
 import androidx.viewbinding.ViewBinding;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.button.MaterialButtonToggleGroup;
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import com.ictech.mcvideo.R;
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -29,6 +31,12 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView btnCreateMeeting;
+
+  @NonNull
+  public final TextView btnJoinMeeting;
+
+  @NonNull
   public final Button btnToggleCreateMeeting;
 
   @NonNull
@@ -38,16 +46,19 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ConstraintLayout constrainLayout;
 
   @NonNull
-  public final AppCompatEditText etCodeCreateMeeting;
+  public final TextInputEditText etCodeCreateMeeting;
 
   @NonNull
-  public final AppCompatEditText etCodeJoinMeeting;
+  public final EditText etCodeJoinMeeting;
 
   @NonNull
   public final Group groupCreateMeeting;
 
   @NonNull
   public final Group groupJoinMeeting;
+
+  @NonNull
+  public final ImageView ivClipboard;
 
   @NonNull
   public final AppCompatImageView ivCreateMeeting;
@@ -82,24 +93,21 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final MaterialToolbar toolbar;
 
-  @NonNull
-  public final TextView tvCreateMeeting;
-
-  @NonNull
-  public final TextView tvJoinMeeting;
-
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextView btnCreateMeeting, @NonNull TextView btnJoinMeeting,
       @NonNull Button btnToggleCreateMeeting, @NonNull Button btnToggleJoinMeeting,
-      @NonNull ConstraintLayout constrainLayout, @NonNull AppCompatEditText etCodeCreateMeeting,
-      @NonNull AppCompatEditText etCodeJoinMeeting, @NonNull Group groupCreateMeeting,
-      @NonNull Group groupJoinMeeting, @NonNull AppCompatImageView ivCreateMeeting,
-      @NonNull AppCompatImageView ivJoinMeeting, @NonNull AppCompatImageView ivMeetingHistory,
-      @NonNull CircleImageView ivProfile, @NonNull LinearLayout llBtnCreateMeeting,
-      @NonNull LinearLayout llBtnJoinMeeting, @NonNull FrameLayout llCodeJoinMeeting,
-      @NonNull MaterialButtonToggleGroup tgMeeting, @NonNull TextInputLayout tilCodeCreateMeeting,
-      @NonNull TextInputLayout tilCodeJoinMeeting, @NonNull MaterialToolbar toolbar,
-      @NonNull TextView tvCreateMeeting, @NonNull TextView tvJoinMeeting) {
+      @NonNull ConstraintLayout constrainLayout, @NonNull TextInputEditText etCodeCreateMeeting,
+      @NonNull EditText etCodeJoinMeeting, @NonNull Group groupCreateMeeting,
+      @NonNull Group groupJoinMeeting, @NonNull ImageView ivClipboard,
+      @NonNull AppCompatImageView ivCreateMeeting, @NonNull AppCompatImageView ivJoinMeeting,
+      @NonNull AppCompatImageView ivMeetingHistory, @NonNull CircleImageView ivProfile,
+      @NonNull LinearLayout llBtnCreateMeeting, @NonNull LinearLayout llBtnJoinMeeting,
+      @NonNull FrameLayout llCodeJoinMeeting, @NonNull MaterialButtonToggleGroup tgMeeting,
+      @NonNull TextInputLayout tilCodeCreateMeeting, @NonNull TextInputLayout tilCodeJoinMeeting,
+      @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
+    this.btnCreateMeeting = btnCreateMeeting;
+    this.btnJoinMeeting = btnJoinMeeting;
     this.btnToggleCreateMeeting = btnToggleCreateMeeting;
     this.btnToggleJoinMeeting = btnToggleJoinMeeting;
     this.constrainLayout = constrainLayout;
@@ -107,6 +115,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.etCodeJoinMeeting = etCodeJoinMeeting;
     this.groupCreateMeeting = groupCreateMeeting;
     this.groupJoinMeeting = groupJoinMeeting;
+    this.ivClipboard = ivClipboard;
     this.ivCreateMeeting = ivCreateMeeting;
     this.ivJoinMeeting = ivJoinMeeting;
     this.ivMeetingHistory = ivMeetingHistory;
@@ -118,8 +127,6 @@ public final class ActivityMainBinding implements ViewBinding {
     this.tilCodeCreateMeeting = tilCodeCreateMeeting;
     this.tilCodeJoinMeeting = tilCodeJoinMeeting;
     this.toolbar = toolbar;
-    this.tvCreateMeeting = tvCreateMeeting;
-    this.tvJoinMeeting = tvJoinMeeting;
   }
 
   @Override
@@ -149,6 +156,18 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnCreateMeeting;
+      TextView btnCreateMeeting = rootView.findViewById(id);
+      if (btnCreateMeeting == null) {
+        break missingId;
+      }
+
+      id = R.id.btnJoinMeeting;
+      TextView btnJoinMeeting = rootView.findViewById(id);
+      if (btnJoinMeeting == null) {
+        break missingId;
+      }
+
       id = R.id.btnToggleCreateMeeting;
       Button btnToggleCreateMeeting = rootView.findViewById(id);
       if (btnToggleCreateMeeting == null) {
@@ -164,13 +183,13 @@ public final class ActivityMainBinding implements ViewBinding {
       ConstraintLayout constrainLayout = (ConstraintLayout) rootView;
 
       id = R.id.etCodeCreateMeeting;
-      AppCompatEditText etCodeCreateMeeting = rootView.findViewById(id);
+      TextInputEditText etCodeCreateMeeting = rootView.findViewById(id);
       if (etCodeCreateMeeting == null) {
         break missingId;
       }
 
       id = R.id.etCodeJoinMeeting;
-      AppCompatEditText etCodeJoinMeeting = rootView.findViewById(id);
+      EditText etCodeJoinMeeting = rootView.findViewById(id);
       if (etCodeJoinMeeting == null) {
         break missingId;
       }
@@ -184,6 +203,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.groupJoinMeeting;
       Group groupJoinMeeting = rootView.findViewById(id);
       if (groupJoinMeeting == null) {
+        break missingId;
+      }
+
+      id = R.id.ivClipboard;
+      ImageView ivClipboard = rootView.findViewById(id);
+      if (ivClipboard == null) {
         break missingId;
       }
 
@@ -253,23 +278,11 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvCreateMeeting;
-      TextView tvCreateMeeting = rootView.findViewById(id);
-      if (tvCreateMeeting == null) {
-        break missingId;
-      }
-
-      id = R.id.tvJoinMeeting;
-      TextView tvJoinMeeting = rootView.findViewById(id);
-      if (tvJoinMeeting == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnToggleCreateMeeting,
-          btnToggleJoinMeeting, constrainLayout, etCodeCreateMeeting, etCodeJoinMeeting,
-          groupCreateMeeting, groupJoinMeeting, ivCreateMeeting, ivJoinMeeting, ivMeetingHistory,
-          ivProfile, llBtnCreateMeeting, llBtnJoinMeeting, llCodeJoinMeeting, tgMeeting,
-          tilCodeCreateMeeting, tilCodeJoinMeeting, toolbar, tvCreateMeeting, tvJoinMeeting);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnCreateMeeting, btnJoinMeeting,
+          btnToggleCreateMeeting, btnToggleJoinMeeting, constrainLayout, etCodeCreateMeeting,
+          etCodeJoinMeeting, groupCreateMeeting, groupJoinMeeting, ivClipboard, ivCreateMeeting,
+          ivJoinMeeting, ivMeetingHistory, ivProfile, llBtnCreateMeeting, llBtnJoinMeeting,
+          llCodeJoinMeeting, tgMeeting, tilCodeCreateMeeting, tilCodeJoinMeeting, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

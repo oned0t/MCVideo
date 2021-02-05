@@ -78,6 +78,9 @@
             android:name="com.ictech.mcvideo.activity.FaqsActivity"
             android:parentActivityName="com.ictech.mcvideo.activity.MainActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ictech.mcvideo.activity.DialogActivity"
+            android:screenOrientation="portrait" />
 
         <!-- Admob -->
         <meta-data

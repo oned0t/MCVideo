@@ -46,6 +46,9 @@
             android:name=".activity.FaqsActivity"
             android:parentActivityName=".activity.MainActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DialogActivity"
+            android:screenOrientation="portrait" />
 
         <!-- Admob -->
         <meta-data

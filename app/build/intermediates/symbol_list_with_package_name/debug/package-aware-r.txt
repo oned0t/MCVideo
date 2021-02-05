@@ -989,6 +989,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color borderColor
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1068,7 +1069,6 @@ color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
 color dividerColor
-color editTextBackground
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -1177,6 +1177,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color rippleColor
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -2454,6 +2455,8 @@ drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
 drawable btn_checkbox_unchecked_to_checked_mtrl_animation
+drawable btn_join_background
+drawable btn_join_background_ripple
 drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
@@ -2461,6 +2464,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable btn_rectangle_border
 drawable btn_rectangle_border_ripple
 drawable card_view_border_background
+drawable clipboard
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2875,6 +2879,7 @@ id invisible
 id invisible_frame
 id italic
 id item_touch_helper_previous_elevation
+id ivClipboard
 id ivCreateMeeting
 id ivEmpty
 id ivJoinMeeting
@@ -2899,6 +2904,9 @@ id linear
 id listMode
 id list_item
 id literal
+id llBtnCreateMeeting
+id llBtnJoinMeeting
+id llCodeJoinMeeting
 id llName
 id llSubmit
 id logo
@@ -3537,6 +3545,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
+string choose_a_charc
 string choose_a_name
 string clear_text_end_icon_content_description
 string combobox_description
@@ -4597,6 +4606,7 @@ style Widget_MaterialProgressBar_ProgressBar_NoPadding
 style Widget_MaterialProgressBar_ProgressBar_Small
 style Widget_MaterialProgressBar_ProgressBar_Small_NoPadding
 style Widget_Support_CoordinatorLayout
+style editText
 style redboxButton
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity

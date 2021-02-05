@@ -16,5 +16,6 @@
 
     <color name="cornerDialog">#828282</color>
 
-    <color name="rippleColor">#828282</color>
+    <color name="rippleColor">#86828282</color>
+    <color name="borderColor">#86828282</color>
 </resources>

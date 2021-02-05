@@ -60,4 +60,9 @@
         <item name="android:textColor">?android:attr/textColorPrimary</item>
         <item name="android:textSize">@dimen/text_size_s</item>
     </style>
+
+    <style name="editText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="roundingBorderColor">@android:color/darker_gray</item>
+    </style>
+
 </resources>

@@ -70,8 +70,8 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:gravity="left"
-                    android:layout_marginLeft="@dimen/_10sdp"
-                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
                     android:padding="@dimen/_4sdp">
 
                     <EditText
@@ -114,7 +114,7 @@
                         android:includeFontPadding="false"
                         android:background="@drawable/btn_rectangle_border_ripple"
                         android:text="@string/submit"
-                        android:textColor="@color/colorOnSurface"
+                        android:textColor="@android:color/black"
                         />
                 </LinearLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>

@@ -148,7 +148,7 @@ class MainActivity : AppCompatActivity() {
         // Reload ad once shown
         joinMeetingInterstitialAd.adListener = object : AdListener() {
             override fun onAdClosed() {
-                openDialogActivity()
+//                openDialogActivity()
 //                setUserNickname()
 //                joinMeeting(getJoinMeetingCode())
                 loadJoinMeetingInterstitialAd()
@@ -246,10 +246,10 @@ class MainActivity : AppCompatActivity() {
                         joinMeetingInterstitialAd.show()
                     }else
 
-                        
+                        openDialogActivity()
                         joinMeeting(getJoinMeetingCode())
                 } else {
-//                    setUserNickname()
+
                     joinMeeting(getJoinMeetingCode())
                 }
             }
