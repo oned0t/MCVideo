@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:id="@+id/dialog_background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    >
+    tools:context=".activity.DialogActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/popUpWindowBorder"
@@ -58,9 +57,11 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvName"
+                style="@style/editTextName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_10sdp"
+                android:background="@android:color/white"
                 app:cardCornerRadius="@dimen/_4sdp"
                 app:layout_constraintTop_toTopOf="parent">
 
@@ -75,12 +76,12 @@
                     android:padding="@dimen/_4sdp">
 
                     <EditText
+
                         android:id="@+id/etNickname"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_30sdp"
                         android:layout_marginStart="@dimen/_8sdp"
                         android:layout_marginEnd="@dimen/_8sdp"
-                        android:background="@null"
                         android:fontFamily="@font/ubuntu_regular"
                         android:hint="@string/enter_name"
                         android:imeOptions="actionNext"

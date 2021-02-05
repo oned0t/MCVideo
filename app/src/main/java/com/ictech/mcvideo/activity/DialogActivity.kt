@@ -11,12 +11,12 @@ import com.ictech.mcvideo.databinding.NameDialogBinding
 
 class DialogActivity : AppCompatActivity() {
     private var etNickname = ""
-    private lateinit var binding: NameDialogBinding
+    private lateinit var binding: DialogActivityBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         overridePendingTransition(0,0)
-        binding = NameDialogBinding.inflate(layoutInflater)
+        binding = DialogActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val bundle = intent.extras

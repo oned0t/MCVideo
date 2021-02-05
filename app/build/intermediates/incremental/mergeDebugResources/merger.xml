@@ -6805,6 +6805,10 @@
         <item name="android:textSize">@dimen/text_size_s</item>
     </style><style name="editText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="roundingBorderColor">@android:color/darker_gray</item>
+
+    </style><style name="editTextName" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="background">@android:color/white</item>
+        <item name="roundingBorderColor">@android:color/darker_gray</item>
     </style></file><file path="D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\res\values-night\colors.xml" qualifiers="night-v8"><color name="colorPrimary">#64B5F6</color><color name="colorPrimaryDark">#FF5722</color><color name="colorSurface">#000000</color><color name="colorOnSurface">#988984</color><color name="colorOnPrimary">#FF5722</color><color name="transparentColor">#000000</color><color name="dividerColor">#000000</color><color name="rippleColor">#85000000</color><color name="whiteColor">#000000</color><color name="borderColor">#ff5722</color></file><file path="D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\res\values-night\config.xml" qualifiers="night-v8"><bool name="use_light_status_bar">false</bool></file><file path="D:\Users\O\1MEGA\AndroidProg\MCApps\MCVideo\app\src\main\res\values-night\styles.xml" qualifiers="night-v8"><style name="DarkTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">#FF6D00</item>
         <item name="colorPrimaryDark">#FF6D00</item>

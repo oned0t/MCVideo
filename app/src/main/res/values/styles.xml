@@ -63,6 +63,12 @@
 
     <style name="editText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="roundingBorderColor">@android:color/darker_gray</item>
+
+    </style>
+
+    <style name="editTextName" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="background">@android:color/white</item>
+        <item name="roundingBorderColor">@android:color/darker_gray</item>
     </style>
 
 </resources>
