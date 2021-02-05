@@ -18,4 +18,5 @@
 
     <color name="rippleColor">#86828282</color>
     <color name="borderColor">#86828282</color>
+    <color name="dialogBorder">#000000</color>
 </resources>

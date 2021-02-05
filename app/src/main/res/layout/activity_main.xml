@@ -132,12 +132,11 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilCodeJoinMeeting"
-            style="@style/editText"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/_24sdp"
             android:layout_marginRight="@dimen/_24sdp"
-            android:hint="@string/main_enter_meeting_code"
             app:boxStrokeColor="#FF6D00"
             app:counterEnabled="true"
             app:endIconMode="custom"
@@ -148,6 +147,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/etCodeJoinMeeting"
+                android:background="@drawable/et_meeting_code_border_ripple"
+                android:hint="@string/main_enter_meeting_code"
                 android:inputType="textNoSuggestions"
                 android:importantForAutofill="no" />
 

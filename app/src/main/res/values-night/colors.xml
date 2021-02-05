@@ -12,4 +12,5 @@
     <color name="dividerColor">#000000</color>
     <color name="borderColor">#ff5722</color>
     <color name="rippleColor">#85000000</color>
+    <color name="dialogBorder">#988984</color>
 </resources>
