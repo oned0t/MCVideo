@@ -50,6 +50,8 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(context, MainActivity::class.java)
             context.startActivity(intent)
         }
+        const val DIALOG_ACTIVITY_REQUEST_CODE = 1
+        const val NAME = "name"
     }
 
     private val viewModel by viewModel<MainViewModel>() // Lazy inject ViewModel
@@ -91,7 +93,7 @@ class MainActivity : AppCompatActivity() {
         val dialog = Dialog(this, R.style.AppTheme)
 
         dialog.setContentView(R.layout.name_dialog)
-        dialog.btnSubmit.setOnClickListener (View.OnClickListener{
+        dialog.Submit.setOnClickListener (View.OnClickListener{
             if (etNickname.text.toString().isEmpty()){
                 Toast.makeText(applicationContext,
                     "Please enter a name",
@@ -110,7 +112,7 @@ class MainActivity : AppCompatActivity() {
     private fun openDialogActivity(){
         val intent = Intent(this, DialogActivity::class.java)
         intent.putExtra("name","")
-        startActivity(intent)
+        startActivityForResult(intent, DIALOG_ACTIVITY_REQUEST_CODE)
     }
 
 

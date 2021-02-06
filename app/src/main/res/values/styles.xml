@@ -62,7 +62,7 @@
     </style>
 
     <style name="editText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-        <item name="roundingBorderColor">@android:color/darker_gray</item>
+        <item name="borderlessButtonStyle">@android:color/holo_green_light</item>
 
     </style>
 

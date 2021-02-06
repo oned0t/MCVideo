@@ -6,6 +6,7 @@ import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.graphics.ColorUtils
 import com.ictech.mcvideo.databinding.NameDialogBinding
@@ -25,22 +26,17 @@ class DialogActivity : AppCompatActivity() {
         val bundle = intent.extras
         etNickname = bundle?.getString("name", "") ?: ""
         etNickname = binding.etNickname.text.toString()
-        backgroundFadeAnim(
+        backgroundFadeAnim()
 
-    }
-
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-
-        if (requestCode == rcNickname) {
-
+        binding.btnSubmit.setOnClickListener {
+            if (etNickname.isEmpty()) {
+                Toast.makeText(this, "Please enter a name", Toast.LENGTH_SHORT).show()
+            } else {
+                val intent = Intent(this, MainActivity::class.java)
+                intent.putExtra(MainActivity.NAME, etNickname)
+            }
         }
-    }
 
-    private fun setNickname(){
-        if(etNickname != null){
-
-        }
     }
 
     private fun backgroundFadeAnim(){
