@@ -1,21 +1,30 @@
 package com.ictech.mcvideo.activity
 
+import android.animation.Animator
+import android.animation.AnimatorListenerAdapter
 import android.animation.ArgbEvaluator
 import android.animation.ValueAnimator
+import android.app.Activity
 import android.content.Intent
 import android.graphics.Color
+import android.os.Build
 import android.os.Bundle
+import android.view.View
+import android.view.WindowManager
+import android.view.animation.DecelerateInterpolator
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.graphics.ColorUtils
+import com.ictech.mcvideo.R
 import com.ictech.mcvideo.databinding.NameDialogBinding
+import kotlinx.android.synthetic.main.name_dialog.view.*
 
 
 class DialogActivity : AppCompatActivity() {
-    private var etNickname = ""
+    private var etNickname: String = ""
+    private var darkStatusBar = false
     private lateinit var binding: NameDialogBinding  // ViewBinding
-    private val rcNickname = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,21 +34,27 @@ class DialogActivity : AppCompatActivity() {
 
         val bundle = intent.extras
         etNickname = bundle?.getString("name", "") ?: ""
-        etNickname = binding.etNickname.text.toString()
-        backgroundFadeAnim()
+        val etNickname = findViewById<EditText>(R.id.etNickname)
 
-        binding.btnSubmit.setOnClickListener {
-            if (etNickname.isEmpty()) {
-                Toast.makeText(this, "Please enter a name", Toast.LENGTH_SHORT).show()
-            } else {
-                val intent = Intent(this, MainActivity::class.java)
-                intent.putExtra(MainActivity.NAME, etNickname)
+        // Set the Status bar appearance for different API levels
+        if (Build.VERSION.SDK_INT in 19..20) {
+            setWindowFlag(this, true)
+        }
+        window.decorView.systemUiVisibility =
+            View.SYSTEM_UI_FLAG_LAYOUT_STABLE or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+        if (Build.VERSION.SDK_INT >= 21) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                // If you want dark status bar, set darkStatusBar to true
+                if (darkStatusBar) {
+                    this.window.decorView.systemUiVisibility =
+                        View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+                }
+                this.window.statusBarColor = Color.TRANSPARENT
+                setWindowFlag(this, false)
             }
         }
 
-    }
-
-    private fun backgroundFadeAnim(){
+//        backgroundFadeAnim()
         // Fade animation for the background of Dialog Window
         val alpha = 100 //between 0-255
         val alphaColor = ColorUtils.setAlphaComponent(Color.parseColor("#000000"), alpha)
@@ -49,6 +64,67 @@ class DialogActivity : AppCompatActivity() {
             binding.dialogBackground.setBackgroundColor(animator.animatedValue as Int)
         }
         colorAnimation.start()
+
+        binding.btnSubmit.setOnClickListener {
+            val etInput: String = etNickname.text.toString()
+            if (etInput.trim().isEmpty()) {
+                Toast.makeText(this, "Please enter a name", Toast.LENGTH_SHORT).show()
+            } else {
+                val intent = Intent(this, MainActivity::class.java)
+                intent.putExtra(MainActivity.NAME, etInput)
+                onBackPressed()
+            }
+        }
     }
 
+    override fun onBackPressed() {
+        // Fade animation for the background of Popup Window when you press the back button
+        val alpha = 100 // between 0-255
+        val alphaColor = ColorUtils.setAlphaComponent(Color.parseColor("#000000"), alpha)
+        val colorAnimation = ValueAnimator.ofObject(ArgbEvaluator(), alphaColor, Color.TRANSPARENT)
+        colorAnimation.duration = 500 // milliseconds
+        colorAnimation.addUpdateListener { animator ->
+            binding.dialogBackground.setBackgroundColor(
+                animator.animatedValue as Int
+            )
+        }
+
+        // Fade animation for the Popup Window when you press the back button
+        binding.popUpWindowBorder.animate().alpha(0f).setDuration(500).setInterpolator(
+            DecelerateInterpolator()
+        ).start()
+
+        // After animation finish, close the Activity
+        colorAnimation.addListener(object : AnimatorListenerAdapter() {
+            override fun onAnimationEnd(animation: Animator) {
+                finish()
+                overridePendingTransition(0, 0)
+            }
+        })
+        colorAnimation.start()
+    }
+
+    private fun setWindowFlag(activity: Activity, on: Boolean) {
+        val win = activity.window
+        val winParams = win.attributes
+        if (on) {
+            winParams.flags = winParams.flags or WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS
+        } else {
+            winParams.flags = winParams.flags and WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS.inv()
+        }
+        win.attributes = winParams
+    }
+
+
+    /*private fun backgroundFadeAnim(){
+        // Fade animation for the background of Dialog Window
+        val alpha = 100 //between 0-255
+        val alphaColor = ColorUtils.setAlphaComponent(Color.parseColor("#000000"), alpha)
+        val colorAnimation = ValueAnimator.ofObject(ArgbEvaluator(), Color.TRANSPARENT, alphaColor)
+        colorAnimation.duration = 500 // milliseconds
+        colorAnimation.addUpdateListener { animator ->
+            binding.dialogBackground.setBackgroundColor(animator.animatedValue as Int)
+        }
+        colorAnimation.start()
+    }*/
 }

@@ -2766,6 +2766,7 @@ id cross_device_linking_body
 id custom
 id customPanel
 id cut
+id cvCodeJoinMeeting
 id cvName
 id dark
 id date_picker_actions
@@ -3115,7 +3116,6 @@ id textinput_helper_text
 id tgMeeting
 id ticker
 id tilCodeCreateMeeting
-id tilCodeJoinMeeting
 id time
 id title
 id titleDividerNoCustom
@@ -3549,6 +3549,7 @@ string chip_text
 string choose_a_charc
 string choose_a_name
 string clear_text_end_icon_content_description
+string clipboard
 string combobox_description
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text

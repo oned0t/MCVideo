@@ -81,4 +81,5 @@
     <string name="enter_name">Enter name</string>
     <string name="choose_a_name">Choose name</string>
     <string name="choose_a_charc">Choose character</string>
+    <string name="clipboard">Copy to clipboard</string>
 </resources>

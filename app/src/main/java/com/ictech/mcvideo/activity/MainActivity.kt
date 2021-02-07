@@ -93,8 +93,8 @@ class MainActivity : AppCompatActivity() {
         val dialog = Dialog(this, R.style.AppTheme)
 
         dialog.setContentView(R.layout.name_dialog)
-        dialog.Submit.setOnClickListener (View.OnClickListener{
-            if (etNickname.text.toString().isEmpty()){
+        dialog.btnSubmit.setOnClickListener (View.OnClickListener{
+            if (etNickname.text.isEmpty()){
                 Toast.makeText(applicationContext,
                     "Please enter a name",
                     Toast.LENGTH_SHORT
@@ -150,7 +150,7 @@ class MainActivity : AppCompatActivity() {
         // Reload ad once shown
         joinMeetingInterstitialAd.adListener = object : AdListener() {
             override fun onAdClosed() {
-//                openDialogActivity()
+                openDialogActivity()
 //                setUserNickname()
 //                joinMeeting(getJoinMeetingCode())
                 loadJoinMeetingInterstitialAd()
@@ -209,7 +209,7 @@ class MainActivity : AppCompatActivity() {
         binding.ivClipboard.setOnClickListener {
             val clipboardText = getTextFromClipboard()
             if (clipboardText != null) {
-                binding.tilCodeJoinMeeting.setText(clipboardText)
+                binding.etCodeJoinMeeting.setText(clipboardText)
                 toast(getString(R.string.main_meeting_code_copied))
             } else {
                 toast(getString(R.string.main_empty_clipboard))
@@ -250,6 +250,7 @@ class MainActivity : AppCompatActivity() {
 
                         openDialogActivity()
                         joinMeeting(getJoinMeetingCode())
+//                        setUserNickname()
                 } else {
 
                     joinMeeting(getJoinMeetingCode())
