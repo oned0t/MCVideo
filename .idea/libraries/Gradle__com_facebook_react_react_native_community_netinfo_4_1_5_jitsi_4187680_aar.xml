@@ -3,9 +3,10 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2163325f5a3d7f13442d0bcf04963d05/jetified-react-native-community_netinfo-4.1.5-jitsi-4187680/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2163325f5a3d7f13442d0bcf04963d05/jetified-react-native-community_netinfo-4.1.5-jitsi-4187680/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d240343c9cd57a5f7002ea98b6c456f/jetified-react-native-community_netinfo-4.1.5-jitsi-4187680/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d240343c9cd57a5f7002ea98b6c456f/jetified-react-native-community_netinfo-4.1.5-jitsi-4187680/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d240343c9cd57a5f7002ea98b6c456f/jetified-react-native-community_netinfo-4.1.5-jitsi-4187680/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/490365755c4ee3a7f7dc691986a33b06/jetified-react-native-community_netinfo-4.1.5-jitsi-4187680/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/490365755c4ee3a7f7dc691986a33b06/jetified-react-native-community_netinfo-4.1.5-jitsi-4187680/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/490365755c4ee3a7f7dc691986a33b06/jetified-react-native-community_netinfo-4.1.5-jitsi-4187680/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

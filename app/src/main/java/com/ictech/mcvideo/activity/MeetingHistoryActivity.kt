@@ -188,7 +188,8 @@ class MeetingHistoryActivity : AppCompatActivity() {
                 MeetingUtils.startMeeting(
                     this@MeetingHistoryActivity,
                     item.meeting.code,
-                    R.string.all_rejoining_meeting
+                    R.string.all_rejoining_meeting,
+                    MainActivity.NAME
                 ) // Start Meeting
 
                 viewModel.addMeetingToDb(

@@ -9,6 +9,8 @@
         <item name="colorOnPrimary">#000000</item>
         <item name="rippleColor">@color/rippleColor</item>
 
+        <item name="snackbarStyle">@style/Widget.MaterialComponents.Snackbar</item>
+
         <!-- Window Decor -->
         <item name="android:windowLightStatusBar" tools:targetApi="m">@bool/use_light_status_bar</item>
         <item name="android:statusBarColor">@color/transparentColor</item>
@@ -61,10 +63,8 @@
         <item name="android:textSize">@dimen/text_size_s</item>
     </style>
 
-    <style name="editText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-<!--        <item name="background">@android:color/white</item>-->
-        <item name="roundingBorderColor">@android:color/holo_green_light</item>
-
+    <style name="editText" parent="Widget.AppCompat.EditText">
+        <item name="boxBackgroundMode">@null</item>
     </style>
 
     <style name="editTextName" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
@@ -72,5 +72,12 @@
         <item name="roundingBorderColor">@android:color/holo_green_light</item>
         <item name="borderWidth">@dimen/_45sdp</item>
     </style>
+
+    <style name="snackbarStyle" parent="@style/Widget.MaterialComponents.Snackbar">
+        <item name="android:layout_marginStart">@dimen/_25sdp</item>
+        <item name="android:background">@color/whiteColor</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+    </style>
+
 
 </resources>

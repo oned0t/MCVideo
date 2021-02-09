@@ -25,16 +25,10 @@ public final class NameDialogBinding implements ViewBinding {
   public final TextView btnSubmit;
 
   @NonNull
-  public final CardView cvName;
-
-  @NonNull
   public final ConstraintLayout dialogBackground;
 
   @NonNull
   public final EditText etNickname;
-
-  @NonNull
-  public final LinearLayout llName;
 
   @NonNull
   public final LinearLayout llSubmit;
@@ -49,16 +43,13 @@ public final class NameDialogBinding implements ViewBinding {
   public final CardView popUpWindowView;
 
   private NameDialogBinding(@NonNull ConstraintLayout rootView, @NonNull TextView btnSubmit,
-      @NonNull CardView cvName, @NonNull ConstraintLayout dialogBackground,
-      @NonNull EditText etNickname, @NonNull LinearLayout llName, @NonNull LinearLayout llSubmit,
-      @NonNull CardView popUpWindowBorder, @NonNull ConstraintLayout popUpWindowContainer,
-      @NonNull CardView popUpWindowView) {
+      @NonNull ConstraintLayout dialogBackground, @NonNull EditText etNickname,
+      @NonNull LinearLayout llSubmit, @NonNull CardView popUpWindowBorder,
+      @NonNull ConstraintLayout popUpWindowContainer, @NonNull CardView popUpWindowView) {
     this.rootView = rootView;
     this.btnSubmit = btnSubmit;
-    this.cvName = cvName;
     this.dialogBackground = dialogBackground;
     this.etNickname = etNickname;
-    this.llName = llName;
     this.llSubmit = llSubmit;
     this.popUpWindowBorder = popUpWindowBorder;
     this.popUpWindowContainer = popUpWindowContainer;
@@ -98,23 +89,11 @@ public final class NameDialogBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.cvName;
-      CardView cvName = rootView.findViewById(id);
-      if (cvName == null) {
-        break missingId;
-      }
-
       ConstraintLayout dialogBackground = (ConstraintLayout) rootView;
 
       id = R.id.etNickname;
       EditText etNickname = rootView.findViewById(id);
       if (etNickname == null) {
-        break missingId;
-      }
-
-      id = R.id.llName;
-      LinearLayout llName = rootView.findViewById(id);
-      if (llName == null) {
         break missingId;
       }
 
@@ -142,8 +121,8 @@ public final class NameDialogBinding implements ViewBinding {
         break missingId;
       }
 
-      return new NameDialogBinding((ConstraintLayout) rootView, btnSubmit, cvName, dialogBackground,
-          etNickname, llName, llSubmit, popUpWindowBorder, popUpWindowContainer, popUpWindowView);
+      return new NameDialogBinding((ConstraintLayout) rootView, btnSubmit, dialogBackground,
+          etNickname, llSubmit, popUpWindowBorder, popUpWindowContainer, popUpWindowView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

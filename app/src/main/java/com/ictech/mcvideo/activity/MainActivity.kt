@@ -2,6 +2,7 @@ package com.ictech.mcvideo.activity
 
 import android.animation.ArgbEvaluator
 import android.animation.ValueAnimator
+import android.app.Activity
 import android.app.Dialog
 import com.core.extensions.*
 import com.ictech.mcvideo.MCVideo
@@ -16,8 +17,10 @@ import android.content.Intent
 import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.view.Window
+import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -51,16 +54,17 @@ class MainActivity : AppCompatActivity() {
             context.startActivity(intent)
         }
         const val DIALOG_ACTIVITY_REQUEST_CODE = 1
-        const val NAME = "name"
+        const val NAME: String = "name"
     }
 
     private val viewModel by viewModel<MainViewModel>() // Lazy inject ViewModel
     private lateinit var binding: ActivityMainBinding
 
-    private val minMeetingCodeLength = 10
+    private val minMeetingCodeLength = 1
     private var currentUser: FirebaseUser? = null
     private lateinit var createMeetingInterstitialAd: InterstitialAd
     private lateinit var joinMeetingInterstitialAd: InterstitialAd
+    private var Name = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -80,13 +84,14 @@ class MainActivity : AppCompatActivity() {
 
         onMeetingToggleChange()
         onCreateMeetingCodeChange()
-        onCopyMeetingCodeFromClipboardClick()
+//        onCopyMeetingCodeFromClipboardClick()
         onShareMeetingCodeClick()
 
         onJoinMeetingClick()
         onCreateMeetingClick()
         onMeetingHistoryClick()
         onProfileClick()
+
     }
 
     /*private fun setUserNickname(){
@@ -111,9 +116,24 @@ class MainActivity : AppCompatActivity() {
 
     private fun openDialogActivity(){
         val intent = Intent(this, DialogActivity::class.java)
-        intent.putExtra("name","")
         startActivityForResult(intent, DIALOG_ACTIVITY_REQUEST_CODE)
     }
+
+        override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+            super.onActivityResult(requestCode, resultCode, data)
+            var name = ""
+            if (resultCode == RESULT_OK) {
+                if (data != null) {
+                    name = data.getStringExtra(NAME).toString()
+                    Toast.makeText(this, name, Toast.LENGTH_SHORT).show()
+                    joinMeeting(getJoinMeetingCode())
+                }
+            } else if (resultCode == Activity.RESULT_CANCELED) {
+                Log.e("Res Cancelled", " Cancelled")
+                Toast.makeText(this, Name, Toast.LENGTH_SHORT).show()
+            }
+            joinMeeting(getJoinMeetingCode())
+        }
 
 
     private fun setProfileIcon() {
@@ -205,7 +225,7 @@ class MainActivity : AppCompatActivity() {
     /**
      * Called when the clipboard icon is clicked in the EditText of the JOIN MEETING toggle
      */
-    private fun onCopyMeetingCodeFromClipboardClick() {
+    /*private fun onCopyMeetingCodeFromClipboardClick() {
         binding.ivClipboard.setOnClickListener {
             val clipboardText = getTextFromClipboard()
             if (clipboardText != null) {
@@ -215,7 +235,7 @@ class MainActivity : AppCompatActivity() {
                 toast(getString(R.string.main_empty_clipboard))
             }
         }
-    }
+    }*/
 
     /**
      * Called when the share icon is clicked in the EditText of the CREATE MEETING toggle
@@ -260,11 +280,15 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun joinMeeting(meetingCode: String) {
+
+
         MeetingUtils.startMeeting(
-            this,
-            meetingCode,
-            R.string.all_joining_meeting
-        ) // Start Meeting
+                this,
+                meetingCode,
+                R.string.all_joining_meeting,
+                Name
+            )
+         // Start Meeting
 
         viewModel.addMeetingToDb(
             Meeting(
@@ -301,7 +325,8 @@ class MainActivity : AppCompatActivity() {
         MeetingUtils.startMeeting(
             this,
             meetingCode,
-            R.string.all_creating_meeting
+            R.string.all_creating_meeting,
+            etName = null
         ) // Start Meeting
 
         viewModel.addMeetingToDb(

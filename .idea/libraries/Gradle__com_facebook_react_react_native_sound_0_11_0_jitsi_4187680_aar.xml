@@ -3,9 +3,10 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e781810a361f7f3180f0fc0fe9dcd490/jetified-react-native-sound-0.11.0-jitsi-4187680/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e781810a361f7f3180f0fc0fe9dcd490/jetified-react-native-sound-0.11.0-jitsi-4187680/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2847f7f10500983a4143aff5bfb4a2e/jetified-react-native-sound-0.11.0-jitsi-4187680/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2847f7f10500983a4143aff5bfb4a2e/jetified-react-native-sound-0.11.0-jitsi-4187680/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2847f7f10500983a4143aff5bfb4a2e/jetified-react-native-sound-0.11.0-jitsi-4187680/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab284aa4893cf7ec924ec05750a9472c/jetified-react-native-sound-0.11.0-jitsi-4187680/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab284aa4893cf7ec924ec05750a9472c/jetified-react-native-sound-0.11.0-jitsi-4187680/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab284aa4893cf7ec924ec05750a9472c/jetified-react-native-sound-0.11.0-jitsi-4187680/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

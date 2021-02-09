@@ -39,7 +39,7 @@ class AppIntroActivity : AppIntro2() {
         super.onDonePressed(currentFragment)
 
         AppPref.isAppIntroShown = true
-        AuthenticationActivity.startActivity(this)
+        MainActivity.startActivity(this)
         finish()
     }
 

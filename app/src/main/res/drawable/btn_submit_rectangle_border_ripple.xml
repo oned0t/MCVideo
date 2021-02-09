@@ -5,5 +5,5 @@
         <shape android:shape="rectangle"/>
     </item>
 
-    <item android:drawable="@drawable/btn_rectangle_border"/>
+    <item android:drawable="@drawable/btn_submit_rectangle_border"/>
 </ripple>

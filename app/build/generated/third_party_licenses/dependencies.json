@@ -7,21 +7,21 @@
     },
     {
         "group": "androidx.databinding",
-        "version": "4.1.1",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.databinding\\viewbinding\\4.1.1\\b4dfbcce2fa22cfea5f9da283175a72cf6503ae8\\viewbinding-4.1.1.aar",
+        "version": "4.1.2",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.databinding\\viewbinding\\4.1.2\\1c81ede3c797bb34ce58433350782d75b9aab860\\viewbinding-4.1.2.aar",
         "name": "viewbinding"
-    },
-    {
-        "group": "com.facebook.react",
-        "version": "7.4.1-jitsi-4187680",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.react\\react-native-webview\\7.4.1-jitsi-4187680\\80cc8ad7349cb4f534fbf50648131dddc793223b\\react-native-webview-7.4.1-jitsi-4187680.aar",
-        "name": "react-native-webview"
     },
     {
         "group": "androidx.localbroadcastmanager",
         "version": "1.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.localbroadcastmanager\\localbroadcastmanager\\1.0.0\\2734f31c8321e83ce6b60570d14777fc33cc2ece\\localbroadcastmanager-1.0.0.aar",
         "name": "localbroadcastmanager"
+    },
+    {
+        "group": "com.facebook.react",
+        "version": "7.4.1-jitsi-4187680",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.react\\react-native-webview\\7.4.1-jitsi-4187680\\80cc8ad7349cb4f534fbf50648131dddc793223b\\react-native-webview-7.4.1-jitsi-4187680.aar",
+        "name": "react-native-webview"
     },
     {
         "group": "org.jetbrains.kotlinx",
@@ -148,12 +148,6 @@
         "version": "1.1.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.vectordrawable\\vectordrawable-animated\\1.1.0\\fcda1161354501471c30a4e077af6b5c4d4eddc6\\vectordrawable-animated-1.1.0.aar",
         "name": "vectordrawable-animated"
-    },
-    {
-        "group": "com.google.android.material",
-        "version": "1.1.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.material\\material\\1.1.0\\d61ed3259ed48bb0db311d73ab9f358554987b2\\material-1.1.0.aar",
-        "name": "material"
     },
     {
         "group": "io.coil-kt",
@@ -306,16 +300,16 @@
         "name": "fresco"
     },
     {
-        "group": "androidx.lifecycle",
-        "version": "2.2.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-extensions\\2.2.0\\149e43cc6d81adf05f2b71384810a0354cc7e095\\lifecycle-extensions-2.2.0.aar",
-        "name": "lifecycle-extensions"
-    },
-    {
         "group": "androidx.legacy",
         "version": "1.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.legacy\\legacy-support-core-utils\\1.0.0\\9b9570042115da8629519090dfeb71df75da59fc\\legacy-support-core-utils-1.0.0.aar",
         "name": "legacy-support-core-utils"
+    },
+    {
+        "group": "androidx.lifecycle",
+        "version": "2.2.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-extensions\\2.2.0\\149e43cc6d81adf05f2b71384810a0354cc7e095\\lifecycle-extensions-2.2.0.aar",
+        "name": "lifecycle-extensions"
     },
     {
         "group": "com.squareup.duktape",
@@ -516,6 +510,18 @@
         "name": "firebase-installations"
     },
     {
+        "group": "androidx.constraintlayout",
+        "version": "2.0.1",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.constraintlayout\\constraintlayout-solver\\2.0.1\\30988fe2d77f3fe3bf7551bb8a8b795fad7e7226\\constraintlayout-solver-2.0.1.jar",
+        "name": "constraintlayout-solver"
+    },
+    {
+        "group": "com.google.android.material",
+        "version": "1.3.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.material\\material\\1.3.0\\eb5f05b4af91bb9dac4a1abd1143ee9341f9145f\\material-1.3.0.aar",
+        "name": "material"
+    },
+    {
         "group": "com.facebook.react",
         "version": "3.0.1-jitsi-4187680",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.react\\react-native-google-signin\\3.0.1-jitsi-4187680\\32884a4cf88f8da98cca5556ddaa5883ce465b25\\react-native-google-signin-3.0.1-jitsi-4187680.aar",
@@ -618,6 +624,12 @@
         "name": "lifecycle-common"
     },
     {
+        "group": "androidx.dynamicanimation",
+        "version": "1.0.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.dynamicanimation\\dynamicanimation\\1.0.0\\e980497a58fb319d471f3bb78d066b926a08ba8e\\dynamicanimation-1.0.0.aar",
+        "name": "dynamicanimation"
+    },
+    {
         "group": "com.facebook.fresco",
         "version": "2.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.fresco\\drawee\\2.0.0\\a85bfaeb87a9c8d1521c70edf6ded91ff9999475\\drawee-2.0.0.aar",
@@ -718,12 +730,6 @@
         "version": "9.7.1-jitsi-4187680",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.react\\react-native-svg\\9.7.1-jitsi-4187680\\1e910543c33e0758d30280e81c05bf2fa86a020\\react-native-svg-9.7.1-jitsi-4187680.aar",
         "name": "react-native-svg"
-    },
-    {
-        "group": "androidx.constraintlayout",
-        "version": "2.0.0-beta6",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.constraintlayout\\constraintlayout\\2.0.0-beta6\\7a36d14d3bc9f5085fd8b7cbd1bf73a3055a647d\\constraintlayout-2.0.0-beta6.aar",
-        "name": "constraintlayout"
     },
     {
         "group": "com.facebook.fresco",
@@ -846,12 +852,6 @@
         "name": "react-native-background-timer"
     },
     {
-        "group": "androidx.constraintlayout",
-        "version": "2.0.0-beta6",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.constraintlayout\\constraintlayout-solver\\2.0.0-beta6\\cef2f31494d7c7ef0f9913f93571d69481d18e79\\constraintlayout-solver-2.0.0-beta6.jar",
-        "name": "constraintlayout-solver"
-    },
-    {
         "group": "org.jetbrains.kotlin",
         "version": "1.3.72",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-common\\1.3.72\\6ca8bee3d88957eaaaef077c41c908c9940492d8\\kotlin-stdlib-common-1.3.72.jar",
@@ -862,6 +862,12 @@
         "version": "16.0.1",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains\\annotations\\16.0.1\\c1a6655cebcac68e63e4c24d23f573035032eb2a\\annotations-16.0.1.jar",
         "name": "annotations"
+    },
+    {
+        "group": "androidx.annotation",
+        "version": "1.0.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.annotation\\annotation-experimental\\1.0.0\\fe9ba8247a591ebf8e16f0cf80af7a2045c981e0\\annotation-experimental-1.0.0.aar",
+        "name": "annotation-experimental"
     },
     {
         "group": "androidx.legacy",
@@ -898,6 +904,12 @@
         "version": "1.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.asynclayoutinflater\\asynclayoutinflater\\1.0.0\\5ffa788d19a6863799f25cb50d4fdfb0ec649037\\asynclayoutinflater-1.0.0.aar",
         "name": "asynclayoutinflater"
+    },
+    {
+        "group": "androidx.constraintlayout",
+        "version": "2.0.1",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.constraintlayout\\constraintlayout\\2.0.1\\fab633b1873e5c1fbe49d919fab85ed1f8cf47ca\\constraintlayout-2.0.1.aar",
+        "name": "constraintlayout"
     },
     {
         "group": "com.github.marlonlom",

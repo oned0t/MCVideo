@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#64B5F6</color>
+    <color name="colorPrimary">#FF5722</color>
     <color name="colorPrimaryDark">#FF5722</color>
 
     <color name="colorSurface">#000000</color>  <!-- ToolBar Colour -->
@@ -8,7 +8,7 @@
     <color name="colorOnPrimary">#FFFFFF</color>    <!-- Text Colour -->
 
     <color name="transparentColor">#000000</color>  <!-- ChipSkip Colour -->
-    <color name="whiteColor">#000000</color>
+    <color name="whiteColor">#141414</color>
     <color name="dividerColor">#000000</color>
     <color name="borderColor">#ff5722</color>
     <color name="rippleColor">#85000000</color>

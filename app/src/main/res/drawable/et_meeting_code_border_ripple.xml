@@ -2,8 +2,6 @@
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
     android:color="@null">
 
-
-    <item android:drawable="@drawable/et_meeting_code_border" />
     <item>
         <shape>
             <stroke android:color="@null"

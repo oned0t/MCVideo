@@ -4,8 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea07010a66dedb0fdb78771fd3405b6e/jetified-react-native-community-async-storage-1.3.4-jitsi-4187680/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea07010a66dedb0fdb78771fd3405b6e/jetified-react-native-community-async-storage-1.3.4-jitsi-4187680/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a53cfb58338afafb03add3c05fd56a0/jetified-react-native-community-async-storage-1.3.4-jitsi-4187680/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a53cfb58338afafb03add3c05fd56a0/jetified-react-native-community-async-storage-1.3.4-jitsi-4187680/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a53cfb58338afafb03add3c05fd56a0/jetified-react-native-community-async-storage-1.3.4-jitsi-4187680/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ddaa261c2980d48f0e9806cdb8cd10e/jetified-react-native-community-async-storage-1.3.4-jitsi-4187680/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ddaa261c2980d48f0e9806cdb8cd10e/jetified-react-native-community-async-storage-1.3.4-jitsi-4187680/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ddaa261c2980d48f0e9806cdb8cd10e/jetified-react-native-community-async-storage-1.3.4-jitsi-4187680/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

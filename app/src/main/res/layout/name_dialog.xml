@@ -3,7 +3,7 @@
 xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:id="@+id/dialog_background"
+    android:id="@+id/dialogBackground"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activity.DialogActivity">
@@ -51,51 +51,42 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/popUpWindowContainer"
             android:layout_width="250dp"
             android:minHeight="140dp"
-            android:background="@android:color/white"
+            android:background="@color/whiteColor"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true">
 
 
-            <androidx.cardview.widget.CardView
-                android:id="@+id/cvName"
-                style="@style/editTextName"
+
+
+            <EditText
+                android:id="@+id/etNickname"
+                style="@style/editText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
-                android:backgroundTint="@android:color/white"
-                app:cardCornerRadius="@dimen/_4sdp"
-                app:layout_constraintTop_toTopOf="parent">
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:fontFamily="@font/ubuntu_regular"
+                android:hint="@string/enter_name"
+                android:background="@drawable/et_meeting_code_border"
+                android:imeOptions="actionNext"
+                android:ems="10"
+                android:textCursorDrawable="@drawable/cursor_color"
 
-                <LinearLayout
-                    android:id="@+id/llName"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:gravity="left"
-                    android:layout_marginStart="@dimen/_1sdp"
-                    android:layout_marginEnd="@dimen/_10sdp"
-                    android:padding="@dimen/_4sdp">
-
-                    <EditText
-
-                        android:id="@+id/etNickname"
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/_30sdp"
-                        android:layout_marginStart="@dimen/_8sdp"
-                        android:layout_marginEnd="@dimen/_8sdp"
-                        android:fontFamily="@font/ubuntu_regular"
-                        android:hint="@string/enter_name"
-                        android:background="@android:color/white"
-                        android:imeOptions="actionNext"
-                        android:importantForAutofill="no"
-                        android:includeFontPadding="false"
-                        android:inputType="text"
-                        android:textColor="@android:color/black"
-                        android:textColorHint="@android:color/darker_gray"
-                        android:textSize="@dimen/_12ssp" />
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
+                android:importantForAutofill="no"
+                android:includeFontPadding="false"
+                android:inputType="text"
+                android:paddingEnd="@dimen/_8sdp"
+                android:textColor="@color/colorOnPrimary"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="@dimen/_12ssp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
                 <LinearLayout
                     android:id="@+id/llSubmit"
                     android:layout_width="wrap_content"
@@ -106,7 +97,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
                     app:layout_constraintBottom_toBottomOf="@id/popUpWindowContainer"
                     app:layout_constraintLeft_toLeftOf="@id/popUpWindowContainer"
                     app:layout_constraintRight_toRightOf="@id/popUpWindowContainer"
-                    app:layout_constraintTop_toBottomOf="@id/cvName"
+                    app:layout_constraintTop_toBottomOf="@id/etNickname"
                     >
                     <TextView
                         android:id="@+id/btnSubmit"
@@ -116,9 +107,9 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:paddingBottom="2dp"
                         android:fontFamily="@font/ubuntu_bold"
                         android:includeFontPadding="false"
-                        android:background="@drawable/btn_rectangle_border_ripple"
+                        android:background="@drawable/btn_submit_rectangle_border_ripple"
                         android:text="@string/submit"
-                        android:textColor="@android:color/black"
+                        android:textColor="@color/colorOnPrimary"
                         />
                 </LinearLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>

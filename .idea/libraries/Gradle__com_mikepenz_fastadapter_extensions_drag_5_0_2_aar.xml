@@ -3,9 +3,10 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/895817e63fcbe0c5a72d2f206e688692/jetified-fastadapter-extensions-drag-5.0.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/895817e63fcbe0c5a72d2f206e688692/jetified-fastadapter-extensions-drag-5.0.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d113634801e252aa789eba78a511d82/jetified-fastadapter-extensions-drag-5.0.2/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d113634801e252aa789eba78a511d82/jetified-fastadapter-extensions-drag-5.0.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d113634801e252aa789eba78a511d82/jetified-fastadapter-extensions-drag-5.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3f3aa113dd61696f34c9d28346c55b11/jetified-fastadapter-extensions-drag-5.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3f3aa113dd61696f34c9d28346c55b11/jetified-fastadapter-extensions-drag-5.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3f3aa113dd61696f34c9d28346c55b11/jetified-fastadapter-extensions-drag-5.0.2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/fastadapter-extensions-drag/5.0.2/b3de6e857454cf865898c01d21624b7b0cc30025/fastadapter-extensions-drag-5.0.2-javadoc.jar!/" />
