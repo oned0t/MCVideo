@@ -18,7 +18,7 @@ import java.net.URL
 object MeetingUtils : AppCompatActivity() {
 
 //    @SuppressLint("StringFormatMatches")
-    fun startMeeting(context: Context, meetingCode: String, @StringRes initialToastMessage: Int, etName: String?) {
+    fun startMeeting(context: Context, meetingCode: String, @StringRes initialToastMessage: Int, name: String?) {
         context.toast(context.getString(initialToastMessage))
 
         val serverUrl = URL(context.getString(R.string.app_server_url))
@@ -50,7 +50,7 @@ object MeetingUtils : AppCompatActivity() {
             bundleOf(
                 "displayName" to context.getString(
                     R.string.all_unauthenticated_user_name,
-                    etName
+                    name
                 ))
 
             /*bundleOf(

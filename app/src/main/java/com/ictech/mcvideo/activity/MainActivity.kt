@@ -1,9 +1,6 @@
 package com.ictech.mcvideo.activity
 
-import android.animation.ArgbEvaluator
-import android.animation.ValueAnimator
 import android.app.Activity
-import android.app.Dialog
 import com.core.extensions.*
 import com.ictech.mcvideo.MCVideo
 import com.ictech.mcvideo.R
@@ -14,17 +11,13 @@ import com.ictech.mcvideo.utils.MeetingUtils
 import com.ictech.mcvideo.viewmodel.MainViewModel
 import android.content.Context
 import android.content.Intent
-import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.view.Window
-import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.core.graphics.ColorUtils
 import androidx.core.widget.doOnTextChanged
 import coil.api.load
 import com.afollestad.materialdialogs.LayoutMode
@@ -32,7 +25,6 @@ import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.bottomsheets.BottomSheet
 import com.afollestad.materialdialogs.callbacks.onDismiss
 import com.afollestad.materialdialogs.customview.customView
-import com.firebase.ui.auth.AuthUI
 import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
@@ -64,7 +56,7 @@ class MainActivity : AppCompatActivity() {
     private var currentUser: FirebaseUser? = null
     private lateinit var createMeetingInterstitialAd: InterstitialAd
     private lateinit var joinMeetingInterstitialAd: InterstitialAd
-    private var Name = ""
+    private var name: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -92,6 +84,7 @@ class MainActivity : AppCompatActivity() {
         onMeetingHistoryClick()
         onProfileClick()
 
+
     }
 
     /*private fun setUserNickname(){
@@ -106,7 +99,7 @@ class MainActivity : AppCompatActivity() {
                 ).show()
 
             }else{
-                Toast.makeText(applicationContext, "Name submitted", Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext, "name submitted", Toast.LENGTH_SHORT).show()
                 dialog.dismiss()
 //                joinMeeting(getJoinMeetingCode())
             }
@@ -121,18 +114,19 @@ class MainActivity : AppCompatActivity() {
 
         override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
             super.onActivityResult(requestCode, resultCode, data)
-            var name = ""
+
             if (resultCode == RESULT_OK) {
                 if (data != null) {
-                    name = data.getStringExtra(NAME).toString()
-                    Toast.makeText(this, name, Toast.LENGTH_SHORT).show()
+                    name = data.getStringExtra(NAME)
+//                    Toast.makeText(this, name, Toast.LENGTH_SHORT).show()
                     joinMeeting(getJoinMeetingCode())
                 }
             } else if (resultCode == Activity.RESULT_CANCELED) {
                 Log.e("Res Cancelled", " Cancelled")
-                Toast.makeText(this, Name, Toast.LENGTH_SHORT).show()
+//                name = data!!.getStringExtra(NAME)
+                Toast.makeText(this, "Join meeting failed", Toast.LENGTH_SHORT).show()
             }
-            joinMeeting(getJoinMeetingCode())
+//            joinMeeting(getJoinMeetingCode())
         }
 
 
@@ -170,10 +164,10 @@ class MainActivity : AppCompatActivity() {
         // Reload ad once shown
         joinMeetingInterstitialAd.adListener = object : AdListener() {
             override fun onAdClosed() {
-                openDialogActivity()
 //                setUserNickname()
-//                joinMeeting(getJoinMeetingCode())
+                joinMeeting(getJoinMeetingCode())
                 loadJoinMeetingInterstitialAd()
+                openDialogActivity()
             }
         }
     }
@@ -269,10 +263,11 @@ class MainActivity : AppCompatActivity() {
                     }else
 
                         openDialogActivity()
-                        joinMeeting(getJoinMeetingCode())
+//                        joinMeeting(getJoinMeetingCode())
 //                        setUserNickname()
                 } else {
 
+                    openDialogActivity()
                     joinMeeting(getJoinMeetingCode())
                 }
             }
@@ -286,7 +281,7 @@ class MainActivity : AppCompatActivity() {
                 this,
                 meetingCode,
                 R.string.all_joining_meeting,
-                Name
+                name
             )
          // Start Meeting
 
@@ -326,7 +321,7 @@ class MainActivity : AppCompatActivity() {
             this,
             meetingCode,
             R.string.all_creating_meeting,
-            etName = null
+            name = null
         ) // Start Meeting
 
         viewModel.addMeetingToDb(

@@ -80,7 +80,8 @@ class DialogActivity : AppCompatActivity(){
                         getString(R.string.enter_name_error),
                         Snackbar.LENGTH_SHORT
                 ).show()*/
-                val mSnackbar: Snackbar = Snackbar.make(binding.dialogBackground,
+                val mSnackbar: Snackbar = Snackbar.make(
+                        binding.dialogBackground,
                         R.string.enter_name_error,
                         Snackbar.LENGTH_SHORT)
                 val mTextView = mSnackbar.view.findViewById<TextView>(com.google.android.material.R.id.snackbar_text)
@@ -90,12 +91,14 @@ class DialogActivity : AppCompatActivity(){
                 view.setBackgroundColor(Color.GRAY)
                 mSnackbar.show()
             } else {
-                Toast.makeText(applicationContext, "Done", Toast.LENGTH_SHORT).show()
+                onBackPressed()
+//                Toast.makeText(applicationContext, "Done", Toast.LENGTH_SHORT).show()
                 val intent = Intent(this, MainActivity::class.java)
                 intent.putExtra(MainActivity.NAME, etName!!.text.toString())
-                onBackPressed()
-
+                setResult(Activity.RESULT_OK, intent)
+//                finish()
             }
+
         }
             /*val etInput = etName.text.toString()
             if (etInput < 1.toString()) {
