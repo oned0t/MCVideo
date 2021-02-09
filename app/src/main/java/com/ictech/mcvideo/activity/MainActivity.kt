@@ -1,20 +1,14 @@
 package com.ictech.mcvideo.activity
 
 import android.app.Activity
-import com.core.extensions.*
-import com.ictech.mcvideo.MCVideo
-import com.ictech.mcvideo.R
-import com.ictech.mcvideo.databinding.ActivityMainBinding
-import com.ictech.mcvideo.model.Meeting
-import com.ictech.mcvideo.sharedpref.AppPref
-import com.ictech.mcvideo.utils.MeetingUtils
-import com.ictech.mcvideo.viewmodel.MainViewModel
+import android.content.ClipData
+import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import android.util.Log
 import android.view.View
+import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -25,6 +19,7 @@ import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.bottomsheets.BottomSheet
 import com.afollestad.materialdialogs.callbacks.onDismiss
 import com.afollestad.materialdialogs.customview.customView
+import com.core.extensions.*
 import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
@@ -33,6 +28,13 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputLayout
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import com.ictech.mcvideo.MCVideo
+import com.ictech.mcvideo.R
+import com.ictech.mcvideo.databinding.ActivityMainBinding
+import com.ictech.mcvideo.model.Meeting
+import com.ictech.mcvideo.sharedpref.AppPref
+import com.ictech.mcvideo.utils.MeetingUtils
+import com.ictech.mcvideo.viewmodel.MainViewModel
 import kotlinx.android.synthetic.main.activity_main.view.*
 import kotlinx.android.synthetic.main.dialog_profile.*
 import kotlinx.android.synthetic.main.name_dialog.*
@@ -56,7 +58,7 @@ class MainActivity : AppCompatActivity() {
     private var currentUser: FirebaseUser? = null
     private lateinit var createMeetingInterstitialAd: InterstitialAd
     private lateinit var joinMeetingInterstitialAd: InterstitialAd
-    private var name: String? = null
+    private var etName: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -76,7 +78,7 @@ class MainActivity : AppCompatActivity() {
 
         onMeetingToggleChange()
         onCreateMeetingCodeChange()
-//        onCopyMeetingCodeFromClipboardClick()
+        onCopyMeetingCodeFromClipboardClick()
         onShareMeetingCodeClick()
 
         onJoinMeetingClick()
@@ -117,12 +119,12 @@ class MainActivity : AppCompatActivity() {
 
             if (resultCode == RESULT_OK) {
                 if (data != null) {
-                    name = data.getStringExtra(NAME)
+                    etName = data.getStringExtra(NAME)
 //                    Toast.makeText(this, name, Toast.LENGTH_SHORT).show()
                     joinMeeting(getJoinMeetingCode())
                 }
             } else if (resultCode == Activity.RESULT_CANCELED) {
-                Log.e("Res Cancelled", " Cancelled")
+//                Log.e("Res Cancelled", " Cancelled")
 //                name = data!!.getStringExtra(NAME)
                 Toast.makeText(this, "Join meeting failed", Toast.LENGTH_SHORT).show()
             }
@@ -219,17 +221,25 @@ class MainActivity : AppCompatActivity() {
     /**
      * Called when the clipboard icon is clicked in the EditText of the JOIN MEETING toggle
      */
-    /*private fun onCopyMeetingCodeFromClipboardClick() {
-        binding.ivClipboard.setOnClickListener {
-            val clipboardText = getTextFromClipboard()
-            if (clipboardText != null) {
-                binding.etCodeJoinMeeting.setText(clipboardText)
-                toast(getString(R.string.main_meeting_code_copied))
-            } else {
+    private fun onCopyMeetingCodeFromClipboardClick() {
+
+        var etCodeJoin: EditText?
+        binding.ivClipboard.setOnClickListener (View.OnClickListener {
+//            val clipboardText = getTextFromClipboard()
+            etCodeJoin = binding.etCodeJoinMeeting
+            var txtCopy: String?
+            if (etCodeJoin == null) {
+
                 toast(getString(R.string.main_empty_clipboard))
+            } else {
+                txtCopy = etCodeJoin!!.text.toString()
+                val clipData: ClipData = ClipData.newPlainText("text", txtCopy!!)
+                val clipboardManager: ClipboardManager = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+                clipboardManager.setPrimaryClip(clipData)
+                toast(getString(R.string.main_meeting_code_copied))
             }
-        }
-    }*/
+        })
+    }
 
     /**
      * Called when the share icon is clicked in the EditText of the CREATE MEETING toggle
@@ -281,7 +291,7 @@ class MainActivity : AppCompatActivity() {
                 this,
                 meetingCode,
                 R.string.all_joining_meeting,
-                name
+                etName
             )
          // Start Meeting
 

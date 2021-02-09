@@ -36,6 +36,7 @@ object MeetingUtils : AppCompatActivity() {
         val options = JitsiMeetConferenceOptions.Builder()
             .setRoom(meetingCode)
             .setUserInfo(null)
+
         val currentUser = FirebaseAuth.getInstance().currentUser
         val userInfoBundle = if (currentUser != null) {
             bundleOf(
@@ -48,10 +49,8 @@ object MeetingUtils : AppCompatActivity() {
 
 
             bundleOf(
-                "displayName" to context.getString(
-                    R.string.all_unauthenticated_user_name,
-                    name
-                ))
+                "displayName" to name
+                )
 
             /*bundleOf(
                 "displayName" to "$text",
@@ -64,5 +63,4 @@ object MeetingUtils : AppCompatActivity() {
 //        options.setUserInfo(setUserNickname(userInfoBundle))
         JitsiMeetActivity.launch(context, options.build())
     }
-
 }

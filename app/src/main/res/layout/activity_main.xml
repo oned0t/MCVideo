@@ -13,7 +13,7 @@
         android:id="@+id/groupJoinMeeting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:constraint_referenced_ids="ivJoinMeeting, etCodeJoinMeeting, llBtnJoinMeeting" />
+        app:constraint_referenced_ids="ivJoinMeeting, flCodeJoinMeeting, llBtnJoinMeeting" />
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/groupCreateMeeting"
@@ -108,7 +108,7 @@
         android:id="@+id/ivJoinMeeting"
         android:layout_width="0dp"
         android:layout_height="200dp"
-        app:layout_constraintBottom_toTopOf="@+id/etCodeJoinMeeting"
+        app:layout_constraintBottom_toTopOf="@+id/flCodeJoinMeeting"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -118,7 +118,18 @@
         tools:srcCompat="@drawable/mc_logo" />
 
 
-        
+    <FrameLayout
+        android:id="@+id/flCodeJoinMeeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_54sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        app:layout_constraintBottom_toTopOf="@+id/llBtnJoinMeeting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivJoinMeeting">
 
 
     <EditText
@@ -129,19 +140,12 @@
         android:paddingStart="@dimen/_8sdp"
         android:paddingTop="@dimen/_10sdp"
         android:paddingBottom="@dimen/_10sdp"
-        android:layout_marginStart="@dimen/_24sdp"
-        android:layout_marginTop="@dimen/_54sdp"
-        android:layout_marginEnd="@dimen/_24sdp"
         android:fontFamily="@font/ubuntu_regular"
         android:hint="@string/main_enter_meeting_code"
         android:background="@drawable/et_meeting_code_border"
         android:imeOptions="actionNext"
         android:ems="10"
         android:textCursorDrawable="@drawable/cursor_color"
-        app:layout_constraintBottom_toTopOf="@+id/llBtnJoinMeeting"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivJoinMeeting"
         android:importantForAutofill="no"
         android:includeFontPadding="false"
         android:inputType="text"
@@ -150,8 +154,17 @@
         android:textColorHint="@android:color/darker_gray"
         android:textSize="@dimen/_12ssp" />
 
+        <ImageView
+            android:id="@+id/ivClipboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clipboard"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:contentDescription="@string/clipboard" />
 
-
+    </FrameLayout>
 
     <LinearLayout
         android:id="@+id/llBtnJoinMeeting"
@@ -164,7 +177,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etCodeJoinMeeting">
+        app:layout_constraintTop_toBottomOf="@+id/flCodeJoinMeeting">
 
     <TextView
         android:id="@+id/btnJoinMeeting"

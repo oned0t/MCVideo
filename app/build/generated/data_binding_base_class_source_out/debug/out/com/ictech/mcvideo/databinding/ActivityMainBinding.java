@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -50,10 +52,16 @@ public final class ActivityMainBinding implements ViewBinding {
   public final EditText etCodeJoinMeeting;
 
   @NonNull
+  public final FrameLayout flCodeJoinMeeting;
+
+  @NonNull
   public final Group groupCreateMeeting;
 
   @NonNull
   public final Group groupJoinMeeting;
+
+  @NonNull
+  public final ImageView ivClipboard;
 
   @NonNull
   public final AppCompatImageView ivCreateMeeting;
@@ -86,8 +94,9 @@ public final class ActivityMainBinding implements ViewBinding {
       @NonNull TextView btnCreateMeeting, @NonNull TextView btnJoinMeeting,
       @NonNull Button btnToggleCreateMeeting, @NonNull Button btnToggleJoinMeeting,
       @NonNull ConstraintLayout constrainLayout, @NonNull TextInputEditText etCodeCreateMeeting,
-      @NonNull EditText etCodeJoinMeeting, @NonNull Group groupCreateMeeting,
-      @NonNull Group groupJoinMeeting, @NonNull AppCompatImageView ivCreateMeeting,
+      @NonNull EditText etCodeJoinMeeting, @NonNull FrameLayout flCodeJoinMeeting,
+      @NonNull Group groupCreateMeeting, @NonNull Group groupJoinMeeting,
+      @NonNull ImageView ivClipboard, @NonNull AppCompatImageView ivCreateMeeting,
       @NonNull AppCompatImageView ivJoinMeeting, @NonNull AppCompatImageView ivMeetingHistory,
       @NonNull CircleImageView ivProfile, @NonNull LinearLayout llBtnCreateMeeting,
       @NonNull LinearLayout llBtnJoinMeeting, @NonNull MaterialButtonToggleGroup tgMeeting,
@@ -100,8 +109,10 @@ public final class ActivityMainBinding implements ViewBinding {
     this.constrainLayout = constrainLayout;
     this.etCodeCreateMeeting = etCodeCreateMeeting;
     this.etCodeJoinMeeting = etCodeJoinMeeting;
+    this.flCodeJoinMeeting = flCodeJoinMeeting;
     this.groupCreateMeeting = groupCreateMeeting;
     this.groupJoinMeeting = groupJoinMeeting;
+    this.ivClipboard = ivClipboard;
     this.ivCreateMeeting = ivCreateMeeting;
     this.ivJoinMeeting = ivJoinMeeting;
     this.ivMeetingHistory = ivMeetingHistory;
@@ -178,6 +189,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.flCodeJoinMeeting;
+      FrameLayout flCodeJoinMeeting = rootView.findViewById(id);
+      if (flCodeJoinMeeting == null) {
+        break missingId;
+      }
+
       id = R.id.groupCreateMeeting;
       Group groupCreateMeeting = rootView.findViewById(id);
       if (groupCreateMeeting == null) {
@@ -187,6 +204,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.groupJoinMeeting;
       Group groupJoinMeeting = rootView.findViewById(id);
       if (groupJoinMeeting == null) {
+        break missingId;
+      }
+
+      id = R.id.ivClipboard;
+      ImageView ivClipboard = rootView.findViewById(id);
+      if (ivClipboard == null) {
         break missingId;
       }
 
@@ -246,9 +269,9 @@ public final class ActivityMainBinding implements ViewBinding {
 
       return new ActivityMainBinding((ConstraintLayout) rootView, btnCreateMeeting, btnJoinMeeting,
           btnToggleCreateMeeting, btnToggleJoinMeeting, constrainLayout, etCodeCreateMeeting,
-          etCodeJoinMeeting, groupCreateMeeting, groupJoinMeeting, ivCreateMeeting, ivJoinMeeting,
-          ivMeetingHistory, ivProfile, llBtnCreateMeeting, llBtnJoinMeeting, tgMeeting,
-          tilCodeCreateMeeting, toolbar);
+          etCodeJoinMeeting, flCodeJoinMeeting, groupCreateMeeting, groupJoinMeeting, ivClipboard,
+          ivCreateMeeting, ivJoinMeeting, ivMeetingHistory, ivProfile, llBtnCreateMeeting,
+          llBtnJoinMeeting, tgMeeting, tilCodeCreateMeeting, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

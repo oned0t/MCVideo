@@ -9,7 +9,6 @@ import android.content.Intent
 import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
-import android.text.Editable
 import android.text.TextUtils
 import android.view.View
 import android.view.WindowManager
@@ -22,8 +21,6 @@ import androidx.core.graphics.ColorUtils
 import com.google.android.material.snackbar.Snackbar
 import com.ictech.mcvideo.R
 import com.ictech.mcvideo.databinding.NameDialogBinding
-import com.ictech.mcvideo.model.Meeting
-import com.ictech.mcvideo.utils.MeetingUtils
 import kotlinx.android.synthetic.main.name_dialog.*
 
 
@@ -41,7 +38,7 @@ class DialogActivity : AppCompatActivity(){
 
 //        val bundle = intent.extras
 //        etNickname = bundle?.getString("name", "") ?: ""
-        etName = findViewById(R.id.etNickname)
+        etName = binding.etNickname
 
 //        etName = findViewById(R.id.etNickname)
         // Set the Status bar appearance for different API levels
@@ -75,28 +72,14 @@ class DialogActivity : AppCompatActivity(){
 
         btnSubmit.setOnClickListener {
             if(etName!!.text.toString().isEmpty()) {
-                /*Snackbar.make(
-                        binding.dialogBackground,
-                        getString(R.string.enter_name_error),
-                        Snackbar.LENGTH_SHORT
-                ).show()*/
-                val mSnackbar: Snackbar = Snackbar.make(
-                        binding.dialogBackground,
-                        R.string.enter_name_error,
-                        Snackbar.LENGTH_SHORT)
-                val mTextView = mSnackbar.view.findViewById<TextView>(com.google.android.material.R.id.snackbar_text)
-                val view: View = mSnackbar.view
-                mTextView.textAlignment = View.TEXT_ALIGNMENT_CENTER
-                mTextView.setTextColor(Color.BLACK)
-                view.setBackgroundColor(Color.GRAY)
-                mSnackbar.show()
+                setSnackBar()
             } else {
                 onBackPressed()
 //                Toast.makeText(applicationContext, "Done", Toast.LENGTH_SHORT).show()
                 val intent = Intent(this, MainActivity::class.java)
                 intent.putExtra(MainActivity.NAME, etName!!.text.toString())
                 setResult(Activity.RESULT_OK, intent)
-//                finish()
+                finish()
             }
 
         }
@@ -155,6 +138,19 @@ class DialogActivity : AppCompatActivity(){
             winParams.flags = winParams.flags and WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS.inv()
         }
         win.attributes = winParams
+    }
+
+    private fun setSnackBar(){
+        val mSnackbar: Snackbar = Snackbar.make(
+                binding.dialogBackground,
+                R.string.enter_name_error,
+                Snackbar.LENGTH_SHORT)
+        val mTextView = mSnackbar.view.findViewById<TextView>(com.google.android.material.R.id.snackbar_text)
+        val view: View = mSnackbar.view
+        mTextView.textAlignment = View.TEXT_ALIGNMENT_CENTER
+        mTextView.setTextColor(Color.BLACK)
+        view.setBackgroundColor(Color.GRAY)
+        mSnackbar.show()
     }
 
     /*private fun backgroundFadeAnim(){
