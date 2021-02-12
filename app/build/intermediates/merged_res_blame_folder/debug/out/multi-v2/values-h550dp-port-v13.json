@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\ce1ef04de3b7641934f53bfe2b464707\\material-1.3.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,107",
+                        "endColumns": "51,76",
+                        "endOffsets": "102,179"
+                    }
+                }
+            ]
+        }
+    ]
+}

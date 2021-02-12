@@ -4,7 +4,7 @@
             "outputFile": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\4f4d8c3ee2bfe5c2c86175c8abf46602\\material-1.3.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\ce1ef04de3b7641934f53bfe2b464707\\material-1.3.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

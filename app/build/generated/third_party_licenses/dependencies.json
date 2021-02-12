@@ -24,18 +24,6 @@
         "name": "react-native-webview"
     },
     {
-        "group": "org.jetbrains.kotlinx",
-        "version": "1.3.6",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-core\\1.3.6\\84cc2e5a484555e49e908fd831ff503303401dd0\\kotlinx-coroutines-core-1.3.6.jar",
-        "name": "kotlinx-coroutines-core"
-    },
-    {
-        "group": "com.google.android.gms",
-        "version": "17.4.4",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-measurement-sdk\\17.4.4\\81f897008334e88235d2894ac62dc1e700243776\\play-services-measurement-sdk-17.4.4.aar",
-        "name": "play-services-measurement-sdk"
-    },
-    {
         "group": "com.afollestad.material-dialogs",
         "version": "3.3.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.afollestad.material-dialogs\\bottomsheets\\3.3.0\\eb9fe5fba50c137813d80794df2f28c5401c11d1\\bottomsheets-3.3.0.aar",
@@ -48,16 +36,16 @@
         "name": "imagepipeline"
     },
     {
+        "group": "androidx.browser",
+        "version": "1.3.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.browser\\browser\\1.3.0\\407e57282abe6db9107965a729203210b9a6821b\\browser-1.3.0.aar",
+        "name": "browser"
+    },
+    {
         "group": "androidx.lifecycle",
         "version": "2.2.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-livedata-core\\2.2.0\\4bcd5721a6358c312b86d219ff57d4a4a841fc50\\lifecycle-livedata-core-2.2.0.aar",
         "name": "lifecycle-livedata-core"
-    },
-    {
-        "group": "androidx.room",
-        "version": "2.2.5",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.room\\room-ktx\\2.2.5\\a647f5354b2c7ee2005bc7dde62166c63b72296c\\room-ktx-2.2.5.aar",
-        "name": "room-ktx"
     },
     {
         "group": "androidx.appcompat",
@@ -70,6 +58,12 @@
         "version": "1.1.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.activity\\activity\\1.1.0\\67c7a207d26ea46621e261ca2295ed2e2d311f8f\\activity-1.1.0.aar",
         "name": "activity"
+    },
+    {
+        "group": "com.mikepenz",
+        "version": "5.3.4",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.mikepenz\\fastadapter-extensions-binding\\5.3.4\\6dd33b5028ad94a196e4aff2c9ca78b24a7d1aee\\fastadapter-extensions-binding-5.3.4.aar",
+        "name": "fastadapter-extensions-binding"
     },
     {
         "group": "com.google.android.gms",
@@ -90,16 +84,22 @@
         "name": "jackson-core"
     },
     {
-        "group": "io.coil-kt",
-        "version": "0.11.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\io.coil-kt\\coil\\0.11.0\\4034c8c3184c9a7438deccac80c0ad41bc3b895f\\coil-0.11.0.aar",
-        "name": "coil"
+        "group": "com.google.android.gms",
+        "version": "18.0.2",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-measurement-sdk-api\\18.0.2\\b6d5f8f2e91cf9d4a73f7a50b1c7fe613acd7383\\play-services-measurement-sdk-api-18.0.2.aar",
+        "name": "play-services-measurement-sdk-api"
     },
     {
         "group": "androidx.media",
         "version": "1.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.media\\media\\1.0.0\\7f92bbaf670497a9a1105124122fb20cee61e58c\\media-1.0.0.aar",
         "name": "media"
+    },
+    {
+        "group": "org.jetbrains.kotlinx",
+        "version": "1.4.2-native-mt",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-play-services\\1.4.2-native-mt\\1f9d99b776a47583a0eeea41e51ad7f4bfec8c8b\\kotlinx-coroutines-play-services-1.4.2-native-mt.jar",
+        "name": "kotlinx-coroutines-play-services"
     },
     {
         "group": "androidx.savedstate",
@@ -120,6 +120,12 @@
         "name": "lifecycle-livedata-core-ktx"
     },
     {
+        "group": "androidx.room",
+        "version": "2.2.6",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.room\\room-ktx\\2.2.6\\6890dcac3ab16fdae92b58b0479b33a837cb4c39\\room-ktx-2.2.6.aar",
+        "name": "room-ktx"
+    },
+    {
         "group": "androidx.documentfile",
         "version": "1.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.documentfile\\documentfile\\1.0.0\\66104345c90cd8c2fd5ad2d3aad692b280e10c32\\documentfile-1.0.0.aar",
@@ -132,46 +138,22 @@
         "name": "firebase-installations-interop"
     },
     {
-        "group": "com.google.android.gms",
-        "version": "17.0.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-basement\\17.0.0\\f94e0b893e0d5d2a922577986c8b2a31fd79f634\\play-services-basement-17.0.0.aar",
-        "name": "play-services-basement"
-    },
-    {
-        "group": "com.google.android.gms",
-        "version": "17.4.4",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-measurement-impl\\17.4.4\\c9a8ce5e42bdea3a3346c940b2d1a98625aa1fa0\\play-services-measurement-impl-17.4.4.aar",
-        "name": "play-services-measurement-impl"
-    },
-    {
         "group": "androidx.vectordrawable",
         "version": "1.1.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.vectordrawable\\vectordrawable-animated\\1.1.0\\fcda1161354501471c30a4e077af6b5c4d4eddc6\\vectordrawable-animated-1.1.0.aar",
         "name": "vectordrawable-animated"
     },
     {
-        "group": "io.coil-kt",
-        "version": "0.11.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\io.coil-kt\\coil-base\\0.11.0\\98bc54677af89780b31a60da7e16a4200988aa4b\\coil-base-0.11.0.aar",
-        "name": "coil-base"
-    },
-    {
-        "group": "com.google.android.gms",
-        "version": "19.2.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-gass\\19.2.0\\85a48a51b2bf109e138bfed4f66e76a38ee0391a\\play-services-gass-19.2.0.aar",
-        "name": "play-services-gass"
+        "group": "androidx.work",
+        "version": "2.1.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.work\\work-runtime\\2.1.0\\78b557529c24b4cf4f3216ee1239919e3bacc7d7\\work-runtime-2.1.0.aar",
+        "name": "work-runtime"
     },
     {
         "group": "androidx.versionedparcelable",
         "version": "1.1.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.versionedparcelable\\versionedparcelable\\1.1.0\\91acce73e00a17b524f6697f6c3893efb8ea349f\\versionedparcelable-1.1.0.aar",
         "name": "versionedparcelable"
-    },
-    {
-        "group": "com.mikepenz",
-        "version": "5.0.2",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.mikepenz\\fastadapter-extensions-diff\\5.0.2\\29ad5ba00a571b31eb5897d150f124246d0f3919\\fastadapter-extensions-diff-5.0.2.aar",
-        "name": "fastadapter-extensions-diff"
     },
     {
         "group": "com.google.firebase",
@@ -192,10 +174,10 @@
         "name": "play-services-stats"
     },
     {
-        "group": "com.mikepenz",
-        "version": "5.0.2",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.mikepenz\\fastadapter\\5.0.2\\e4bcd223f106aff842621001da87a24e86fb9b94\\fastadapter-5.0.2.aar",
-        "name": "fastadapter"
+        "group": "org.jetbrains.kotlinx",
+        "version": "1.4.2",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-android\\1.4.2\\dbf36cc9f9cc03a72e20bf440cfeb89d74ca775f\\kotlinx-coroutines-android-1.4.2.jar",
+        "name": "kotlinx-coroutines-android"
     },
     {
         "group": "com.google.firebase",
@@ -222,28 +204,22 @@
         "name": "coordinatorlayout"
     },
     {
-        "group": "com.mikepenz",
-        "version": "5.0.2",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.mikepenz\\fastadapter-extensions-swipe\\5.0.2\\2329d4cede511f0751f416a806d3d2077199e868\\fastadapter-extensions-swipe-5.0.2.aar",
-        "name": "fastadapter-extensions-swipe"
-    },
-    {
         "group": "androidx.drawerlayout",
         "version": "1.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.drawerlayout\\drawerlayout\\1.0.0\\dd02c7e207136e1272b33815cc61e57676ed13a2\\drawerlayout-1.0.0.aar",
         "name": "drawerlayout"
     },
     {
-        "group": "com.google.android.gms",
-        "version": "17.4.4",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-measurement-sdk-api\\17.4.4\\d8e6e59506f2cc321fda3f127cad2f25a9d3b83d\\play-services-measurement-sdk-api-17.4.4.aar",
-        "name": "play-services-measurement-sdk-api"
-    },
-    {
         "group": "com.facebook.fresco",
         "version": "2.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.fresco\\fbcore\\2.0.0\\8de91f71e8aa84a4d9be4dd88d1a0ac51600ad60\\fbcore-2.0.0.aar",
         "name": "fbcore"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "18.0.2",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-measurement-sdk\\18.0.2\\9fdd8805580a1f536d8e9568db55a776887e377a\\play-services-measurement-sdk-18.0.2.aar",
+        "name": "play-services-measurement-sdk"
     },
     {
         "group": "androidx.vectordrawable",
@@ -270,6 +246,12 @@
         "name": "cursoradapter"
     },
     {
+        "group": "androidx.room",
+        "version": "2.2.6",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.room\\room-runtime\\2.2.6\\30886e9f084f490a5bb9fd1f8f109197f11c03ba\\room-runtime-2.2.6.aar",
+        "name": "room-runtime"
+    },
+    {
         "group": "androidx.lifecycle",
         "version": "2.2.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-common-java8\\2.2.0\\cd3478503da69b1a7e0319bd2d1389943db9b364\\lifecycle-common-java8-2.2.0.jar",
@@ -288,22 +270,10 @@
         "name": "AppIntro"
     },
     {
-        "group": "com.google.firebase",
-        "version": "17.4.4",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.firebase\\firebase-analytics\\17.4.4\\929a29a3ff9c4f2ee093023171d0377599d75275\\firebase-analytics-17.4.4.aar",
-        "name": "firebase-analytics"
-    },
-    {
         "group": "com.facebook.fresco",
         "version": "2.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.fresco\\fresco\\2.0.0\\d473020b37b7cdd3171154942b55021a55a9d990\\fresco-2.0.0.aar",
         "name": "fresco"
-    },
-    {
-        "group": "androidx.legacy",
-        "version": "1.0.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.legacy\\legacy-support-core-utils\\1.0.0\\9b9570042115da8629519090dfeb71df75da59fc\\legacy-support-core-utils-1.0.0.aar",
-        "name": "legacy-support-core-utils"
     },
     {
         "group": "androidx.lifecycle",
@@ -312,16 +282,22 @@
         "name": "lifecycle-extensions"
     },
     {
+        "group": "androidx.legacy",
+        "version": "1.0.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.legacy\\legacy-support-core-utils\\1.0.0\\9b9570042115da8629519090dfeb71df75da59fc\\legacy-support-core-utils-1.0.0.aar",
+        "name": "legacy-support-core-utils"
+    },
+    {
         "group": "com.squareup.duktape",
         "version": "1.3.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup.duktape\\duktape-android\\1.3.0\\5bf1c5526c65331e9d87334e45dcfb8207e72a0c\\duktape-android-1.3.0.aar",
         "name": "duktape-android"
     },
     {
-        "group": "androidx.room",
-        "version": "2.2.5",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.room\\room-common\\2.2.5\\f5e3b73a0c2ab5e276e26868e4ce3542baede207\\room-common-2.2.5.jar",
-        "name": "room-common"
+        "group": "com.google.android.gms",
+        "version": "18.0.2",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-measurement-api\\18.0.2\\d6fc28044ba789c7146636f51045a7d36c9488cf\\play-services-measurement-api-18.0.2.aar",
+        "name": "play-services-measurement-api"
     },
     {
         "group": "com.amplitude",
@@ -330,16 +306,16 @@
         "name": "android-sdk"
     },
     {
-        "group": "com.mikepenz",
-        "version": "5.0.2",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.mikepenz\\fastadapter-extensions-binding\\5.0.2\\58c791d904247be9d89c401a3838aeb7cc2bfec9\\fastadapter-extensions-binding-5.0.2.aar",
-        "name": "fastadapter-extensions-binding"
-    },
-    {
         "group": "com.facebook.infer.annotation",
         "version": "0.11.2",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.infer.annotation\\infer-annotation\\0.11.2\\f514ff4ca022a579d9cf7524846988b646ae4491\\infer-annotation-0.11.2.jar",
         "name": "infer-annotation"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "18.0.2",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-measurement\\18.0.2\\317229eab8c6ff4be1ce41f85241dc6c976cbef1\\play-services-measurement-18.0.2.aar",
+        "name": "play-services-measurement"
     },
     {
         "group": "com.intuit.sdp",
@@ -366,12 +342,6 @@
         "name": "nativeimagefilters"
     },
     {
-        "group": "com.google.android.gms",
-        "version": "19.2.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-ads\\19.2.0\\4b143973512fd17634ceb0605e62a560a898af67\\play-services-ads-19.2.0.aar",
-        "name": "play-services-ads"
-    },
-    {
         "group": "androidx.appcompat",
         "version": "1.2.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.appcompat\\appcompat-resources\\1.2.0\\ad67e51b92364585bb335177664959001644327a\\appcompat-resources-1.2.0.aar",
@@ -390,16 +360,22 @@
         "name": "cardview"
     },
     {
-        "group": "com.chibatching.kotpref",
-        "version": "2.10.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.chibatching.kotpref\\kotpref\\2.10.0\\a1e6cee3b6d33f3b8f8515cc73a3d16f8605e98d\\kotpref-2.10.0.aar",
-        "name": "kotpref"
-    },
-    {
         "group": "androidx.lifecycle",
         "version": "2.2.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-runtime\\2.2.0\\62fab579508713b8bbb6d251b0abff6e538e8f46\\lifecycle-runtime-2.2.0.aar",
         "name": "lifecycle-runtime"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "17.1.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-tasks\\17.1.0\\a7dbd30affc41cd009bc7acc708a26aa0d68cf39\\play-services-tasks-17.1.0.aar",
+        "name": "play-services-tasks"
+    },
+    {
+        "group": "org.jetbrains.kotlin",
+        "version": "1.4.30",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib\\1.4.30\\d10d1e10f47006ee08162dde039e38ac487de4ac\\kotlin-stdlib-1.4.30.jar",
+        "name": "kotlin-stdlib"
     },
     {
         "group": "com.google.code.findbugs",
@@ -408,10 +384,22 @@
         "name": "jsr305"
     },
     {
+        "group": "com.google.android.gms",
+        "version": "18.0.2",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-measurement-base\\18.0.2\\5267a6748a74c0e3eb511ae99e5145c9eb8fdd62\\play-services-measurement-base-18.0.2.aar",
+        "name": "play-services-measurement-base"
+    },
+    {
         "group": "androidx.print",
         "version": "1.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.print\\print\\1.0.0\\7722094652c48ebe27acc94d74a55e759e4635ff\\print-1.0.0.aar",
         "name": "print"
+    },
+    {
+        "group": "io.coil-kt",
+        "version": "1.1.1",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\io.coil-kt\\coil-base\\1.1.1\\8f2b38f31868fe6884cd49f564a61e507aba73bc\\coil-base-1.1.1.aar",
+        "name": "coil-base"
     },
     {
         "group": "com.facebook.react",
@@ -468,6 +456,12 @@
         "name": "slidingpanelayout"
     },
     {
+        "group": "com.mikepenz",
+        "version": "5.3.4",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.mikepenz\\fastadapter\\5.3.4\\b1fc4009a5ded449e5bf2f437c24016b79acaad2\\fastadapter-5.3.4.aar",
+        "name": "fastadapter"
+    },
+    {
         "group": "androidx.lifecycle",
         "version": "2.2.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-viewmodel-ktx\\2.2.0\\e04a419829c17eb00b32bce378a63edf6cf4a20d\\lifecycle-viewmodel-ktx-2.2.0.aar",
@@ -478,6 +472,12 @@
         "version": "1.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.legacy\\legacy-support-v4\\1.0.0\\3e1271b351e1209661b9fd769cd6681a31678fe\\legacy-support-v4-1.0.0.aar",
         "name": "legacy-support-v4"
+    },
+    {
+        "group": "androidx.constraintlayout",
+        "version": "1.0.0-alpha3",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.constraintlayout\\constraintlayout-core\\1.0.0-alpha3\\ae3745f403312ec45db2afd257860a84179fc76\\constraintlayout-core-1.0.0-alpha3.jar",
+        "name": "constraintlayout-core"
     },
     {
         "group": "com.google.android.gms",
@@ -492,12 +492,6 @@
         "name": "lifecycle-runtime-ktx"
     },
     {
-        "group": "com.mikepenz",
-        "version": "5.0.2",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.mikepenz\\fastadapter-extensions-expandable\\5.0.2\\669bfb569c752d6057af42175330826bf9995efc\\fastadapter-extensions-expandable-5.0.2.aar",
-        "name": "fastadapter-extensions-expandable"
-    },
-    {
         "group": "androidx.core",
         "version": "1.3.2",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.core\\core\\1.3.2\\18a4755efb834c487bac7062e508465f0c853218\\core-1.3.2.aar",
@@ -510,10 +504,10 @@
         "name": "firebase-installations"
     },
     {
-        "group": "androidx.constraintlayout",
-        "version": "2.0.1",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.constraintlayout\\constraintlayout-solver\\2.0.1\\30988fe2d77f3fe3bf7551bb8a8b795fad7e7226\\constraintlayout-solver-2.0.1.jar",
-        "name": "constraintlayout-solver"
+        "group": "com.mikepenz",
+        "version": "5.3.4",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.mikepenz\\fastadapter-extensions-diff\\5.3.4\\3b76d0fdecee956f298f2a18b14de67e16efba77\\fastadapter-extensions-diff-5.3.4.aar",
+        "name": "fastadapter-extensions-diff"
     },
     {
         "group": "com.google.android.material",
@@ -528,6 +522,12 @@
         "name": "react-native-google-signin"
     },
     {
+        "group": "com.github.marlonlom",
+        "version": "4.0.3",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.github.marlonlom\\timeago\\4.0.3\\a22127854a3e4015621cfc64908b529bdb219b9c\\timeago-4.0.3.jar",
+        "name": "timeago"
+    },
+    {
         "group": "com.facebook.fresco",
         "version": "2.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.fresco\\nativeimagetranscoder\\2.0.0\\50fcabd33cbf73759206847bf3ed2dac7a0a588a\\nativeimagetranscoder-2.0.0.aar",
@@ -538,6 +538,12 @@
         "version": "1.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.viewpager2\\viewpager2\\1.0.0\\91c378a09ddff66e1bb73e90edeac53487d2832b\\viewpager2-1.0.0.aar",
         "name": "viewpager2"
+    },
+    {
+        "group": "org.jetbrains.kotlin",
+        "version": "1.4.30",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-android-extensions-runtime\\1.4.30\\63eabf4e818102cd4e435c6b464762d06abbf754\\kotlin-android-extensions-runtime-1.4.30.jar",
+        "name": "kotlin-android-extensions-runtime"
     },
     {
         "group": "androidx.transition",
@@ -556,12 +562,6 @@
         "version": "4.0.0-jitsi-4187680",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.react\\react-native-keep-awake\\4.0.0-jitsi-4187680\\76cf45608c7649b2c35b181740d06cd3163f4901\\react-native-keep-awake-4.0.0-jitsi-4187680.aar",
         "name": "react-native-keep-awake"
-    },
-    {
-        "group": "org.jetbrains.kotlinx",
-        "version": "1.3.2",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-play-services\\1.3.2\\5be24f61959fac8c71e9d28ab23b4f35474c38cd\\kotlinx-coroutines-play-services-1.3.2.jar",
-        "name": "kotlinx-coroutines-play-services"
     },
     {
         "group": "org.koin",
@@ -600,10 +600,22 @@
         "name": "core"
     },
     {
+        "group": "org.jetbrains.kotlin",
+        "version": "1.4.30",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-jdk7\\1.4.30\\cd81ed90fd79e43f587bd384c2bc6d1aed0bfe31\\kotlin-stdlib-jdk7-1.4.30.jar",
+        "name": "kotlin-stdlib-jdk7"
+    },
+    {
         "group": "androidx.core",
         "version": "1.3.2",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.core\\core-ktx\\1.3.2\\8bde75fdd6ee03f8cc3eea96fddd3ef52441bcaa\\core-ktx-1.3.2.aar",
         "name": "core-ktx"
+    },
+    {
+        "group": "org.jetbrains.kotlin",
+        "version": "1.4.30",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-common\\1.4.30\\bb9a3173350f55732416ee27956ea8f9b81f4dbb\\kotlin-stdlib-common-1.4.30.jar",
+        "name": "kotlin-stdlib-common"
     },
     {
         "group": "com.firebaseui",
@@ -616,6 +628,12 @@
         "version": "1.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.lifecycle\\lifecycle-viewmodel-savedstate\\1.0.0\\9a8d575935acee563f6ac9a069d5863abf59d198\\lifecycle-viewmodel-savedstate-1.0.0.aar",
         "name": "lifecycle-viewmodel-savedstate"
+    },
+    {
+        "group": "io.coil-kt",
+        "version": "1.1.1",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\io.coil-kt\\coil\\1.1.1\\f87a74d33a65734390b398f6975627b23e6df22f\\coil-1.1.1.aar",
+        "name": "coil"
     },
     {
         "group": "androidx.lifecycle",
@@ -636,16 +654,16 @@
         "name": "drawee"
     },
     {
-        "group": "org.jetbrains.kotlin",
-        "version": "1.3.72",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib\\1.3.72\\8032138f12c0180bc4e51fe139d4c52b46db6109\\kotlin-stdlib-1.3.72.jar",
-        "name": "kotlin-stdlib"
+        "group": "androidx.constraintlayout",
+        "version": "2.1.0-alpha2",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.constraintlayout\\constraintlayout\\2.1.0-alpha2\\aff9eff3c0e4e8f629d75c5fc697433fece2b0dd\\constraintlayout-2.1.0-alpha2.aar",
+        "name": "constraintlayout"
     },
     {
         "group": "com.google.android.gms",
-        "version": "17.4.4",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-measurement\\17.4.4\\21e8fffef953cdc11ab29a3af08cdfcc9e1d1f54\\play-services-measurement-17.4.4.aar",
-        "name": "play-services-measurement"
+        "version": "19.7.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-gass\\19.7.0\\8947e40a4f7216a8b226042e75dbc1f65eb7a513\\play-services-gass-19.7.0.aar",
+        "name": "play-services-gass"
     },
     {
         "group": "androidx.fragment",
@@ -660,22 +678,16 @@
         "name": "lifecycle-process"
     },
     {
-        "group": "androidx.browser",
-        "version": "1.2.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.browser\\browser\\1.2.0\\6522bfb83be3982a53a80d847d3f831b0065725f\\browser-1.2.0.aar",
-        "name": "browser"
-    },
-    {
         "group": "com.google.android.gms",
         "version": "17.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-auth-base\\17.0.0\\8f69f3634fdd1d2510edbec33de4c52f6472ed66\\play-services-auth-base-17.0.0.aar",
         "name": "play-services-auth-base"
     },
     {
-        "group": "androidx.room",
-        "version": "2.2.5",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.room\\room-runtime\\2.2.5\\b10f919e92246c538afd0d27ea8ef52c966f404c\\room-runtime-2.2.5.aar",
-        "name": "room-runtime"
+        "group": "com.squareup.okhttp3",
+        "version": "3.12.12",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup.okhttp3\\okhttp\\3.12.12\\d3e1ce1d2b3119adf270b2d00d947beb03fe3321\\okhttp-3.12.12.jar",
+        "name": "okhttp"
     },
     {
         "group": "androidx.viewpager",
@@ -684,16 +696,22 @@
         "name": "viewpager"
     },
     {
-        "group": "com.mikepenz",
-        "version": "5.0.2",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.mikepenz\\fastadapter-extensions-drag\\5.0.2\\f570e8bc4fcf59dc4110d9d0414a069c30858be5\\fastadapter-extensions-drag-5.0.2.aar",
-        "name": "fastadapter-extensions-drag"
+        "group": "com.squareup.okio",
+        "version": "2.10.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup.okio\\okio\\2.10.0\\accaddddbb597fb70290fd40358b1ce66b8c2b3d\\okio-jvm-2.10.0.jar",
+        "name": "okio"
     },
     {
         "group": "com.google.android.gms",
         "version": "17.1.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-base\\17.1.0\\d4e438d5d2d7d2d62e540db59f27f7f444bcb895\\play-services-base-17.1.0.aar",
         "name": "play-services-base"
+    },
+    {
+        "group": "androidx.room",
+        "version": "2.2.6",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.room\\room-common\\2.2.6\\f5e3b73a0c2ab5e276e26868e4ce3542baede207\\room-common-2.2.6.jar",
+        "name": "room-common"
     },
     {
         "group": "com.dropbox.core",
@@ -706,6 +724,12 @@
         "version": "3.1.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\de.hdodenhof\\circleimageview\\3.1.0\\49ee06dff79469e8b4f41a478bf1d45643fd667c\\circleimageview-3.1.0.aar",
         "name": "circleimageview"
+    },
+    {
+        "group": "com.google.android.gms",
+        "version": "19.7.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-ads\\19.7.0\\d7e7d408590bd97cc350ccfe054212474c88afcb\\play-services-ads-19.7.0.aar",
+        "name": "play-services-ads"
     },
     {
         "group": "com.google.guava",
@@ -744,10 +768,16 @@
         "name": "react-native-immersive"
     },
     {
-        "group": "com.google.android.gms",
-        "version": "17.0.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-tasks\\17.0.0\\18299a334d48bc5abfe3c9446c2a9e1a3b3f38e1\\play-services-tasks-17.0.0.aar",
-        "name": "play-services-tasks"
+        "group": "com.chibatching.kotpref",
+        "version": "2.13.1",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.chibatching.kotpref\\kotpref\\2.13.1\\f4988c50ff20d8363ff95293ba6e726d396274e2\\kotpref-2.13.1.aar",
+        "name": "kotpref"
+    },
+    {
+        "group": "com.mikepenz",
+        "version": "5.3.4",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.mikepenz\\fastadapter-extensions-utils\\5.3.4\\5ff7b56ee8f84142fc8950706880f69de9f93334\\fastadapter-extensions-utils-5.3.4.aar",
+        "name": "fastadapter-extensions-utils"
     },
     {
         "group": "com.google.firebase",
@@ -768,16 +798,16 @@
         "name": "recyclerview"
     },
     {
+        "group": "com.google.android.gms",
+        "version": "17.3.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-basement\\17.3.0\\1a4d47b55a47083fe83ee21915618c4245e8ff9c\\play-services-basement-17.3.0.aar",
+        "name": "play-services-basement"
+    },
+    {
         "group": "com.google.auto.value",
         "version": "1.6.5",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.auto.value\\auto-value-annotations\\1.6.5\\c3dad10377f0e2242c9a4b88e9704eaf79103679\\auto-value-annotations-1.6.5.jar",
         "name": "auto-value-annotations"
-    },
-    {
-        "group": "com.squareup.okhttp3",
-        "version": "3.12.11",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup.okhttp3\\okhttp\\3.12.11\\301adbdad6ff9d613a2ba4772443560d25df5538\\okhttp-3.12.11.jar",
-        "name": "okhttp"
     },
     {
         "group": "com.google.firebase",
@@ -793,21 +823,9 @@
     },
     {
         "group": "com.google.android.gms",
-        "version": "19.2.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-ads-base\\19.2.0\\ef146ae4d86902291c1d94d8360838d5a4a30e07\\play-services-ads-base-19.2.0.aar",
-        "name": "play-services-ads-base"
-    },
-    {
-        "group": "org.jetbrains.kotlin",
-        "version": "1.3.72",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-jdk7\\1.3.72\\3adfc2f4ea4243e01204be8081fe63bde6b12815\\kotlin-stdlib-jdk7-1.3.72.jar",
-        "name": "kotlin-stdlib-jdk7"
-    },
-    {
-        "group": "com.mikepenz",
-        "version": "5.0.2",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.mikepenz\\fastadapter-extensions-utils\\5.0.2\\c5f7964378cc014b441c87defc8fa264cf409931\\fastadapter-extensions-utils-5.0.2.aar",
-        "name": "fastadapter-extensions-utils"
+        "version": "18.0.2",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-measurement-impl\\18.0.2\\dcadc7c32c0acad0871c9326d33d952700a7c2a3\\play-services-measurement-impl-18.0.2.aar",
+        "name": "play-services-measurement-impl"
     },
     {
         "group": "com.facebook.react",
@@ -828,10 +846,10 @@
         "name": "koin-core"
     },
     {
-        "group": "org.jetbrains.kotlin",
-        "version": "1.3.72",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-android-extensions-runtime\\1.3.72\\83423235971335be77d2ea025008bc9959738ffc\\kotlin-android-extensions-runtime-1.3.72.jar",
-        "name": "kotlin-android-extensions-runtime"
+        "group": "com.google.firebase",
+        "version": "18.0.2",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.firebase\\firebase-analytics\\18.0.2\\21aa698666bd32ce53085d4a43d523e296aa6143\\firebase-analytics-18.0.2.aar",
+        "name": "firebase-analytics"
     },
     {
         "group": "com.facebook.react",
@@ -840,22 +858,16 @@
         "name": "react-native-webrtc"
     },
     {
-        "group": "com.squareup.okio",
-        "version": "2.6.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup.okio\\okio\\2.6.0\\f06923d428f3c8e6f571043ec29a45d0cd9d2bf\\okio-jvm-2.6.0.jar",
-        "name": "okio"
-    },
-    {
         "group": "com.facebook.react",
         "version": "2.1.1-jitsi-4187680",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.react\\react-native-background-timer\\2.1.1-jitsi-4187680\\58f54929bad3df69c516daabfaa2069d553a30e9\\react-native-background-timer-2.1.1-jitsi-4187680.aar",
         "name": "react-native-background-timer"
     },
     {
-        "group": "org.jetbrains.kotlin",
-        "version": "1.3.72",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-common\\1.3.72\\6ca8bee3d88957eaaaef077c41c908c9940492d8\\kotlin-stdlib-common-1.3.72.jar",
-        "name": "kotlin-stdlib-common"
+        "group": "com.google.android.gms",
+        "version": "19.7.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-ads-lite\\19.7.0\\7821462c53c3975720af660422c761c062fb0557\\play-services-ads-lite-19.7.0.aar",
+        "name": "play-services-ads-lite"
     },
     {
         "group": "org.jetbrains",
@@ -876,22 +888,10 @@
         "name": "legacy-support-core-ui"
     },
     {
-        "group": "org.jetbrains.kotlinx",
-        "version": "1.3.6",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-android\\1.3.6\\cd27f43f8e4c053be02569d23a59006520f6eecb\\kotlinx-coroutines-android-1.3.6.jar",
-        "name": "kotlinx-coroutines-android"
-    },
-    {
         "group": "com.facebook.fresco",
         "version": "2.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.facebook.fresco\\imagepipeline-base\\2.0.0\\d27635390665d433f987177c548d25d0473eadbe\\imagepipeline-base-2.0.0.aar",
         "name": "imagepipeline-base"
-    },
-    {
-        "group": "com.google.android.gms",
-        "version": "19.2.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-ads-lite\\19.2.0\\d9e5aa77587d2f330e3fc958e1298795f2eaf632\\play-services-ads-lite-19.2.0.aar",
-        "name": "play-services-ads-lite"
     },
     {
         "group": "com.facebook.react",
@@ -906,28 +906,16 @@
         "name": "asynclayoutinflater"
     },
     {
-        "group": "androidx.constraintlayout",
-        "version": "2.0.1",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.constraintlayout\\constraintlayout\\2.0.1\\fab633b1873e5c1fbe49d919fab85ed1f8cf47ca\\constraintlayout-2.0.1.aar",
-        "name": "constraintlayout"
-    },
-    {
-        "group": "com.github.marlonlom",
-        "version": "4.0.1",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.github.marlonlom\\timeago\\4.0.1\\54200c351f20351858cbca2e9d9398fcace2b65d\\timeago-4.0.1.jar",
-        "name": "timeago"
+        "group": "org.jetbrains.kotlinx",
+        "version": "1.4.2",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-core-jvm\\1.4.2\\4b9c6b2de7cabfb2c9ad7a5c709b1ddb7bbfd2ad\\kotlinx-coroutines-core-jvm-1.4.2.jar",
+        "name": "kotlinx-coroutines-core-jvm"
     },
     {
         "group": "com.google.android.gms",
-        "version": "17.4.4",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-measurement-api\\17.4.4\\70381005033f77368b96778b8cd3f0b1dc4957d0\\play-services-measurement-api-17.4.4.aar",
-        "name": "play-services-measurement-api"
-    },
-    {
-        "group": "com.google.android.gms",
-        "version": "17.4.4",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-measurement-base\\17.4.4\\21cece4164f94148a0ea8ba61055056b95b3f005\\play-services-measurement-base-17.4.4.aar",
-        "name": "play-services-measurement-base"
+        "version": "19.7.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.google.android.gms\\play-services-ads-base\\19.7.0\\4cae62104f5ca28fe889f37f28f746cf6128cf01\\play-services-ads-base-19.7.0.aar",
+        "name": "play-services-ads-base"
     },
     {
         "group": "com.google.firebase",
@@ -936,10 +924,10 @@
         "name": "firebase-measurement-connector"
     },
     {
-        "group": "com.squareup.okio",
-        "version": "2.6.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup.okio\\okio-metadata\\2.6.0\\9b65e08acd83b1ef864de66286f4636c4ef49a3\\okio-metadata-2.6.0.jar",
-        "name": "okio-metadata"
+        "group": "org.jetbrains.kotlinx",
+        "version": "1.4.2",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-core-metadata\\1.4.2\\c4de9c165a9b4b58cc628393fc71cd07542c6893\\kotlinx-coroutines-core-metadata-1.4.2.jar",
+        "name": "kotlinx-coroutines-core-metadata"
     },
     {
         "group": "androidx.browser",
@@ -948,10 +936,22 @@
         "name": "browser"
     },
     {
+        "group": "com.squareup.okio",
+        "version": "2.10.0",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup.okio\\okio-metadata\\2.10.0\\3e707c8139f18fb5e94b0b7fd32fcb3b670c4212\\okio-metadata-2.10.0.jar",
+        "name": "okio-metadata"
+    },
+    {
         "group": "com.parse.bolts",
         "version": "1.4.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.parse.bolts\\bolts-tasks\\1.4.0\\d85884acf6810a3bbbecb587f239005cbc846dc4\\bolts-tasks-1.4.0.jar",
         "name": "bolts-tasks"
+    },
+    {
+        "group": "com.mikepenz",
+        "version": "5.3.4",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.mikepenz\\fastadapter-extensions-drag\\5.3.4\\3c15800877f0f34f80165c6ea370db1e574ff7a5\\fastadapter-extensions-drag-5.3.4.aar",
+        "name": "fastadapter-extensions-drag"
     },
     {
         "group": "org.jetbrains.kotlin",
@@ -966,16 +966,34 @@
         "name": "collection-ktx"
     },
     {
+        "group": "androidx.exifinterface",
+        "version": "1.3.2",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.exifinterface\\exifinterface\\1.3.2\\ce8e52ca0749a3b6d07758a26e1cc642180bb4d7\\exifinterface-1.3.2.aar",
+        "name": "exifinterface"
+    },
+    {
         "group": "androidx.concurrent",
         "version": "1.0.0",
         "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.concurrent\\concurrent-futures\\1.0.0\\c1e77e3ee6f4643b77496a1ddf7a2eef1aefdaa1\\concurrent-futures-1.0.0.jar",
         "name": "concurrent-futures"
     },
     {
-        "group": "androidx.exifinterface",
-        "version": "1.2.0",
-        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\androidx.exifinterface\\exifinterface\\1.2.0\\e8a2f661f33bbfa8e9d226aa5dacae90aedf2fc9\\exifinterface-1.2.0.aar",
-        "name": "exifinterface"
+        "group": "com.mikepenz",
+        "version": "5.3.4",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.mikepenz\\fastadapter-extensions-expandable\\5.3.4\\919d25170c2d0fcb56bfd3270b1e54002a9bb451\\fastadapter-extensions-expandable-5.3.4.aar",
+        "name": "fastadapter-extensions-expandable"
+    },
+    {
+        "group": "com.mikepenz",
+        "version": "5.3.4",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\com.mikepenz\\fastadapter-extensions-swipe\\5.3.4\\48b08b971606549c81be171bdf607db0c228dbb6\\fastadapter-extensions-swipe-5.3.4.aar",
+        "name": "fastadapter-extensions-swipe"
+    },
+    {
+        "group": "org.jetbrains.kotlin",
+        "version": "1.4.21",
+        "fileLocation": "C:\\Users\\O\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-parcelize-runtime\\1.4.21\\a65bdd59294a973fea2dcda6841e3cecb6a17aee\\kotlin-parcelize-runtime-1.4.21.jar",
+        "name": "kotlin-parcelize-runtime"
     },
     {
         "group": "me.zhanghai.android.materialprogressbar",

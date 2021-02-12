@@ -4,7 +4,7 @@
             "outputFile": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\c582a25df5a972482d26b33989cc5ec6\\jetified-firebase-ui-auth-6.2.1\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\1effcd6b1819b8478cadd5078940df06\\jetified-firebase-ui-auth-6.2.1\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6,10,14",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\4e708f70f31968fac26dd6ffe6e0f2ab\\appcompat-1.2.0\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\a4b74de46cf48f38b06abe8a1606368d\\appcompat-1.2.0\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

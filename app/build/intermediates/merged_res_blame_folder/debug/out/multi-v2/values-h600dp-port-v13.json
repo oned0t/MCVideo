@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h600dp-port-v13\\values-h600dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\ce1ef04de3b7641934f53bfe2b464707\\material-1.3.0\\res\\values-h600dp-port-v13\\values-h600dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -68,7 +68,7 @@ dependencies {
     // Room
     implementation "androidx.room:room-runtime:$roomVersion"
     implementation "androidx.room:room-ktx:$roomVersion"
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     kapt "androidx.room:room-compiler:$roomVersion"
 
     // Material theme
@@ -84,10 +84,10 @@ dependencies {
     implementation "com.mikepenz:fastadapter-extensions-utils:$fastAdapterVersion"
 
     // TimeAgo
-    implementation 'com.github.marlonlom:timeago:4.0.1'
+    implementation 'com.github.marlonlom:timeago:4.0.3'
 
     // Coil
-    implementation "io.coil-kt:coil:0.11.0"
+    implementation 'io.coil-kt:coil:1.1.1'
 
     // Circle ImageView
     implementation 'de.hdodenhof:circleimageview:3.1.0'
@@ -96,7 +96,7 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
 
     // Kotpref
-    implementation 'com.chibatching.kotpref:kotpref:2.10.0'
+    implementation 'com.chibatching.kotpref:kotpref:2.13.1'
 
     // Jitsi
     implementation('org.jitsi.react:jitsi-meet-sdk:2.8.2') { transitive = true }
@@ -105,15 +105,15 @@ dependencies {
     implementation 'com.github.AppIntro:AppIntro:6.0.0'
 
     // Firebase
-    implementation 'com.google.firebase:firebase-analytics:17.4.4'
+    implementation 'com.google.firebase:firebase-analytics:18.0.2'
     implementation 'com.firebaseui:firebase-ui-auth:6.2.1'
 
     // Google Play Services
-    implementation 'com.google.android.gms:play-services-ads:19.2.0'
+    implementation 'com.google.android.gms:play-services-ads:19.7.0'
     implementation 'com.google.android.gms:play-services-oss-licenses:17.0.0'
 
     // Kotpref
-    implementation 'com.chibatching.kotpref:kotpref:2.10.0'
+    implementation 'com.chibatching.kotpref:kotpref:2.13.1'
 
     // Kotlin
     implementation "org.koin:koin-android:$koinVersion"
