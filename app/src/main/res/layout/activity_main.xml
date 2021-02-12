@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
-        app:constraint_referenced_ids="ivCreateMeeting, tilCodeCreateMeeting, llBtnCreateMeeting" />
+        app:constraint_referenced_ids="ivCreateMeeting, flCodeCreateMeeting, llBtnCreateMeeting" />
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar"
@@ -154,7 +154,8 @@
         android:textColorHint="@android:color/darker_gray"
         android:textSize="@dimen/_12ssp" />
 
-        <ImageView
+
+        <!--<ImageView
             android:id="@+id/ivClipboard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -162,7 +163,7 @@
             android:layout_gravity="end"
             android:layout_marginEnd="@dimen/_6sdp"
             android:layout_marginTop="@dimen/_4sdp"
-            android:contentDescription="@string/clipboard" />
+            android:contentDescription="@string/clipboard" />-->
 
     </FrameLayout>
 
@@ -196,39 +197,63 @@
         android:id="@+id/ivCreateMeeting"
         android:layout_width="0dp"
         android:layout_height="200dp"
-        app:layout_constraintBottom_toTopOf="@+id/tilCodeCreateMeeting"
+        app:layout_constraintBottom_toTopOf="@+id/flCodeCreateMeeting"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tgMeeting"
         app:layout_constraintVertical_chainStyle="packed"
         app:srcCompat="@drawable/mc_logo" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/tilCodeCreateMeeting"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="0dp"
+    <FrameLayout
+        android:id="@+id/flCodeCreateMeeting"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_marginStart="@dimen/_24sdp"
-        android:layout_marginTop="@dimen/_56sdp"
-        android:layout_marginEnd="24dp"
-        android:hint="@string/main_meeting_code"
-        app:boxStrokeColor="#FF5722"
-        app:counterEnabled="true"
-        app:endIconDrawable="@drawable/ic_share"
-        app:endIconMode="custom"
-        app:endIconTint="#FF5722"
+        android:layout_marginTop="@dimen/_54sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
         app:layout_constraintBottom_toTopOf="@+id/llBtnCreateMeeting"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivCreateMeeting"
-        app:startIconTint="#FF5722">
+        app:layout_constraintTop_toBottomOf="@+id/ivCreateMeeting">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etCodeCreateMeeting"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textNoSuggestions" />
-    </com.google.android.material.textfield.TextInputLayout>
+    <EditText
+        android:id="@+id/etCodeCreateMeeting"
+        style="@style/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_8sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:fontFamily="@font/ubuntu_regular"
+        android:hint="@string/main_enter_meeting_code"
+        android:background="@drawable/et_meeting_code_border"
+        android:imeOptions="actionNext"
+        android:ems="10"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:importantForAutofill="no"
+        android:includeFontPadding="false"
+        android:inputType="text"
+        android:paddingEnd="@dimen/_8sdp"
+        android:textColor="@color/colorOnPrimary"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="@dimen/_12ssp" />
+
+
+            <ImageView
+                android:id="@+id/ivShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:src="@drawable/ic_share"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:background="@drawable/ic_share_ripple"
+                android:contentDescription="@string/clipboard" />
+
+
+
+    </FrameLayout>
 
     <LinearLayout
         android:id="@+id/llBtnCreateMeeting"
@@ -241,7 +266,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tilCodeCreateMeeting"
+        app:layout_constraintTop_toBottomOf="@+id/flCodeCreateMeeting"
         >
 
     <TextView

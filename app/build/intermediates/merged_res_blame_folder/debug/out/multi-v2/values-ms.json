@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
+            "outputFile": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
             "map": [
                 {
                     "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\1effcd6b1819b8478cadd5078940df06\\jetified-firebase-ui-auth-6.2.1\\res\\values-ms\\values-ms.xml",

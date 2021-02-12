@@ -72,14 +72,14 @@
         app:layout_constraintStart_toEndOf="@+id/ivUserProfileDialog"
         app:layout_constraintTop_toTopOf="@+id/ivUserProfileDialog" />-->
 
-    <androidx.constraintlayout.widget.Barrier
+    <!--<androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrierUserDetails"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:barrierDirection="top"
-        app:constraint_referenced_ids="dividerUserDetails" />
+        app:constraint_referenced_ids="dividerUserDetails" />-->
 
-    <View
+    <!--<View
         android:id="@+id/dividerUserDetails"
         android:layout_width="0dp"
         android:layout_height="1dp"
@@ -87,7 +87,7 @@
         android:background="@color/dividerColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />-->
 
     <com.google.android.material.switchmaterial.SwitchMaterial
         android:id="@+id/switchDarkMode"
@@ -99,7 +99,7 @@
         android:textSize="@dimen/text_size_s"
         app:layout_constraintEnd_toEndOf="@id/glEnd"
         app:layout_constraintStart_toStartOf="@id/glStart"
-        app:layout_constraintTop_toBottomOf="@+id/dividerUserDetails" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/dividerDarkMode"
@@ -137,7 +137,7 @@
         android:id="@+id/tvShareApp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/ic_share"
+        android:drawableStart="@drawable/share"
         style="@style/ClickableTextViewProfileDialog"
         android:text="@string/profile_share_app"
         app:layout_constraintEnd_toEndOf="parent"

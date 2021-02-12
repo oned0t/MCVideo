@@ -73,6 +73,7 @@ class DialogActivity : AppCompatActivity(){
         btnSubmit.setOnClickListener {
             if(etName!!.text.toString().isEmpty()) {
                 setSnackBar()
+                binding.etNickname.error
             } else {
                 onBackPressed()
 //                Toast.makeText(applicationContext, "Done", Toast.LENGTH_SHORT).show()

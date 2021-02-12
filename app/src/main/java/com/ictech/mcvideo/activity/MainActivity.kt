@@ -7,6 +7,7 @@ import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.text.Editable
 import android.view.View
 import android.widget.EditText
 import android.widget.Toast
@@ -37,6 +38,7 @@ import com.ictech.mcvideo.model.Meeting
 import com.ictech.mcvideo.sharedpref.AppPref
 import com.ictech.mcvideo.utils.MeetingUtils
 import com.ictech.mcvideo.viewmodel.MainViewModel
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main.view.*
 import kotlinx.android.synthetic.main.dialog_profile.*
 import kotlinx.android.synthetic.main.name_dialog.*
@@ -61,6 +63,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var createMeetingInterstitialAd: InterstitialAd
     private lateinit var joinMeetingInterstitialAd: InterstitialAd
     private var etName: String? = null
+    private lateinit var copyText: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -68,6 +71,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         currentUser = FirebaseAuth.getInstance().currentUser
+        copyText = findViewById(R.id.etCodeJoinMeeting)
         setProfileIcon()
 
         // Load ads based on configuration
@@ -80,14 +84,15 @@ class MainActivity : AppCompatActivity() {
 
         onMeetingToggleChange()
         onCreateMeetingCodeChange()
-        onCopyMeetingCodeFromClipboardClick()
         onShareMeetingCodeClick()
-
         onJoinMeetingClick()
         onCreateMeetingClick()
         onMeetingHistoryClick()
         onProfileClick()
 
+        /*ivClipboard.setOnClickListener {
+            onCopyMeetingCodeFromClipboardClick(copyText)
+        }*/
 
     }
 
@@ -206,10 +211,10 @@ class MainActivity : AppCompatActivity() {
      * Called when the meeting code in the EditText of the CREATE MEETING toggle changes
      */
     private fun onCreateMeetingCodeChange() {
-        binding.tilCodeCreateMeeting.etCodeCreateMeeting.doOnTextChanged { text, _, _, _ ->
+        binding.etCodeCreateMeeting.doOnTextChanged { text, _, _, _ ->
             if (text.toString().trim()
                     .replace(" ", "").length >= minMeetingCodeLength
-            ) binding.tilCodeCreateMeeting.error = null
+            ) binding.etCodeCreateMeeting.error = null
         }
     }
 
@@ -223,40 +228,32 @@ class MainActivity : AppCompatActivity() {
     /**
      * Called when the clipboard icon is clicked in the EditText of the JOIN MEETING toggle
      */
-    private fun onCopyMeetingCodeFromClipboardClick() {
-
-        var etCodeJoin: EditText?
-        binding.ivClipboard.setOnClickListener (View.OnClickListener {
-//            val clipboardText = getTextFromClipboard()
-            etCodeJoin = binding.etCodeJoinMeeting
-            var txtCopy: String?
-            if (etCodeJoin == null) {
-
-                toast(getString(R.string.main_empty_clipboard))
-            } else {
-                txtCopy = etCodeJoin!!.text.toString()
-                val clipData: ClipData = ClipData.newPlainText("text", txtCopy!!)
-                val clipboardManager: ClipboardManager = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-                clipboardManager.setPrimaryClip(clipData)
-                toast(getString(R.string.main_meeting_code_copied))
-            }
-        })
-    }
+    /*private fun onCopyMeetingCodeFromClipboardClick(text: CharSequence) {
+        val clipboardManager: ClipboardManager = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+        val clipData: ClipData = ClipData.newPlainText("text", text)
+        clipboardManager.setPrimaryClip(clipData)
+        if (clipboardManager != null){
+            clipboardManager.setPrimaryClip(clipData)
+            toast(getString(R.string.main_meeting_code_copied))
+        }else {
+            toast(getString(R.string.main_empty_clipboard))
+        }
+    }*/
 
     /**
      * Called when the share icon is clicked in the EditText of the CREATE MEETING toggle
      */
     private fun onShareMeetingCodeClick() {
-        binding.tilCodeCreateMeeting.setEndIconOnClickListener {
+        binding.etCodeCreateMeeting.setOnClickListener {
 
             if (isMeetingCodeValid(getCreateMeetingCode())) {
-                binding.tilCodeCreateMeeting.error = null
+                binding.etCodeCreateMeeting.error = null
                 startShareTextIntent(
                     getString(R.string.main_share_meeting_code_title),
                     binding.etCodeCreateMeeting.text.toString() // Don't remove spaces here for improved readability of meeting code
                 )
             } else {
-                binding.tilCodeCreateMeeting.error =
+                binding.etCodeCreateMeeting.error =
                     getString(R.string.main_error_meeting_code_length, minMeetingCodeLength)
             }
         }
@@ -448,9 +445,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 tvFaqs.setOnClickListener{
-                    val openURL = Intent(android.content.Intent.ACTION_VIEW)
-                    openURL.data = Uri.parse("https://help.mommas.uk/")
-                    startActivity(openURL)
+                    openUrl("https://help.mommas.uk/", R.color.colorSurface)
                 }
 
                 // Open Source Licenses onClick

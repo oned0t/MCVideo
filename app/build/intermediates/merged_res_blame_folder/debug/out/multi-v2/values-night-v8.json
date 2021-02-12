@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\values-night\\colors.xml",
                     "from": {
                         "startLines": "12,7,6,2,3,5,14,11,13,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\values-night\\config.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "50",
-                        "endOffsets": "103"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "50",
-                        "endOffsets": "101"
-                    }
-                },
-                {
-                    "source": "D:\\Users\\O\\1MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -54,6 +37,23 @@
                         "endLines": "21",
                         "endColumns": "12",
                         "endOffsets": "1037"
+                    }
+                },
+                {
+                    "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\values-night\\config.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "50",
+                        "endOffsets": "103"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
                     }
                 },
                 {
