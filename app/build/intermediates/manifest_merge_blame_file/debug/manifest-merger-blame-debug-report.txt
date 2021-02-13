@@ -106,7 +106,7 @@
 54-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\O\.gradle\caches\transforms-2\files-2.1\5ff21aed38e00bb32875d1a0d8d7d490\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:22-107
 55
 56    <application
-56-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:7:5-57:19
+56-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:7:5-58:19
 57        android:name="com.ictech.mcvideo.MCVideo"
 57-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:8:9-32
 58        android:allowBackup="true"
@@ -126,83 +126,83 @@
 66        android:theme="@style/AppTheme" >
 66-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:14:9-40
 67        <activity
-67-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:17:9-26:20
+67-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:17:9-27:20
 68            android:name="com.ictech.mcvideo.activity.SplashActivity"
 68-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:18:13-52
 69            android:screenOrientation="portrait"
 69-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:19:13-49
-70            android:theme="@style/AppTheme.Splash" >
-70-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:20:13-51
+70            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+70-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:20:13-69
 71            <intent-filter>
-71-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:21:13-25:29
+71-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:22:13-26:29
 72                <action android:name="android.intent.action.MAIN" />
-72-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:22:17-69
-72-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:22:25-66
+72-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:23:17-69
+72-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:23:25-66
 73
 74                <category android:name="android.intent.category.LAUNCHER" />
-74-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:24:17-77
-74-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:24:27-74
+74-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:25:17-77
+74-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:25:27-74
 75            </intent-filter>
 76        </activity>
 77        <activity
-77-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:27:9-29:52
+77-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:28:9-30:52
 78            android:name="com.ictech.mcvideo.activity.AppIntroActivity"
-78-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:28:13-54
+78-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:29:13-54
 79            android:screenOrientation="portrait" />
-79-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:29:13-49
+79-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:30:13-49
 80        <activity
-80-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:30:9-32:52
+80-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:31:9-33:52
 81            android:name="com.ictech.mcvideo.activity.AuthenticationActivity"
-81-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:31:13-60
+81-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:32:13-60
 82            android:screenOrientation="portrait" />
-82-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:32:13-49
+82-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:33:13-49
 83        <activity
-83-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:33:9-40:20
+83-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:34:9-41:20
 84            android:name="com.ictech.mcvideo.activity.MainActivity"
-84-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:34:13-50
+84-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:35:13-50
 85            android:screenOrientation="portrait" >
-85-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:35:13-49
+85-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:36:13-49
 86            <intent-filter>
-86-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:21:13-25:29
+86-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:22:13-26:29
 87                <action android:name="android.intent.action.MAIN" />
-87-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:22:17-69
-87-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:22:25-66
+87-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:23:17-69
+87-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:23:25-66
 88
 89                <category android:name="android.intent.category.LAUNCHER" />
-89-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:24:17-77
-89-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:24:27-74
+89-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:25:17-77
+89-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:25:27-74
 90            </intent-filter>
 91        </activity>
 92        <activity
-92-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:41:9-44:52
+92-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:42:9-45:52
 93            android:name="com.ictech.mcvideo.activity.MeetingHistoryActivity"
-93-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:42:13-60
+93-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:43:13-60
 94            android:parentActivityName="com.ictech.mcvideo.activity.MainActivity"
-94-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:43:13-64
+94-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:44:13-64
 95            android:screenOrientation="portrait" />
-95-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:44:13-49
+95-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:45:13-49
 96        <activity
-96-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:45:9-48:52
+96-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:46:9-49:52
 97            android:name="com.ictech.mcvideo.activity.FaqsActivity"
-97-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:46:13-50
+97-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:47:13-50
 98            android:parentActivityName="com.ictech.mcvideo.activity.MainActivity"
-98-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:47:13-64
+98-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:48:13-64
 99            android:screenOrientation="portrait" />
-99-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:48:13-49
+99-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:49:13-49
 100        <activity
-100-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:49:9-51:52
+100-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:50:9-52:52
 101            android:name="com.ictech.mcvideo.activity.DialogActivity"
-101-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:50:13-52
+101-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:51:13-52
 102            android:screenOrientation="portrait" />
-102-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:51:13-49
+102-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:52:13-49
 103
 104        <!-- Admob -->
 105        <meta-data
-105-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:54:9-56:52
+105-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:55:9-57:52
 106            android:name="com.google.android.gms.ads.APPLICATION_ID"
-106-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:55:13-69
+106-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:56:13-69
 107            android:value="@string/admob_app_id" />
-107-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:56:13-49
+107-->D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:57:13-49
 108        <meta-data
 108-->[com.firebaseui:firebase-ui-auth:6.2.1] C:\Users\O\.gradle\caches\transforms-2\files-2.1\1effcd6b1819b8478cadd5078940df06\jetified-firebase-ui-auth-6.2.1\AndroidManifest.xml:16:9-18:69
 109            android:name="com.google.android.gms.version"

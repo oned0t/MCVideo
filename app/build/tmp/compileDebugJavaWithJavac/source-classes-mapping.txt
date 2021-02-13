@@ -12,6 +12,8 @@ com/ictech/mcvideo/databinding/NameDialogBinding.java
  com.ictech.mcvideo.databinding.NameDialogBinding
 com/ictech/mcvideo/databinding/ActivityFaqsBinding.java
  com.ictech.mcvideo.databinding.ActivityFaqsBinding
+com/ictech/mcvideo/databinding/SplashBinding.java
+ com.ictech.mcvideo.databinding.SplashBinding
 com/ictech/mcvideo/databinding/ActivityAuthenticationBinding.java
  com.ictech.mcvideo.databinding.ActivityAuthenticationBinding
 com/ictech/mcvideo/databinding/DialogProfileBinding.java

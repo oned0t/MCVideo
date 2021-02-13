@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-60:12
 MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\O\.gradle\caches\transforms-2\files-2.1\d858fbd333b6184321023ba27ac35711\jetified-viewbinding-4.1.2\AndroidManifest.xml:17:1-22:12
 MERGED from [:core] D:\Users\O\Documents\GitHub\MCVideo\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [io.coil-kt:coil:1.1.1] C:\Users\O\.gradle\caches\transforms-2\files-2.1\997dd0bcb06d3ea3d6161a3c361cc6be\jetified-coil-1.1.1\AndroidManifest.xml:2:1-9:12
@@ -136,22 +136,22 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\O\.gradle
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\280c9d9d978a0d8e4f7a7e9ef30073cb\jetified-imagepipeline-base-2.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\0ccad6296d2034bb122771bd26c06988\jetified-soloader-0.6.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\647abe47bcfa61cca14e07db1cf0ebff\jetified-fbcore-2.0.0\AndroidManifest.xml:2:1-9:12
-INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-60:12
 	package
 		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:4:5-33
 		INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:2:11-69
@@ -178,7 +178,7 @@ MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\O\.grad
 	android:name
 		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:7:5-57:19
+ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:7:5-58:19
 MERGED from [com.github.AppIntro:AppIntro:6.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\641771ce12afec5521964fdaaa2833ee\jetified-AppIntro-6.0.0\AndroidManifest.xml:11:5-20
 MERGED from [com.github.AppIntro:AppIntro:6.0.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\641771ce12afec5521964fdaaa2833ee\jetified-AppIntro-6.0.0\AndroidManifest.xml:11:5-20
 MERGED from [com.afollestad.material-dialogs:core:3.3.0] C:\Users\O\.gradle\caches\transforms-2\files-2.1\0dab3222f678a1d125bae0d04f2473c8\jetified-core-3.3.0\AndroidManifest.xml:11:5-47
@@ -282,69 +282,69 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\O\.gradle\caches\tra
 	android:name
 		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:8:9-32
 activity#com.ictech.mcvideo.activity.SplashActivity
-ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:17:9-26:20
+ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:17:9-27:20
 	android:screenOrientation
 		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:19:13-49
 	android:theme
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:20:13-51
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:20:13-69
 	android:name
 		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:18:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:25:27-74
 activity#com.ictech.mcvideo.activity.AppIntroActivity
-ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:27:9-29:52
+ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:28:9-30:52
 	android:screenOrientation
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:29:13-49
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:30:13-49
 	android:name
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:28:13-54
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:29:13-54
 activity#com.ictech.mcvideo.activity.AuthenticationActivity
-ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:30:9-32:52
+ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:31:9-33:52
 	android:screenOrientation
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:32:13-49
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:33:13-49
 	android:name
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:31:13-60
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:32:13-60
 activity#com.ictech.mcvideo.activity.MainActivity
-ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:33:9-40:20
+ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:34:9-41:20
 	android:screenOrientation
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:35:13-49
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:36:13-49
 	android:name
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:34:13-50
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:35:13-50
 activity#com.ictech.mcvideo.activity.MeetingHistoryActivity
-ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:41:9-44:52
+ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:42:9-45:52
 	android:screenOrientation
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:44:13-49
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:45:13-49
 	android:parentActivityName
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:43:13-64
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:44:13-64
 	android:name
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:42:13-60
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:43:13-60
 activity#com.ictech.mcvideo.activity.FaqsActivity
-ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:45:9-48:52
+ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:46:9-49:52
 	android:screenOrientation
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:48:13-49
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:49:13-49
 	android:parentActivityName
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:47:13-64
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:48:13-64
 	android:name
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:46:13-50
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:47:13-50
 activity#com.ictech.mcvideo.activity.DialogActivity
-ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:49:9-51:52
+ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:50:9-52:52
 	android:screenOrientation
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:51:13-49
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:52:13-49
 	android:name
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:50:13-52
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:51:13-52
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:54:9-56:52
+ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:55:9-57:52
 	android:value
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:56:13-49
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:57:13-49
 	android:name
-		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:55:13-69
+		ADDED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml:56:13-69
 uses-sdk
 INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Users\O\Documents\GitHub\MCVideo\app\src\main\AndroidManifest.xml

@@ -2683,6 +2683,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable app_intro_pic
 drawable avd_hide_password
 drawable avd_show_password
 drawable bg_app_intro
@@ -2848,6 +2849,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable png_border
 drawable redbox_top_border_background
 drawable share
 drawable snackbar
@@ -3712,6 +3714,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout sp_example
+layout splash
 layout ssp_example
 layout support_simple_spinner_dropdown_item
 layout test_action_chip

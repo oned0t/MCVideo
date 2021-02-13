@@ -36,6 +36,10 @@
         "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_meeting_main.png"
     },
     {
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_splash.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\layout\\splash.xml"
+    },
+    {
         "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.png.flat",
         "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_profile.png"
     },
@@ -60,8 +64,16 @@
         "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\daface.png"
     },
     {
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_png_border.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\png_border.xml"
+    },
+    {
         "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_rectangle_border.xml.flat",
         "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\btn_rectangle_border.xml"
+    },
+    {
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_intro_pic.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\app_intro_pic.png"
     },
     {
         "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_share.xml.flat",
