@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+            "outputFile": "C:\\Users\\Z\\Documents\\MCVideo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\O\\.gradle\\caches\\transforms-2\\files-2.1\\0dab3222f678a1d125bae0d04f2473c8\\jetified-core-3.3.0\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+                    "source": "C:\\Users\\Z\\.gradle\\caches\\transforms-2\\files-2.1\\0dab3222f678a1d125bae0d04f2473c8\\jetified-core-3.3.0\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
