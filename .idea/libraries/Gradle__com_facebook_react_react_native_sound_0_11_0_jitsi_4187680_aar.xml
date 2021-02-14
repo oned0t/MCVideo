@@ -1,10 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.react:react-native-sound:0.11.0-jitsi-4187680@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab284aa4893cf7ec924ec05750a9472c/jetified-react-native-sound-0.11.0-jitsi-4187680/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0f79f331cc6858ccdd4e42abe72178cd/jetified-react-native-sound-0.11.0-jitsi-4187680/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0f79f331cc6858ccdd4e42abe72178cd/jetified-react-native-sound-0.11.0-jitsi-4187680/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0f79f331cc6858ccdd4e42abe72178cd/jetified-react-native-sound-0.11.0-jitsi-4187680/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0f79f331cc6858ccdd4e42abe72178cd/jetified-react-native-sound-0.11.0-jitsi-4187680/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0f79f331cc6858ccdd4e42abe72178cd/jetified-react-native-sound-0.11.0-jitsi-4187680/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

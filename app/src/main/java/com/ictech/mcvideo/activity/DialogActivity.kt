@@ -9,13 +9,11 @@ import android.content.Intent
 import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
-import android.text.TextUtils
 import android.view.View
 import android.view.WindowManager
 import android.view.animation.DecelerateInterpolator
 import android.widget.EditText
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.graphics.ColorUtils
 import com.google.android.material.snackbar.Snackbar
@@ -28,7 +26,7 @@ import kotlinx.android.synthetic.main.name_dialog.*
 class DialogActivity : AppCompatActivity(){
     private var darkStatusBar = false
     private lateinit var binding: NameDialogBinding  // ViewBinding
-    private var etName: EditText? = null
+    private var etName: EditText? = null // Declare EditText?
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,7 +36,7 @@ class DialogActivity : AppCompatActivity(){
 
 //        val bundle = intent.extras
 //        etNickname = bundle?.getString("name", "") ?: ""
-        etName = binding.etNickname
+        etName = binding.etNickname // Initialise EditText?
 
 //        etName = findViewById(R.id.etNickname)
         // Set the Status bar appearance for different API levels
@@ -62,7 +60,7 @@ class DialogActivity : AppCompatActivity(){
 //        backgroundFadeAnim()
         // Fade animation for the background of Dialog Window
         val alpha = 1 //between 0-255
-        val alphaColor = ColorUtils.setAlphaComponent(Color.parseColor("#86828282"), alpha)
+        val alphaColor = ColorUtils.setAlphaComponent(Color.parseColor("#000000"), alpha)
         val colorAnimation = ValueAnimator.ofObject(ArgbEvaluator(), Color.TRANSPARENT, alphaColor)
         colorAnimation.duration = 500 // milliseconds
         colorAnimation.addUpdateListener { animator ->
@@ -72,8 +70,8 @@ class DialogActivity : AppCompatActivity(){
 
         btnSubmit.setOnClickListener {
             if(etName!!.text.toString().isEmpty()) {
-                setSnackBar()
-                binding.etNickname.error
+//                setSnackBar()
+                binding.etNickname.error = getString(R.string.enter_name_error)
             } else {
                 onBackPressed()
 //                Toast.makeText(applicationContext, "Done", Toast.LENGTH_SHORT).show()
@@ -82,25 +80,7 @@ class DialogActivity : AppCompatActivity(){
                 setResult(Activity.RESULT_OK, intent)
                 finish()
             }
-
         }
-            /*val etInput = etName.text.toString()
-            if (etInput < 1.toString()) {
-                Toast.makeText(this, "Please enter a name", Toast.LENGTH_SHORT).show()
-            } else {
-                val intent = Intent(this, MainActivity::class.java)
-                intent.putExtra(MainActivity.NAME, etInput)
-                onBackPressed()
-            }
-
-            if (etNickname.text.toString().isEmpty()) {
-                Toast.makeText(this, "Please enter a name", Toast.LENGTH_SHORT).show()
-            } else {
-                val intent = Intent(this, MainActivity::class.java)
-                intent.putExtra(MainActivity.NAME, etNickname.text.toString())
-                onBackPressed()
-
-            }*/
     }
 
     override fun onBackPressed() {
@@ -141,18 +121,18 @@ class DialogActivity : AppCompatActivity(){
         win.attributes = winParams
     }
 
-    private fun setSnackBar(){
-        val mSnackbar: Snackbar = Snackbar.make(
+    /*private fun setSnackBar(){
+        val snack: Snackbar = Snackbar.make(
                 binding.dialogBackground,
                 R.string.enter_name_error,
                 Snackbar.LENGTH_SHORT)
-        val mTextView = mSnackbar.view.findViewById<TextView>(com.google.android.material.R.id.snackbar_text)
-        val view: View = mSnackbar.view
+        val mTextView = snack.view.findViewById<TextView>(com.google.android.material.R.id.snackbar_text)
+        val view: View = snack.view
         mTextView.textAlignment = View.TEXT_ALIGNMENT_CENTER
         mTextView.setTextColor(Color.BLACK)
         view.setBackgroundColor(Color.GRAY)
-        mSnackbar.show()
-    }
+        snack.show()
+    }*/
 
     /*private fun backgroundFadeAnim(){
         // Fade animation for the background of Dialog Window

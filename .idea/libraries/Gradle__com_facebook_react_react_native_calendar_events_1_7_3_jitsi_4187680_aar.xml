@@ -1,10 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.react:react-native-calendar-events:1.7.3-jitsi-4187680@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ecfc6cc296629d13a74bb69005b5ae03/jetified-react-native-calendar-events-1.7.3-jitsi-4187680/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97bddda410a670262534b14c2b81954f/jetified-react-native-calendar-events-1.7.3-jitsi-4187680/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97bddda410a670262534b14c2b81954f/jetified-react-native-calendar-events-1.7.3-jitsi-4187680/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97bddda410a670262534b14c2b81954f/jetified-react-native-calendar-events-1.7.3-jitsi-4187680/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97bddda410a670262534b14c2b81954f/jetified-react-native-calendar-events-1.7.3-jitsi-4187680/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

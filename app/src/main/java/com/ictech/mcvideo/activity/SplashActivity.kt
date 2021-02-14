@@ -29,7 +29,9 @@ class SplashActivity : AppCompatActivity() {
         )
 
         if (!AppPref.isAppIntroShown) {
-            if (!resources.getBoolean(R.bool.enable_mandatory_authentication)) {
+            AppIntroActivity.startActivity(this)
+            finish()
+            /*if (!resources.getBoolean(R.bool.enable_mandatory_authentication)) {
                 // Authentication is mandatory
                 if (FirebaseAuth.getInstance().currentUser == null) {
                     // Intro shown and user authenticated
@@ -44,7 +46,7 @@ class SplashActivity : AppCompatActivity() {
                 // Authentication is optional. Intro shown but user unauthenticated
                 MainActivity.startActivity(this)
                 finish()
-            }
+            }*/
         } else {
             MainActivity.startActivity(this)
             finish()

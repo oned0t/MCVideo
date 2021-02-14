@@ -1,2 +1,0 @@
-com/ictech/mcvideo/test/BuildConfig.java
- com.ictech.mcvideo.test.BuildConfig

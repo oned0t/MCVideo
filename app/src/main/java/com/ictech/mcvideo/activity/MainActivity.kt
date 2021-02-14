@@ -1,13 +1,17 @@
 package com.ictech.mcvideo.activity
 
 import android.app.Activity
-import android.content.ClipData
-import android.content.ClipboardManager
+import com.core.extensions.*
+import com.ictech.mcvideo.MCVideo
+import com.ictech.mcvideo.R
+import com.ictech.mcvideo.databinding.ActivityMainBinding
+import com.ictech.mcvideo.model.Meeting
+import com.ictech.mcvideo.sharedpref.AppPref
+import com.ictech.mcvideo.utils.MeetingUtils
+import com.ictech.mcvideo.viewmodel.MainViewModel
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
-import android.text.Editable
 import android.view.View
 import android.widget.EditText
 import android.widget.Toast
@@ -21,8 +25,6 @@ import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.bottomsheets.BottomSheet
 import com.afollestad.materialdialogs.callbacks.onDismiss
 import com.afollestad.materialdialogs.customview.customView
-import com.core.extensions.*
-//import com.dropbox.core.v2.teamlog.AccessMethodLogInfo.api
 import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
@@ -31,17 +33,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputLayout
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
-import com.ictech.mcvideo.MCVideo
-import com.ictech.mcvideo.R
-import com.ictech.mcvideo.databinding.ActivityMainBinding
-import com.ictech.mcvideo.model.Meeting
-import com.ictech.mcvideo.sharedpref.AppPref
-import com.ictech.mcvideo.utils.MeetingUtils
-import com.ictech.mcvideo.viewmodel.MainViewModel
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_main.view.*
 import kotlinx.android.synthetic.main.dialog_profile.*
-import kotlinx.android.synthetic.main.name_dialog.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity() {
@@ -58,12 +50,11 @@ class MainActivity : AppCompatActivity() {
     private val viewModel by viewModel<MainViewModel>() // Lazy inject ViewModel
     private lateinit var binding: ActivityMainBinding
 
-    private val minMeetingCodeLength = 1
+    private val minMeetingCodeLength = 10
     private var currentUser: FirebaseUser? = null
     private lateinit var createMeetingInterstitialAd: InterstitialAd
     private lateinit var joinMeetingInterstitialAd: InterstitialAd
     private var etName: String? = null
-    private lateinit var copyText: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -71,7 +62,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         currentUser = FirebaseAuth.getInstance().currentUser
-        copyText = findViewById(R.id.etCodeJoinMeeting)
         setProfileIcon()
 
         // Load ads based on configuration
@@ -90,31 +80,11 @@ class MainActivity : AppCompatActivity() {
         onMeetingHistoryClick()
         onProfileClick()
 
-        /*ivClipboard.setOnClickListener {
-            onCopyMeetingCodeFromClipboardClick(copyText)
-        }*/
+
+//            onCopyMeetingCodeFromClipboardClick(copyText)
+
 
     }
-
-    /*private fun setUserNickname(){
-        val dialog = Dialog(this, R.style.AppTheme)
-
-        dialog.setContentView(R.layout.name_dialog)
-        dialog.btnSubmit.setOnClickListener (View.OnClickListener{
-            if (etNickname.text.isEmpty()){
-                Toast.makeText(applicationContext,
-                    "Please enter a name",
-                    Toast.LENGTH_SHORT
-                ).show()
-
-            }else{
-                Toast.makeText(applicationContext, "name submitted", Toast.LENGTH_SHORT).show()
-                dialog.dismiss()
-//                joinMeeting(getJoinMeetingCode())
-            }
-        })
-        dialog.show()
-    }*/
 
     private fun openDialogActivity(){
         val intent = Intent(this, DialogActivity::class.java)
