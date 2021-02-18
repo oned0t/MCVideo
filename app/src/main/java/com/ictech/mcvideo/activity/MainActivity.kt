@@ -319,7 +319,6 @@ class MainActivity : AppCompatActivity() {
         return if (meetingCode.length >= minMeetingCodeLength) {
             true
         } else {
-            Toast.makeText(this, "", Toast.LENGTH_SHORT).show()
             etCodeJoinMeeting.error = getString(R.string.main_error_meeting_code_length)
             false
         }

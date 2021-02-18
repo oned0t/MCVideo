@@ -2827,6 +2827,7 @@ drawable md_item_selector_dark
 drawable md_item_shape
 drawable md_nav_back
 drawable md_transparent
+drawable meeting_history_border
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -3194,6 +3195,7 @@ id list_item
 id literal
 id llBtnCreateMeeting
 id llBtnJoinMeeting
+id llRejoinMeeting
 id llSubmit
 id logo
 id main

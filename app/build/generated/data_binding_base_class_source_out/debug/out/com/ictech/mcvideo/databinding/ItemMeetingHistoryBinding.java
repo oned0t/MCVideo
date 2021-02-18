@@ -4,11 +4,12 @@ package com.ictech.mcvideo.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
-import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textview.MaterialTextView;
 import com.ictech.mcvideo.R;
 import java.lang.NullPointerException;
@@ -20,7 +21,10 @@ public final class ItemMeetingHistoryBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final MaterialButton btnRejoinMeeting;
+  public final TextView btnRejoinMeeting;
+
+  @NonNull
+  public final LinearLayout llRejoinMeeting;
 
   @NonNull
   public final MaterialTextView tvMeetingCode;
@@ -29,10 +33,11 @@ public final class ItemMeetingHistoryBinding implements ViewBinding {
   public final MaterialTextView tvMeetingTime;
 
   private ItemMeetingHistoryBinding(@NonNull ConstraintLayout rootView,
-      @NonNull MaterialButton btnRejoinMeeting, @NonNull MaterialTextView tvMeetingCode,
-      @NonNull MaterialTextView tvMeetingTime) {
+      @NonNull TextView btnRejoinMeeting, @NonNull LinearLayout llRejoinMeeting,
+      @NonNull MaterialTextView tvMeetingCode, @NonNull MaterialTextView tvMeetingTime) {
     this.rootView = rootView;
     this.btnRejoinMeeting = btnRejoinMeeting;
+    this.llRejoinMeeting = llRejoinMeeting;
     this.tvMeetingCode = tvMeetingCode;
     this.tvMeetingTime = tvMeetingTime;
   }
@@ -65,8 +70,14 @@ public final class ItemMeetingHistoryBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btnRejoinMeeting;
-      MaterialButton btnRejoinMeeting = rootView.findViewById(id);
+      TextView btnRejoinMeeting = rootView.findViewById(id);
       if (btnRejoinMeeting == null) {
+        break missingId;
+      }
+
+      id = R.id.llRejoinMeeting;
+      LinearLayout llRejoinMeeting = rootView.findViewById(id);
+      if (llRejoinMeeting == null) {
         break missingId;
       }
 
@@ -83,7 +94,7 @@ public final class ItemMeetingHistoryBinding implements ViewBinding {
       }
 
       return new ItemMeetingHistoryBinding((ConstraintLayout) rootView, btnRejoinMeeting,
-          tvMeetingCode, tvMeetingTime);
+          llRejoinMeeting, tvMeetingCode, tvMeetingTime);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
