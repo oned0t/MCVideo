@@ -33,6 +33,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputLayout
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.dialog_profile.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
@@ -318,11 +319,8 @@ class MainActivity : AppCompatActivity() {
         return if (meetingCode.length >= minMeetingCodeLength) {
             true
         } else {
-            Snackbar.make(
-                binding.constrainLayout,
-                getString(R.string.main_error_meeting_code_length, minMeetingCodeLength),
-                Snackbar.LENGTH_SHORT
-            ).show()
+            Toast.makeText(this, "", Toast.LENGTH_SHORT).show()
+            etCodeJoinMeeting.error = getString(R.string.main_error_meeting_code_length)
             false
         }
     }

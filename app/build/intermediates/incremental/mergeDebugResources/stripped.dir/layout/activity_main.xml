@@ -246,7 +246,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
                 android:src="@drawable/ic_share"
-                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
                 android:background="@drawable/ic_share_ripple"
                 android:contentDescription="@string/clipboard" />

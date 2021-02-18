@@ -30,7 +30,7 @@
     <string name="main_btn_create_meeting">CREATE</string>
     <string name="main_enter_meeting_code">Enter Meeting Code</string>
     <string name="main_btn_join_meeting">JOIN</string>
-    <string name="main_error_meeting_code_length">Minimum length of meeting code allowed is %1$d (Spaces are not counted)</string>
+    <string name="main_error_meeting_code_length">Minimum length of meeting code allowed is %1$s (Spaces are not counted)</string>
     <string name="main_share_meeting_code_title">Share meeting code via</string>
     <string name="main_meeting_code_copied">Meeting Code copied from Clipboard</string>
     <string name="main_empty_clipboard">No Meeting Code found in the Clipboard</string>
