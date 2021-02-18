@@ -73,11 +73,11 @@ class DialogActivity : AppCompatActivity(){
 //                setSnackBar()
                 binding.etNickname.error = getString(R.string.enter_name_error)
             } else {
-                onBackPressed()
 //                Toast.makeText(applicationContext, "Done", Toast.LENGTH_SHORT).show()
                 val intent = Intent(this, MainActivity::class.java)
                 intent.putExtra(MainActivity.NAME, etName!!.text.toString())
                 setResult(Activity.RESULT_OK, intent)
+                onBackPressed()
                 finish()
             }
         }
