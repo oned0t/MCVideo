@@ -1,334 +1,334 @@
 [
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_submit_rectangle_border_ripple.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\btn_submit_rectangle_border_ripple.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_snackbar.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\snackbar.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_meeting_history.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_meeting_history.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v23_ic_splash_logo.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable-anydpi-v23\\ic_splash_logo.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_app_logo.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_app_logo.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_et_meeting_code_border_ripple.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\et_meeting_code_border_ripple.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\raw_third_party_license_metadata.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\generated\\third_party_licenses\\res\\raw\\third_party_license_metadata"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_join_background_ripple.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\btn_join_background_ripple.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_chat.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_chat.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mc_eat.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\mc_eat.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_meeting_main.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_meeting_main.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_snackbar.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\snackbar.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_meeting_main.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable-mdpi\\ic_meeting_main.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_splash.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\bg_splash.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_chat.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_chat.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_meeting_history.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\item_meeting_history.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_meeting_main.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_meeting_main.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_chat.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_chat.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_splash.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\layout\\splash.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_profile.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_empty_meeting_history.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable-night\\ic_empty_meeting_history.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_view_border_background.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\card_view_border_background.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_profile.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable-night\\ic_profile.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_clipboard.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_clipboard.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_meeting_main.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable-mdpi\\ic_meeting_main.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_submit_rectangle_border_ripple.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\btn_submit_rectangle_border_ripple.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_empty_meeting_history.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_empty_meeting_history.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_meeting_history.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_meeting_history.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_meeting_app_intro.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_meeting_app_intro.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_daface.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\daface.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\raw_third_party_license_metadata.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\generated\\third_party_licenses\\res\\raw\\third_party_license_metadata"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_png_border.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\png_border.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_clipboard.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_clipboard.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_rectangle_border.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\btn_rectangle_border.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_rectangle_border.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\btn_rectangle_border.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_intro_pic.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\app_intro_pic.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_meeting_main.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable-xxhdpi\\ic_meeting_main.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_view.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\splash_view.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_google_play.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_google_play.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_share.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\share.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_join_background.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\btn_join_background.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\raw_third_party_licenses.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\generated\\third_party_licenses\\res\\raw\\third_party_licenses"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_join_background_ripple.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\btn_join_background_ripple.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_open_source_licenses.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_open_source_licenses.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\font_ubuntu_regular.ttf.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\font\\ubuntu_regular.ttf"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\font_ubuntu_bold.ttf.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\font\\ubuntu_bold.ttf"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_profile.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_chat.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_chat.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_splash.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\bg_splash.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_meeting_main.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_meeting_main.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_share.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\share.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_name_dialog.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\name_dialog.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_splash_logo.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_splash_logo.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_google_play.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_google_play.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_meeting_main.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable-night\\ic_meeting_main.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_delete.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_intro_pic.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\app_intro_pic.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_chat.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_chat.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_meeting_history_border.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\meeting_history_border.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_chat.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_chat.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mc_logo.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\mc_logo.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_history.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_history.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_empty_meeting_history.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable-night\\ic_empty_meeting_history.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_delete.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_name_dialog.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\layout\\name_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cursor_color.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\cursor_color.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_faqs.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\layout\\activity_faqs.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_cab_meeting_history.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\menu\\menu_cab_meeting_history.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_profile.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable-night\\ic_profile.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_meeting_history_border.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\meeting_history_border.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clipboard.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\clipboard.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_chat.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_chat.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clipboard.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\clipboard.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_et_meeting_code_border_ripple.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\et_meeting_code_border_ripple.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_chat.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_chat.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_rectangle_border_ripple.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\btn_rectangle_border_ripple.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_empty_meeting_history.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_empty_meeting_history.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_app_intro.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\bg_app_intro.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share_ripple.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_share_ripple.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\font_ubuntu_regular.ttf.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\font\\ubuntu_regular.ttf"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_share.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_meeting_main.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable-hdpi\\ic_meeting_main.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_splash_logo.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_splash_logo.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_meeting_main.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable-xhdpi\\ic_meeting_main.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_email.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_profile.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\layout\\dialog_profile.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v23_bg_splash.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable-anydpi-v23\\bg_splash.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_authentication.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\layout\\activity_authentication.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share_background.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_share_background.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v23_bg_splash.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable-anydpi-v23\\bg_splash.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share_background.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_share_background.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v23_ic_splash_logo.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable-anydpi-v23\\ic_splash_logo.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cursor_color.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\cursor_color.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_authentication.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\activity_authentication.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_submit_rectangle_border.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\btn_submit_rectangle_border.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_chat.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_chat.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_png_border.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\png_border.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_chat.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_chat.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_meeting_main.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable-xhdpi\\ic_meeting_main.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mc_logo.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\mc_logo.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_email.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_faqs.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_faqs.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_meeting_main.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable-hdpi\\ic_meeting_main.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_daface.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\daface.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_chat.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_chat.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_profile.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\dialog_profile.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_meeting_main.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable-night\\ic_meeting_main.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_view_border_background.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\card_view_border_background.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_faqs.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\layout\\item_faqs.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_share.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_splash.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\splash.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_chat.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_chat.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\font_ubuntu_bold.ttf.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\font\\ubuntu_bold.ttf"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_meeting_history.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\layout\\activity_meeting_history.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_submit_rectangle_border.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\btn_submit_rectangle_border.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_meeting_history.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\layout\\item_meeting_history.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_faqs.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\activity_faqs.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_meeting_app_intro.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_meeting_app_intro.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_meeting_history.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\activity_meeting_history.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mc_eat.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\mc_eat.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_chat.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_chat.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_cab_meeting_history.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\menu\\menu_cab_meeting_history.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_faqs.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\layout\\item_faqs.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_et_meeting_code_border.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\et_meeting_code_border.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_meeting_main.png.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_meeting_main.png"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_faqs.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_faqs.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share_ripple.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_share_ripple.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_rectangle_border_ripple.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\btn_rectangle_border_ripple.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_app_logo.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_app_logo.xml"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_et_meeting_code_border.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\et_meeting_code_border.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_meeting_main.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable-xxhdpi\\ic_meeting_main.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_join_background.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\btn_join_background.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_view.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\splash_view.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\raw_third_party_licenses.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\generated\\third_party_licenses\\res\\raw\\third_party_licenses"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_open_source_licenses.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\ic_open_source_licenses.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_chat.png.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_chat.png"
     },
     {
-        "merged": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_app_intro.xml.flat",
-        "source": "C:\\Users\\O\\1MEGA\\MEGA\\AndroidProg\\MCApps\\MCVideo\\app\\src\\main\\res\\drawable\\bg_app_intro.xml"
+        "merged": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_history.xml.flat",
+        "source": "D:\\Users\\O\\Documents\\GitHub\\MCVideo\\app\\src\\main\\res\\drawable\\ic_history.xml"
     }
 ]

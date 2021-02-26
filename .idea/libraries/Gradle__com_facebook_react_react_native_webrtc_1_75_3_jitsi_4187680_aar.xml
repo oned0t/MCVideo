@@ -11,6 +11,11 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59ccde600fd3d59ba80f8f5a867ada5e/jetified-react-native-webrtc-1.75.3-jitsi-4187680/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59ccde600fd3d59ba80f8f5a867ada5e/jetified-react-native-webrtc-1.75.3-jitsi-4187680/jars/classes.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59ccde600fd3d59ba80f8f5a867ada5e/jetified-react-native-webrtc-1.75.3-jitsi-4187680/jars/libs/libwebrtc.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2d0f32d4ca47ee8ba48e412bccc636e/jetified-react-native-webrtc-1.75.3-jitsi-4187680/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2d0f32d4ca47ee8ba48e412bccc636e/jetified-react-native-webrtc-1.75.3-jitsi-4187680/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2d0f32d4ca47ee8ba48e412bccc636e/jetified-react-native-webrtc-1.75.3-jitsi-4187680/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2d0f32d4ca47ee8ba48e412bccc636e/jetified-react-native-webrtc-1.75.3-jitsi-4187680/jars/libs/libwebrtc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2d0f32d4ca47ee8ba48e412bccc636e/jetified-react-native-webrtc-1.75.3-jitsi-4187680/jars/libs/libjingle_peerconnection.so.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

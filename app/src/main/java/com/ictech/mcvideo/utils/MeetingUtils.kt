@@ -1,6 +1,5 @@
 package com.ictech.mcvideo.utils
 
-//import android.annotation.SuppressLint
 
 import com.core.extensions.toast
 import com.ictech.mcvideo.R
@@ -17,7 +16,6 @@ import java.net.URL
 
 object MeetingUtils : AppCompatActivity() {
 
-//    @SuppressLint("StringFormatMatches")
     fun startMeeting(context: Context, meetingCode: String, @StringRes initialToastMessage: Int, name: String?) {
         context.toast(context.getString(initialToastMessage))
 

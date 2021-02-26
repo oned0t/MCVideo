@@ -19,7 +19,6 @@ import androidx.core.graphics.ColorUtils
 import com.google.android.material.snackbar.Snackbar
 import com.ictech.mcvideo.R
 import com.ictech.mcvideo.databinding.NameDialogBinding
-import kotlinx.android.synthetic.main.name_dialog.*
 
 
 
@@ -64,11 +63,11 @@ class DialogActivity : AppCompatActivity(){
         val colorAnimation = ValueAnimator.ofObject(ArgbEvaluator(), Color.TRANSPARENT, alphaColor)
         colorAnimation.duration = 500 // milliseconds
         colorAnimation.addUpdateListener { animator ->
-            dialogBackground.setBackgroundColor(animator.animatedValue as Int)
+            binding.dialogBackground.setBackgroundColor(animator.animatedValue as Int)
         }
         colorAnimation.start()
 
-        btnSubmit.setOnClickListener {
+        binding.btnSubmit.setOnClickListener {
             if(etName!!.text.toString().isEmpty()) {
 //                setSnackBar()
                 binding.etNickname.error = getString(R.string.enter_name_error)
@@ -83,6 +82,7 @@ class DialogActivity : AppCompatActivity(){
         }
     }
 
+
     override fun onBackPressed() {
         // Fade animation for the background of Popup Window when you press the back button
         val alpha = 100 // between 0-255
@@ -90,13 +90,13 @@ class DialogActivity : AppCompatActivity(){
         val colorAnimation = ValueAnimator.ofObject(ArgbEvaluator(), alphaColor, Color.TRANSPARENT)
         colorAnimation.duration = 500 // milliseconds
         colorAnimation.addUpdateListener { animator ->
-            dialogBackground.setBackgroundColor(
+            binding.dialogBackground.setBackgroundColor(
                 animator.animatedValue as Int
             )
         }
 
         // Fade animation for the Popup Window when you press the back button
-        popUpWindowBorder.animate().alpha(0f).setDuration(500).setInterpolator(
+        binding.popUpWindowBorder.animate().alpha(0f).setDuration(500).setInterpolator(
             DecelerateInterpolator()
         ).start()
 

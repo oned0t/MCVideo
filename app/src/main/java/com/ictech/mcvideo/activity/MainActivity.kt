@@ -1,5 +1,6 @@
 package com.ictech.mcvideo.activity
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import com.core.extensions.*
 import com.ictech.mcvideo.MCVideo
@@ -214,6 +215,7 @@ class MainActivity : AppCompatActivity() {
     /**
      * Called when the share icon is clicked in the EditText of the CREATE MEETING toggle
      */
+    @SuppressLint("StringFormatInvalid")
     private fun onShareMeetingCodeClick() {
         binding.etCodeCreateMeeting.setOnClickListener {
 
